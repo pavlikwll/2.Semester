@@ -1,0 +1,6999 @@
+fileFormatVersion: 2
+guid: 1480aea21f2a9044cada3ac97d26bdee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1963200011059979973
+    second: Shoes_1_Brown_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shoes_1_Brown_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6e5423200be3b10800000000000000
+      internalID: 1963200011059979973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68744e78586f5a04f85ae59b27dc2c0e
+      internalID: 994502578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc439297098a4e040b342545386b053d
+      internalID: 59180952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3b292b654f5374caf81d258a914e69
+      internalID: -959108990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10289f5b4c62ba24c9b40b3bded9b5e0
+      internalID: 898748152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085e4af12fb5b664e83218836c4d8a59
+      internalID: -337270606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d404e4fb1910a3d4b93f971fd4c07db5
+      internalID: 163668458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b431df5c86102914c84f44571376d1ab
+      internalID: -1401551302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a9e2783ec4ce849b4679f21245c280
+      internalID: 873255608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c42c9b7b231dd47a789dc769df860e
+      internalID: -849465424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc05e570ae86f1748a55274154e06f23
+      internalID: -1467291364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b14ad435d9c38488faa0e9f60a7dad
+      internalID: 336416915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22654b6612d8a2c48b845755a33c5a80
+      internalID: 1604023809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13bcb300f265e9419b1ea78fa7699d8
+      internalID: -156099279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f9fcc07ae03c1409c024870e997286
+      internalID: 1589073114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfca3151074b181488b45d613e801878
+      internalID: -2087077396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056f41629e00fc242a8a019cd26adad1
+      internalID: 608967542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd90f3cba8ff3de479c0d5e5e617c98a
+      internalID: 2034663428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499d2c6cc31bf484b99a162aad864f54
+      internalID: -1914513475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c7c1315be21464f902c6f53263166d
+      internalID: -1547626859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c203ca9e65cbc4399756de8c716bcb
+      internalID: 1511811624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedd5a503bea65b41aa1e97818a25f20
+      internalID: 362623798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73946d59dff267149a6e29bd995342eb
+      internalID: -1155737934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291551cac2888c2468119aa678d33254
+      internalID: -1743386641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9eeed2cd4111046858bf725716dfd9
+      internalID: -2140521343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a32914aad617048bd396730d32bfa4
+      internalID: -660011551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1eadb1c11430a24a854f1c490495865
+      internalID: -511208615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745d63bf0ee2c7d4b8887941b7b2a024
+      internalID: 167957087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f1e7fca51d23d44877cbd9042e098c
+      internalID: 1280043802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef006a22e1c161d46b80c7f2e91f3595
+      internalID: 1593408968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b813b906e7ab4384f9cd98e490a48f3d
+      internalID: -613165645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddef7a11be536ea4f956b9c46ecedc6a
+      internalID: 1581357399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf4c9688c348d54b890ed246ef948c2
+      internalID: -1528815081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef9370d2c31e2441916ad02a3007313
+      internalID: -1571469148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10eec83ec9f598943b0681eb93a4d022
+      internalID: -1325997777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a1189fa474eff4ca43e33b1ba22c25
+      internalID: -1955329236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125f774a057d36a4d95eaa90e8716d4d
+      internalID: -689220102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a099903eda8c34bb93b90c8d35b7da
+      internalID: -132808057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d059855e851dc0c4f803a6ff868df9a7
+      internalID: -248478878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c043e0160adeb48ba997219b85bd41
+      internalID: 279226167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423408c2ab3c831499da1343bc555dd6
+      internalID: -1094133624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39181cab6463672499c6c04a3c747630
+      internalID: 354777687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc2652f76a898549ae892ed60e1efe3
+      internalID: 1134907643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a481eea04af3ec4aad9603627f73b88
+      internalID: -895611202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc65e15483d7a44da146a756d9389ed
+      internalID: 1964746450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d0b82a6bdab9c408999dd4411f36e7
+      internalID: 228024856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70baa928be6afd64baef823d2b3a6e17
+      internalID: -105432787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7787def7b3efe014fb948a4f548e9627
+      internalID: -630737466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b84af75488973409efa4c0562566d4
+      internalID: 804551347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947d4e327648a884298aee07f80ab40a
+      internalID: 1418907863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a39984a9d73d07419c7dc95474c2cfb
+      internalID: -583948822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98a9e39d86c90b4fbb06326cdaf636d
+      internalID: 382532012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ec59015880bbe489247a0888395e83
+      internalID: 121212021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24351461d865a5b41b79a02aef1717b8
+      internalID: 1477972204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911a3d3bce55c4e4288353d2d96fbf67
+      internalID: -1608736202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf05d0e8a95b146409667c6c825126ab
+      internalID: 1195819285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926406e7e4fc4d242b5e1f27f28ac14a
+      internalID: 371230182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414f1dd21c1a0004eb35360e7cc77f6d
+      internalID: -751581836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112c1f176b3aaca43963f32c125169b8
+      internalID: 844228333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_59
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc70b62dcbf58cc429f3417a878db116
+      internalID: -296658126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec1299f81c9fbf46b073641d7f87116
+      internalID: -484395702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549bf650dc3f17f449acb966824b441e
+      internalID: 1563057920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a401d478e9a28ca41a78a9c760c06194
+      internalID: 615824687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6abd201cb58e1541949e0d31ad59d2d
+      internalID: 59968955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f314db3e9b96c8d44b59597a3ebad536
+      internalID: 1319906653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099faf08d7f38df4f85ae606d737e0d9
+      internalID: -292115725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67adee73cbc0cee49b8cf7e16651119b
+      internalID: -632037535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_67
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9d6e63df5150a4fb79f79e4fd2378c
+      internalID: 1954943006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b913d456388f234cb379c25a8463321
+      internalID: 1132238926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_69
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c2f0fa27268404691ac54415013aa1
+      internalID: 1626914634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_70
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da833be5fa230884296e4e74a9361edf
+      internalID: -784805226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_71
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f4b7b17d1148145865d3c74fdfc945
+      internalID: 816930995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be44152fc6afd34a97c09d37252df94
+      internalID: 1669995647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431d28d08a0ddd24a8d0b95455b57a47
+      internalID: 1451313995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43fe8645aca1524184331efb80e2ddb
+      internalID: 1860066681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_75
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed202d4f26602c7409f6b1d0fbfbde48
+      internalID: 1586426571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fe590e99dc00a4da2f9358be1fc932
+      internalID: 127111146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_77
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8bc444bd39d694f90429daf8ddcf91
+      internalID: 732401420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_78
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3858d83d4047644833760ee719a379
+      internalID: 1529498736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_79
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a3f6ea58ef48646a460d45fa0092b5
+      internalID: 727918049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_80
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f637a0f8482a44789a3adeffa73419
+      internalID: 1477243029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_81
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ca0443c1a96f6439d76cf8240bb1b2
+      internalID: 365985483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac4c901a8646b244b5d8f3b5cfee400
+      internalID: -1908727618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_83
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb73096fc6579140a4c7f991e30c9c1
+      internalID: -347060904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_84
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5595c6893aa62b348bfe29b7807ffabd
+      internalID: 874563266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf29e25948e40d6439a464a0fe5d92ee
+      internalID: 195853200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25a00ede209cfe4b9df53aa51ec19ca
+      internalID: -2092020257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_87
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a98af1e8e4807d46b79e85b1dccc8b5
+      internalID: 575635100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_88
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eee83fa726f31e4d9eba3ce4343da52
+      internalID: -1560423969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_89
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ccf15de7029bf4dbe7b7b99a3e1f8d
+      internalID: -386536169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_90
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3137369d79f68b04e830ff7cc2981265
+      internalID: 919953210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_91
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d966ec9c6779e46a4e968bb10d2c39
+      internalID: -1960914139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_92
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0c2035d18fedd4ca61c09fc80cd88e
+      internalID: -115599027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a5c67242a2f6843a3f86cfef0dde34
+      internalID: -1657007224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fb0626b690a134eb92e916a8ac18b6
+      internalID: 1970743103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_95
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795f26a1c4aebfc47acdc35406b84f77
+      internalID: -1253364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7975a4b35a1c56449978a35b58cd548
+      internalID: -390244333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_97
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad871575cd7b9a74c9bc70e5d1ec779b
+      internalID: -1380954113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f7598b4c34923479e2a1b28364b03d
+      internalID: 1949028948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2176
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fb524f1de4f8f428e74588bee19ac6
+      internalID: 602751272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2112
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1906c40e05e06c549977e3ff12b7aaae
+      internalID: 734510673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1975b58cdb6c12b40a1e7d15bc8b5f54
+      internalID: -1911375989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_102
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2048
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46b85c851034e44a9a76b0fb75b50a1
+      internalID: -311298618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_103
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2048
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643dc46e877830d4188d3111bc6c8ca6
+      internalID: -388970824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_104
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2048
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733b3689307b42d4a9a6bb4f98fd91be
+      internalID: 1816018435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_105
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2048
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81ba592176894c46b8a0d1119ce9843
+      internalID: -1802828003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0a7c42a00481f40bbffd51e78c5d69
+      internalID: -531102291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_107
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a35cd8df39b004ebe8207c63869285
+      internalID: 685742010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_108
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccde6c155c44a5f4ab672bfe2809cab4
+      internalID: 781989873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_109
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53230a5863ef4a44a753d4b5aa698db
+      internalID: 817959994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_110
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d230b0a424128d4ea41a4c0403c91aa
+      internalID: -27865668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192e25eadbd609f4084491a3fc0a24f1
+      internalID: -53128401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_112
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853c4d08c30767249854e7c3bf5c65a2
+      internalID: 62040226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_113
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392e28eda08d36d47b4bf171d4df7ad9
+      internalID: 1204729691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_114
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0783fbd73a1a743bda2130cb677a47
+      internalID: -1219579300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_115
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1b7b4718e0bcc4c8a78083fec910d4
+      internalID: 1561916121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_116
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45412e0166889fc469cea00a30e6b196
+      internalID: -2006451137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_117
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c1df723438a1d48898542fc6396183
+      internalID: -649806534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_118
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7e40b71915eb84593ca30dbb3abaf2
+      internalID: 37804606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_119
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e6c666fd8d91a4f8ab2103d25b9a6e
+      internalID: -70127438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_120
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08e2be4c32cbe74bb5856598a350515
+      internalID: 381874935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_121
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb27bc3027e5c64680d51b74f88fc63
+      internalID: -1847145228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_122
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9280c144581cfaa4ebdbf946d6b9e97e
+      internalID: -826445061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_123
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6052e077bf3acb142b62146d5ac2edb5
+      internalID: 1016880898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_124
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa2e711b25c69648a60af3b0a1100f3
+      internalID: -1848283510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_125
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c8a47e471e0a0459bb1c778924bab5
+      internalID: -2105724935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_126
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6099b596ff9af44944817c38f18160
+      internalID: 986119932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_127
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b67ee8a32ee09a4e88349d334f20ecc
+      internalID: 1048483031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ce6ad24f094264480d0ec5550b6208
+      internalID: 601418042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_129
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69f5d21e8b05e643b083cae3424d4bb
+      internalID: -1403693120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_130
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfc4f51d8ce88542a2ec0e68e766171
+      internalID: 1998817904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_131
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9b961350e8cfc4ea05f74b79cde8e7
+      internalID: -1939079496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_132
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0328ac1d24816b846b09761b8140ba06
+      internalID: 2110051860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_133
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ac2f13a93aa2949a9040bf66aa0066
+      internalID: 1948536783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_134
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a2b0fd36ea3e24c9082997dca44c30
+      internalID: -773246919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_135
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180c1cc995f2fc24685d20f34b042d86
+      internalID: 651752558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_136
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9814145ba6c9d140b74463f94a9d270
+      internalID: -717879525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_137
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22edbac60dd56a04d92bde6d44424dc3
+      internalID: -1044582345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_138
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d8d92f7a963a345a3452f45c5e3888
+      internalID: -1196342439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_139
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8eea8f0f1a2b24487b0a66e1bba82d
+      internalID: -846944075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5006a94d2539f44182a035f69847ba1
+      internalID: 1918641024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_141
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa18888334538c468c206d7672d2c3c
+      internalID: -1508330285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_142
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69eb7c3306227a64aa05d67803f887ca
+      internalID: 1301907948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_143
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4019d34f26bc5614aa769d95b43138c3
+      internalID: -1556066513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_144
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6254b99f0a784fe4693bf327e96c3e78
+      internalID: -2022794882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_145
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee74b6fa88156744ba4195d71fbaa412
+      internalID: 2049299896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e075a54a45b5fb243823290ddc1b3e4b
+      internalID: -1359891224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_147
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43cb66ab95420847b1c57c91edfa024
+      internalID: 1973839175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7c35a76a89e2d47820d42a01050912
+      internalID: -1130468519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_149
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15979e20f1ddb984f8b9551beebb9cdb
+      internalID: 1399562367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_150
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d33abab2003cbf4b83f3354193c92d5
+      internalID: -372076300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_151
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c52fdca44df6264fab1427dea9d9179
+      internalID: -1119101839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a062d1e9e9c394ca948bbca6c0cfa3
+      internalID: -2120623551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_153
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef707055102e1024d97378162879f61b
+      internalID: -17678356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_154
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7de2bb2c74371447842b82da01530d3
+      internalID: -1762641372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_155
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291cb9dc8574a6a41a5c370cd0379092
+      internalID: -1193533022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_156
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcafd47b9cd4894082bf6e7297e194b
+      internalID: 2011921506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_157
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f793df5b7d3b514885af96e7d999bcb
+      internalID: -713237940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_158
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f041f7fbf7ec4364093f18f9ab237081
+      internalID: -529459114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_159
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7398fb59bf80f439bdd422ecaba41a
+      internalID: 143698071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_160
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f434d3afc196842b21b694e6b5d5ba
+      internalID: 1057266981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_161
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7566f2d843176f24cad7edddafa79bcc
+      internalID: -1305230071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_162
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28978a24cbbdf74dabcaa01a6023fe2
+      internalID: 1789431281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_163
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e616d4f55529d04b95c483de919210f
+      internalID: -2037289270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_164
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a5e8739032cc041a3ce96550fe2627
+      internalID: -1878461707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_165
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca94a1a0abd29db49bae37039dad0fbf
+      internalID: 974364370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_166
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a6e2e2e776ea44d83394d3934c1282
+      internalID: -514785113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_167
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296e2798927a11b4487135f21caabfaf
+      internalID: -319565754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_168
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1a7b82056cd484c9f27ca27d8693f6
+      internalID: 70410448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_169
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afce461fd6fdd63459c2efcc4800c152
+      internalID: -77775606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_170
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78162173d794184d829f2c992137d9e
+      internalID: -1423944854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_171
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1668f4247976a04b99e42a4dd147f3e
+      internalID: 201995351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_172
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6642c9bcb67abd347bb77ecb527d39f1
+      internalID: 1096049179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_173
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b051e0f68ee0b54d91e176daf364117
+      internalID: -451446171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_174
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98ce7beeafba444c941c123fb6f82e1
+      internalID: 807974843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_175
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54608f4679352f48b9b95cdca954d1b
+      internalID: -127449901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2a3565e9b200d4a8d324cb0079bda9
+      internalID: -1925139909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_177
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91346cf1734019488e57babed442c92
+      internalID: -1650689128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_178
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c728cebc61d1f8e4bb82a7a2bd83c55b
+      internalID: 2117946702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_179
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711541d27f1b1404bb9eeaa252f5b4a8
+      internalID: 1774879374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_180
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d699aa4b81fc24da24d875edb6a624
+      internalID: 1788284748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_181
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cc5c7e1b701dd4ebd531d40ce29cf9
+      internalID: 824478093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b46f94a036dcc649a307e16af2a31ee
+      internalID: -934790171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_183
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee2ad506e240d84f916058ab1d8560c
+      internalID: -969483113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_184
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ecf2f3b792f9344a6f2510a3b5d00b
+      internalID: 807294676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_185
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec91aba5a5b9534bbd3d9008006ce47
+      internalID: 843366440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_186
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bfe58071b00c54e9749c70d8c6f748
+      internalID: -958778589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_187
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6e1823ca6bbb446ad498dee5036831
+      internalID: -1475590660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_188
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97286b983ec7df040a24b1d0bdf9cb91
+      internalID: -684281459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_189
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d89cdffb1310844b386f2b01de5c88
+      internalID: 751246743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_190
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a3c210e1ca16a4688d5c2dfbcdf189
+      internalID: -186427383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_191
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030bacd1e9ee5854aa5287972b8e3aa4
+      internalID: 1284119358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_192
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eae6e9aa85577d48ba7d8f7c09a042a
+      internalID: -1813306287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_193
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96689bec2ae6a0c48b60e71db507c37a
+      internalID: -788572340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_194
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f218e8de2079226468b6eea851d3fd04
+      internalID: -2106858502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_195
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516a3f3a53ba4b744ab105021ca89d1b
+      internalID: 784425713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_196
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f90f758aeb79042817a8ab3a344269
+      internalID: 723352993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_197
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1233ecd0ab53dc4e94def96232225db
+      internalID: 867555560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_198
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c23e90c72f5e704c8d894c6bebf7dc3
+      internalID: -334673944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_199
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c105d1af2f4f6744dadcb81031d7c440
+      internalID: 1050036028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcff4e8dace9b04fa127d97e1049bcf
+      internalID: -158362479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_201
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67a019a8409f3c4ab151475fc3685f5
+      internalID: -1819127010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_202
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c1f1f7805d6c94aa8e933b4cb8afc8
+      internalID: -186548503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_203
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6e167d392016e41ac62949f33ee6ec
+      internalID: 165367149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_204
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f8a510bdd090b47a32b1d9d66c2a4d
+      internalID: 323633138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_205
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a736d745b9dd2e4c8b94cef0beeb02c
+      internalID: 1065301281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_206
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cced37b8d47c054fa4e49e24f6ab05a
+      internalID: 741463320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_207
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0336fbd59af691340bd0b371d1b78e36
+      internalID: 814017068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_208
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eba131f50129fa459cd7f9f93473967
+      internalID: 1259443456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_209
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc49b3f3594c5454aa5655f42c3d2014
+      internalID: 1421421420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_210
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5851bdd7f0b2ca44395ad1f34fbbfe62
+      internalID: 1822718549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_211
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1085e1119578def4eb86f6253d27fa23
+      internalID: 1751726561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_212
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b20db4c629a284b8412fc65ca83853
+      internalID: -1157929700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_213
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d2e90b422769c458aae5cbae141ab5
+      internalID: 1305464544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_214
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2473b80c81d67034390bdac4e95d2b87
+      internalID: 843064363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_215
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e6714287fb01d429e400e033527fe9
+      internalID: 1011666009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_216
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0354a935077ba84d9f191520ac12276
+      internalID: 1923315288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_217
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3206d9678eeb68144b190f3067786596
+      internalID: 1800739869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_218
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8b96bd72130634e8f1580d5b8cacaa
+      internalID: 1756977184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_219
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c368f6efde1e5748a631c01d60f432a
+      internalID: 1873233079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_220
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9113aaac19bb8049af8c2868bcd8375
+      internalID: 337076615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_221
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ec873e313fc994488f1d0f34e491f3
+      internalID: -614796751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_222
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb3819a8892f0843a3993dffc269bf5
+      internalID: 323726964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_223
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f282cee79084d243ac7bda037bd8a76
+      internalID: 464455284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc16ed70b9893734584f1b0c92dc1fd9
+      internalID: -744407638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_225
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bca14b76b4ed404eb04bad8729b05b2
+      internalID: 2077589423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_226
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8620870fca4fe7479a3e5a32971fb9a
+      internalID: 2111565812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_227
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a11149e5ce49a4687f5fa728900a15
+      internalID: -690759915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_228
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d8b1ecbd2fade48a727bd4543a42b5
+      internalID: -2144625922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_229
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f27c023998e8245aa8cbb9d2f38eab
+      internalID: -1651266776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_230
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8d59c88781c7248a9f443129a53c13
+      internalID: -1058749780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_231
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509fce03fa474a84ebaca8bd4a9400a5
+      internalID: -742043732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_232
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35f97ae68319ce4bb022e5846383fb0
+      internalID: 700088961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_233
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0973b30bc3e22448839490196a09e62
+      internalID: -1941710711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_234
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5e8a05714e7574396291364da705ef
+      internalID: -398161813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_235
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd68326e1a228a54397363057adad166
+      internalID: 1198575752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_236
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63233fedf83245418c745924e6fb37c
+      internalID: 1301569477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_237
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9a9f4ccabe82544839c1b2e2b4c14b
+      internalID: 884081273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_238
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c62a836451d76d4b9146cf95470eb57
+      internalID: 164549507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_239
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ed8cfb1dd00e848adf602b64ae7dab
+      internalID: 449327324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_240
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3369a2c0ef38540b69a5d89c61f765
+      internalID: 159191980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_241
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a4f1b5d44e6fd449f99c8df0bd0da1
+      internalID: -109155191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_242
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7465cd50967998448a97f409134fc7b1
+      internalID: -2076171829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_243
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab72308b00150943808308606f2a6ad
+      internalID: 1966061364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_244
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2b59c9c1a96c04d9479820e61a2c28
+      internalID: 533601802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_245
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ae39d8bb421d647a40514583807003
+      internalID: 1453368347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_246
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401f5e981c7fde445b055449f5ac6c59
+      internalID: -1418189269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_247
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8202a305c9c26cf488ddc679c40b4cc6
+      internalID: -877859632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_248
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a118fca9f167894eab211ef8144892b
+      internalID: -1643285188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_249
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84229811118c6b4089953eb419f41aa
+      internalID: 1928282625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_250
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc721243f6398794291f14abf77d3f97
+      internalID: 430540499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_251
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea07519ed48991d4aa18bd8212443eee
+      internalID: 184045520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_252
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe5f2d8d7a6a8740b87c498fd77943e
+      internalID: -349498839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_253
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc4ebc66344fd941bb9a514f8c6692c
+      internalID: -1440270597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_254
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69c3eabad4e57140824096cbdf70724
+      internalID: -793959152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_255
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f50c93f7737c8d498dac3ca7cedde0e
+      internalID: 790200715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_256
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382e23d47432d90488f80ba0ebfec9b3
+      internalID: -996219402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_257
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f4252d3c966d246b7dfacf268466c9
+      internalID: -583557693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_258
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 512
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32aba2b0885f096428509677eedca91b
+      internalID: -59410717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_259
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4da54db9b7c58f42bb2704477115ff9
+      internalID: 888950878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_260
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a9ba9f410446942a77422a98d3af99
+      internalID: -1595672790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_261
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea2fb3000180c44d929f0318ce4f01c
+      internalID: -1866424337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_262
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149aa03e8904d604a930145aa5f370e2
+      internalID: -381428715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_263
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb8958a90d150f4ab638087fa2e508e
+      internalID: -1252522701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_264
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab53733ea9caa34298a904281364c19
+      internalID: -1041472692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_265
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f773f2847767542b77b37e1cd6db73
+      internalID: 228181450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_266
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071c9e6c1e35bec4a83dcb8541378533
+      internalID: 1757512639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_267
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09310fb107ff67a4e8228857a5ebe02b
+      internalID: -386407156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_268
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce36e6ac30cbd44dbecef92874d119a
+      internalID: 1662705221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_269
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8490be64930c6c749b067fc9234769a4
+      internalID: 1138862886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_270
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aca2a6e3e5ae7a44b60fd3ad44d2d32
+      internalID: -858577071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_271
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4822c9e89fbb2c44eb881b10e92c19bb
+      internalID: -1127626763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_272
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c030091da3ac2db48b04aed3cbf2cbac
+      internalID: -559305630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_273
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d18bffe5076994d860674ca5fadd1f
+      internalID: 1253533663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_274
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfa00a23b3902143b96c44074728ede
+      internalID: 1570750830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_275
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3719f96cff189c64cbd9760bd9212f0a
+      internalID: 1528224057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_276
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaa1a77531e68d40b90bfc67abc8581
+      internalID: -1965832522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_277
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e733566a7322ca48a73282782b3605f
+      internalID: -1987390617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_278
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7e823245f3c46409097cb030fed578
+      internalID: 782269197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_279
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a730ba365dd05fa4a90c13e370bff265
+      internalID: -2073443414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_280
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed04d4bc2fe11e740a06ccaf9b536baf
+      internalID: -935774195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_281
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32af7811a9ab5b47adbd45b957a3278
+      internalID: 1626127497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_282
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cfac594c71710468f3343e69bfcc23
+      internalID: 943830870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_283
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee57e232db635841be5d2b0a42a78b4
+      internalID: 874965928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_284
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34502e5cbfdf3e249b7afe6bfa4c3e67
+      internalID: -2127614466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_285
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ea8c1db2c22af49b24f1f49b15cc83
+      internalID: -787799486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_286
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d0f5aa93559f44dbcc0865a2bff3fa
+      internalID: 1982397781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_287
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef56a939fa63e141829226fbbdcbcf5
+      internalID: -1017684702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_288
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5305ec41037e7ca47877155eb85fc3fc
+      internalID: -2028686071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_289
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6974d79e8230f8244a2aa296f27e8280
+      internalID: -1619746307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_290
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6530fb2e3ed13a344931ebf7d8f502df
+      internalID: -1424586716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_291
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8f7e972c277ff4a989b3b39e9b0809
+      internalID: 2132081806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_292
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb24a5e6d454194982fcf238a36ad1d
+      internalID: 241993932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_293
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9aa2b81521e0534b9adc23b5e50e13c
+      internalID: -762115915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_294
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579e91f7914ba0b41ba59ad660cf042b
+      internalID: 471566115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_295
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d7314ffe9c1464191c9f1441b22c85
+      internalID: 1962728283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_296
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2781afa40db7524aa6570e772d2be77
+      internalID: 459434688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_297
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efdad1f26560b14d905d01f6641e01f
+      internalID: 73433248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Brown_298
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedcfdb34156fdc41bcf10238a5bbf9f
+      internalID: -1806049267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 35513c2eb827ac1449c19a9353f25489
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":56.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.4921875,"y":0.390625},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Shoes_1_Brown_0: 1963200011059979973
+      Shoes_1_Brown_1: 994502578
+      Shoes_1_Brown_10: -1467291364
+      Shoes_1_Brown_100: 734510673
+      Shoes_1_Brown_101: -1911375989
+      Shoes_1_Brown_102: -311298618
+      Shoes_1_Brown_103: -388970824
+      Shoes_1_Brown_104: 1816018435
+      Shoes_1_Brown_105: -1802828003
+      Shoes_1_Brown_106: -531102291
+      Shoes_1_Brown_107: 685742010
+      Shoes_1_Brown_108: 781989873
+      Shoes_1_Brown_109: 817959994
+      Shoes_1_Brown_11: 336416915
+      Shoes_1_Brown_110: -27865668
+      Shoes_1_Brown_111: -53128401
+      Shoes_1_Brown_112: 62040226
+      Shoes_1_Brown_113: 1204729691
+      Shoes_1_Brown_114: -1219579300
+      Shoes_1_Brown_115: 1561916121
+      Shoes_1_Brown_116: -2006451137
+      Shoes_1_Brown_117: -649806534
+      Shoes_1_Brown_118: 37804606
+      Shoes_1_Brown_119: -70127438
+      Shoes_1_Brown_12: 1604023809
+      Shoes_1_Brown_120: 381874935
+      Shoes_1_Brown_121: -1847145228
+      Shoes_1_Brown_122: -826445061
+      Shoes_1_Brown_123: 1016880898
+      Shoes_1_Brown_124: -1848283510
+      Shoes_1_Brown_125: -2105724935
+      Shoes_1_Brown_126: 986119932
+      Shoes_1_Brown_127: 1048483031
+      Shoes_1_Brown_128: 601418042
+      Shoes_1_Brown_129: -1403693120
+      Shoes_1_Brown_13: -156099279
+      Shoes_1_Brown_130: 1998817904
+      Shoes_1_Brown_131: -1939079496
+      Shoes_1_Brown_132: 2110051860
+      Shoes_1_Brown_133: 1948536783
+      Shoes_1_Brown_134: -773246919
+      Shoes_1_Brown_135: 651752558
+      Shoes_1_Brown_136: -717879525
+      Shoes_1_Brown_137: -1044582345
+      Shoes_1_Brown_138: -1196342439
+      Shoes_1_Brown_139: -846944075
+      Shoes_1_Brown_14: 1589073114
+      Shoes_1_Brown_140: 1918641024
+      Shoes_1_Brown_141: -1508330285
+      Shoes_1_Brown_142: 1301907948
+      Shoes_1_Brown_143: -1556066513
+      Shoes_1_Brown_144: -2022794882
+      Shoes_1_Brown_145: 2049299896
+      Shoes_1_Brown_146: -1359891224
+      Shoes_1_Brown_147: 1973839175
+      Shoes_1_Brown_148: -1130468519
+      Shoes_1_Brown_149: 1399562367
+      Shoes_1_Brown_15: -2087077396
+      Shoes_1_Brown_150: -372076300
+      Shoes_1_Brown_151: -1119101839
+      Shoes_1_Brown_152: -2120623551
+      Shoes_1_Brown_153: -17678356
+      Shoes_1_Brown_154: -1762641372
+      Shoes_1_Brown_155: -1193533022
+      Shoes_1_Brown_156: 2011921506
+      Shoes_1_Brown_157: -713237940
+      Shoes_1_Brown_158: -529459114
+      Shoes_1_Brown_159: 143698071
+      Shoes_1_Brown_16: 608967542
+      Shoes_1_Brown_160: 1057266981
+      Shoes_1_Brown_161: -1305230071
+      Shoes_1_Brown_162: 1789431281
+      Shoes_1_Brown_163: -2037289270
+      Shoes_1_Brown_164: -1878461707
+      Shoes_1_Brown_165: 974364370
+      Shoes_1_Brown_166: -514785113
+      Shoes_1_Brown_167: -319565754
+      Shoes_1_Brown_168: 70410448
+      Shoes_1_Brown_169: -77775606
+      Shoes_1_Brown_17: 2034663428
+      Shoes_1_Brown_170: -1423944854
+      Shoes_1_Brown_171: 201995351
+      Shoes_1_Brown_172: 1096049179
+      Shoes_1_Brown_173: -451446171
+      Shoes_1_Brown_174: 807974843
+      Shoes_1_Brown_175: -127449901
+      Shoes_1_Brown_176: -1925139909
+      Shoes_1_Brown_177: -1650689128
+      Shoes_1_Brown_178: 2117946702
+      Shoes_1_Brown_179: 1774879374
+      Shoes_1_Brown_18: -1914513475
+      Shoes_1_Brown_180: 1788284748
+      Shoes_1_Brown_181: 824478093
+      Shoes_1_Brown_182: -934790171
+      Shoes_1_Brown_183: -969483113
+      Shoes_1_Brown_184: 807294676
+      Shoes_1_Brown_185: 843366440
+      Shoes_1_Brown_186: -958778589
+      Shoes_1_Brown_187: -1475590660
+      Shoes_1_Brown_188: -684281459
+      Shoes_1_Brown_189: 751246743
+      Shoes_1_Brown_19: -1547626859
+      Shoes_1_Brown_190: -186427383
+      Shoes_1_Brown_191: 1284119358
+      Shoes_1_Brown_192: -1813306287
+      Shoes_1_Brown_193: -788572340
+      Shoes_1_Brown_194: -2106858502
+      Shoes_1_Brown_195: 784425713
+      Shoes_1_Brown_196: 723352993
+      Shoes_1_Brown_197: 867555560
+      Shoes_1_Brown_198: -334673944
+      Shoes_1_Brown_199: 1050036028
+      Shoes_1_Brown_2: 59180952
+      Shoes_1_Brown_20: 1511811624
+      Shoes_1_Brown_200: -158362479
+      Shoes_1_Brown_201: -1819127010
+      Shoes_1_Brown_202: -186548503
+      Shoes_1_Brown_203: 165367149
+      Shoes_1_Brown_204: 323633138
+      Shoes_1_Brown_205: 1065301281
+      Shoes_1_Brown_206: 741463320
+      Shoes_1_Brown_207: 814017068
+      Shoes_1_Brown_208: 1259443456
+      Shoes_1_Brown_209: 1421421420
+      Shoes_1_Brown_21: 362623798
+      Shoes_1_Brown_210: 1822718549
+      Shoes_1_Brown_211: 1751726561
+      Shoes_1_Brown_212: -1157929700
+      Shoes_1_Brown_213: 1305464544
+      Shoes_1_Brown_214: 843064363
+      Shoes_1_Brown_215: 1011666009
+      Shoes_1_Brown_216: 1923315288
+      Shoes_1_Brown_217: 1800739869
+      Shoes_1_Brown_218: 1756977184
+      Shoes_1_Brown_219: 1873233079
+      Shoes_1_Brown_22: -1155737934
+      Shoes_1_Brown_220: 337076615
+      Shoes_1_Brown_221: -614796751
+      Shoes_1_Brown_222: 323726964
+      Shoes_1_Brown_223: 464455284
+      Shoes_1_Brown_224: -744407638
+      Shoes_1_Brown_225: 2077589423
+      Shoes_1_Brown_226: 2111565812
+      Shoes_1_Brown_227: -690759915
+      Shoes_1_Brown_228: -2144625922
+      Shoes_1_Brown_229: -1651266776
+      Shoes_1_Brown_23: -1743386641
+      Shoes_1_Brown_230: -1058749780
+      Shoes_1_Brown_231: -742043732
+      Shoes_1_Brown_232: 700088961
+      Shoes_1_Brown_233: -1941710711
+      Shoes_1_Brown_234: -398161813
+      Shoes_1_Brown_235: 1198575752
+      Shoes_1_Brown_236: 1301569477
+      Shoes_1_Brown_237: 884081273
+      Shoes_1_Brown_238: 164549507
+      Shoes_1_Brown_239: 449327324
+      Shoes_1_Brown_24: -2140521343
+      Shoes_1_Brown_240: 159191980
+      Shoes_1_Brown_241: -109155191
+      Shoes_1_Brown_242: -2076171829
+      Shoes_1_Brown_243: 1966061364
+      Shoes_1_Brown_244: 533601802
+      Shoes_1_Brown_245: 1453368347
+      Shoes_1_Brown_246: -1418189269
+      Shoes_1_Brown_247: -877859632
+      Shoes_1_Brown_248: -1643285188
+      Shoes_1_Brown_249: 1928282625
+      Shoes_1_Brown_25: -660011551
+      Shoes_1_Brown_250: 430540499
+      Shoes_1_Brown_251: 184045520
+      Shoes_1_Brown_252: -349498839
+      Shoes_1_Brown_253: -1440270597
+      Shoes_1_Brown_254: -793959152
+      Shoes_1_Brown_255: 790200715
+      Shoes_1_Brown_256: -996219402
+      Shoes_1_Brown_257: -583557693
+      Shoes_1_Brown_258: -59410717
+      Shoes_1_Brown_259: 888950878
+      Shoes_1_Brown_26: -511208615
+      Shoes_1_Brown_260: -1595672790
+      Shoes_1_Brown_261: -1866424337
+      Shoes_1_Brown_262: -381428715
+      Shoes_1_Brown_263: -1252522701
+      Shoes_1_Brown_264: -1041472692
+      Shoes_1_Brown_265: 228181450
+      Shoes_1_Brown_266: 1757512639
+      Shoes_1_Brown_267: -386407156
+      Shoes_1_Brown_268: 1662705221
+      Shoes_1_Brown_269: 1138862886
+      Shoes_1_Brown_27: 167957087
+      Shoes_1_Brown_270: -858577071
+      Shoes_1_Brown_271: -1127626763
+      Shoes_1_Brown_272: -559305630
+      Shoes_1_Brown_273: 1253533663
+      Shoes_1_Brown_274: 1570750830
+      Shoes_1_Brown_275: 1528224057
+      Shoes_1_Brown_276: -1965832522
+      Shoes_1_Brown_277: -1987390617
+      Shoes_1_Brown_278: 782269197
+      Shoes_1_Brown_279: -2073443414
+      Shoes_1_Brown_28: 1280043802
+      Shoes_1_Brown_280: -935774195
+      Shoes_1_Brown_281: 1626127497
+      Shoes_1_Brown_282: 943830870
+      Shoes_1_Brown_283: 874965928
+      Shoes_1_Brown_284: -2127614466
+      Shoes_1_Brown_285: -787799486
+      Shoes_1_Brown_286: 1982397781
+      Shoes_1_Brown_287: -1017684702
+      Shoes_1_Brown_288: -2028686071
+      Shoes_1_Brown_289: -1619746307
+      Shoes_1_Brown_29: 1593408968
+      Shoes_1_Brown_290: -1424586716
+      Shoes_1_Brown_291: 2132081806
+      Shoes_1_Brown_292: 241993932
+      Shoes_1_Brown_293: -762115915
+      Shoes_1_Brown_294: 471566115
+      Shoes_1_Brown_295: 1962728283
+      Shoes_1_Brown_296: 459434688
+      Shoes_1_Brown_297: 73433248
+      Shoes_1_Brown_298: -1806049267
+      Shoes_1_Brown_3: -959108990
+      Shoes_1_Brown_30: -613165645
+      Shoes_1_Brown_31: 1581357399
+      Shoes_1_Brown_32: -1528815081
+      Shoes_1_Brown_33: -1571469148
+      Shoes_1_Brown_34: -1325997777
+      Shoes_1_Brown_35: -1955329236
+      Shoes_1_Brown_36: -689220102
+      Shoes_1_Brown_37: -132808057
+      Shoes_1_Brown_38: -248478878
+      Shoes_1_Brown_39: 279226167
+      Shoes_1_Brown_4: 898748152
+      Shoes_1_Brown_40: -1094133624
+      Shoes_1_Brown_41: 354777687
+      Shoes_1_Brown_42: 1134907643
+      Shoes_1_Brown_43: -895611202
+      Shoes_1_Brown_44: 1964746450
+      Shoes_1_Brown_45: 228024856
+      Shoes_1_Brown_46: -105432787
+      Shoes_1_Brown_47: -630737466
+      Shoes_1_Brown_48: 804551347
+      Shoes_1_Brown_49: 1418907863
+      Shoes_1_Brown_5: -337270606
+      Shoes_1_Brown_50: -583948822
+      Shoes_1_Brown_51: 382532012
+      Shoes_1_Brown_52: 121212021
+      Shoes_1_Brown_53: 1477972204
+      Shoes_1_Brown_54: -1608736202
+      Shoes_1_Brown_55: 1195819285
+      Shoes_1_Brown_56: 371230182
+      Shoes_1_Brown_57: -751581836
+      Shoes_1_Brown_58: 844228333
+      Shoes_1_Brown_59: -296658126
+      Shoes_1_Brown_6: 163668458
+      Shoes_1_Brown_60: -484395702
+      Shoes_1_Brown_61: 1563057920
+      Shoes_1_Brown_62: 615824687
+      Shoes_1_Brown_63: 59968955
+      Shoes_1_Brown_64: 1319906653
+      Shoes_1_Brown_65: -292115725
+      Shoes_1_Brown_66: -632037535
+      Shoes_1_Brown_67: 1954943006
+      Shoes_1_Brown_68: 1132238926
+      Shoes_1_Brown_69: 1626914634
+      Shoes_1_Brown_7: -1401551302
+      Shoes_1_Brown_70: -784805226
+      Shoes_1_Brown_71: 816930995
+      Shoes_1_Brown_72: 1669995647
+      Shoes_1_Brown_73: 1451313995
+      Shoes_1_Brown_74: 1860066681
+      Shoes_1_Brown_75: 1586426571
+      Shoes_1_Brown_76: 127111146
+      Shoes_1_Brown_77: 732401420
+      Shoes_1_Brown_78: 1529498736
+      Shoes_1_Brown_79: 727918049
+      Shoes_1_Brown_8: 873255608
+      Shoes_1_Brown_80: 1477243029
+      Shoes_1_Brown_81: 365985483
+      Shoes_1_Brown_82: -1908727618
+      Shoes_1_Brown_83: -347060904
+      Shoes_1_Brown_84: 874563266
+      Shoes_1_Brown_85: 195853200
+      Shoes_1_Brown_86: -2092020257
+      Shoes_1_Brown_87: 575635100
+      Shoes_1_Brown_88: -1560423969
+      Shoes_1_Brown_89: -386536169
+      Shoes_1_Brown_9: -849465424
+      Shoes_1_Brown_90: 919953210
+      Shoes_1_Brown_91: -1960914139
+      Shoes_1_Brown_92: -115599027
+      Shoes_1_Brown_93: -1657007224
+      Shoes_1_Brown_94: 1970743103
+      Shoes_1_Brown_95: -1253364
+      Shoes_1_Brown_96: -390244333
+      Shoes_1_Brown_97: -1380954113
+      Shoes_1_Brown_98: 1949028948
+      Shoes_1_Brown_99: 602751272
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

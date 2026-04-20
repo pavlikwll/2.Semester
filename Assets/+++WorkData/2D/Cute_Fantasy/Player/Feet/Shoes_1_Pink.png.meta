@@ -1,0 +1,6999 @@
+fileFormatVersion: 2
+guid: de99848741adfd745a40f2840cf532dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6950294757428261676
+    second: Shoes_1_Pink_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shoes_1_Pink_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2375c4f148647060800000000000000
+      internalID: 6950294757428261676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e3206fd4bae304d9dcb1c4ef1d6710
+      internalID: 408942940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf52e23b5894bef428b005c69a0d13b5
+      internalID: 2086046873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583b3f89b5afc5349950f952b32af0fe
+      internalID: -399752460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc71fdfbd83f84f478f60d15ca1d3a4d
+      internalID: -1056107499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b894b650253c4147b18982185e0ca94
+      internalID: -99728364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bd4bad1e68c2845b9d92365388e042
+      internalID: -1780825913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8f4fa46fa24d84a979267f59f462d7
+      internalID: -900784315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa293a9dfaf7da42a744f2699f16f92
+      internalID: 925072831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2957b91696687734ca6490ee4f483aa1
+      internalID: -651883269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f29187787dcd84c9ac7eaf93e02e9e
+      internalID: -1123478063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6918fb12218e149a33a5969d5b9c80
+      internalID: 1322740430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9ddd10edfc3f54fb6b53f084fccc9b
+      internalID: -434036439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60c8fe940dc36a43ac5953cd625c659
+      internalID: -1176457835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce969a04ffb2ec40954a5634133bff4
+      internalID: 1734392877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c05ca3b49a44904785c2049730d4a55
+      internalID: 642241577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed817203a05c17e419ecdf9530801e75
+      internalID: -1446422678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90337bd112d0b744db53bafdf6d6af80
+      internalID: 239922890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97b86192b5adb342b62e29c802b8c12
+      internalID: -92220948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139356606b1cb2b42aad04cbb06d1fb6
+      internalID: -1046640510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3202bb0f91f29fd4394da021b5809cc4
+      internalID: 1777890698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b3441c90f2d1d47b004b4a2215d109
+      internalID: 899627273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13be413fc1636544a1e018a150982c8
+      internalID: -1276175175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bbe4c5b333b634f879959aa04c30c9
+      internalID: 1445628969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef06c9d9aec95794186a153e5113b9c9
+      internalID: 1296383212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72a9b04dd67baa4db49102ff4df0700
+      internalID: -1692756448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097efb45f03754143a2ae449d0293fb0
+      internalID: 2044798013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd4c756478879f4786d743bcbad155f
+      internalID: 937894015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b524191db6389594085b956ce74844b7
+      internalID: 865198442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894edcdb0fe97d54585ed221b39bce7b
+      internalID: 903844850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde1fd02826c60e44ac71b787a05df0c
+      internalID: 2015428344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8cf0e3b895d7041a673c26713820f6
+      internalID: -451943279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa24e18db8423341aaaffcc908dc2a3
+      internalID: 1221362029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6c8168003db8340b40b2a63b44100e
+      internalID: 1902420552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbe93191b9f98341abbf819ee44f31a
+      internalID: 831994235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5dfda17b5285a94997feaa6c639c0a1
+      internalID: 797918699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0073fe16eaabf994b93c222996a143be
+      internalID: -1917749760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee985f8b84314c46909326cedd01d28
+      internalID: -1540860769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df976ec48b4dced4eb892d989cf99206
+      internalID: 770366078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a5ae0fa29424e4e82f9d38fe9c3bcb
+      internalID: 1848030648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cbc66733a4a484d87c6d0692a7dcdd
+      internalID: 504228420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d79d2043484f242a030c2bd60cb4aa
+      internalID: -1322008001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54130da2976e7c43aa5ea2710d47391
+      internalID: 90196282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5b0a1992f67b64b8bacd07abedcd85
+      internalID: 1056436826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a634efd1dea1140a5fb1f25b655fba
+      internalID: -1839628920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3797a1055f7c154988b6d9cc6e51e32
+      internalID: -1829998550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3243925dbd841064c831690e4986da03
+      internalID: 1307595892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c7152e45986764caa0571a182a52db
+      internalID: 1557106290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cc63f434babca49880b8f8a3368997
+      internalID: 1653585168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bf0d2da8b867646a334cbde340ca8f
+      internalID: -1496667492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b647008f7fc3bc3468d765a37cd91efb
+      internalID: 1537394785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023009ba37d27354c88f195704dd9402
+      internalID: 1534213311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20715a0467f077246ba920af097e345b
+      internalID: 2041858258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50924997d680f74cb8231950b7abb94
+      internalID: 42183384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce32e42cdc5326740a10ee90ce2b57f3
+      internalID: -1054988331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b3b13bb652f194e81673fa84fef807
+      internalID: 1569123048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d748d04c70763964b969e9a7912a99e9
+      internalID: 1685305504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fd3d6d235e5b847b15122e01addbaa
+      internalID: 313241457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c8cde2bb953f84f8e0c2b455ddfe17
+      internalID: 1575313475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_59
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a31a6fd5f0abb4eb18a4fa2b93fe5b
+      internalID: -764794255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5107ae34764a1e640b69738e7525bf1b
+      internalID: 1832327201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d792b51ef43a7c48b7cdf916a95cc60
+      internalID: 895342320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fe5cf3c1cc9ce49a8daadd7d52bd25
+      internalID: 1425918166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5efaf8db0df5f34ca1125cfed03dc26
+      internalID: -264179233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4645915a7cace0d4b8128e534348a4d2
+      internalID: 1852034232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a17cb8bdfb4044fbb587ff355ef5a7
+      internalID: -513223818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451fb4693db7a5c45bd727e95264ccc6
+      internalID: 607549987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_67
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c78db382e09b445b90bf8cf0509c43
+      internalID: 522156861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec748083839bac4496ad6fadd1ded12
+      internalID: -720410755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_69
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6dba48a6f2747f4bbd2f16fb751a74c
+      internalID: 1463358110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_70
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2225cacd92f5d6440be22185711291d2
+      internalID: 1212486924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_71
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1bacafc5dcf8541a4fc64364183007
+      internalID: 1097804119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13552b958954830488762efd5587a569
+      internalID: -1810942528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df110c441c7ca64ba64a80d808378ee
+      internalID: -634611679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e3be23095cc994a91f95a0a2e2fe5b
+      internalID: 757267897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_75
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c57b1e459593c44965da09b32b02eb
+      internalID: -130077513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c65c08a03ecdc47ba27c140e7f69d1
+      internalID: -1540028480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_77
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2eb3564bd5f064ebdd9f69466a64d0
+      internalID: 1569473336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_78
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779ab1e0291228840a8ae042e3b2d1e3
+      internalID: 1481422239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_79
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161ff6304b95a784a8ade6ae77397bd2
+      internalID: -2079921100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_80
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96642046a5e7c4f42b8693c0931404e5
+      internalID: -1121980668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_81
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c204a2049b3c642959d24f3a71f535
+      internalID: 1223686634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d82f130dc04a947886e6c9781cb1c1
+      internalID: 785639126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_83
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8d1b12c4d05b542a53848d4f668fe1
+      internalID: 1528940232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_84
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1470f05737bade42a080707df458eaa
+      internalID: 619296602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf99ab18e8977047b8d65bcd8bb6cd4
+      internalID: 786057572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961f77ac76bbbd14abdb463f9b4383ec
+      internalID: 1707709769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_87
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b243a82e2703d2f4e8b29fb8e6145ad2
+      internalID: 1689266469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_88
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefd18337b7291541b79d017e7c81d30
+      internalID: 863989144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_89
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02541475a25a23044ab32b0d3dbc75a6
+      internalID: -1602602819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_90
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6873ddbb7de0e4098adb73595cd6c6
+      internalID: 730555206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_91
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b668a7667997324f89aa08b570554cd
+      internalID: 282695920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_92
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a973abef9589224c8f7ba8a2b9f98b1
+      internalID: -1116624043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b2af736e4019f4eb55cdc04c304ca4
+      internalID: 614346023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f74e31339d09d4d86e01ca962a2522
+      internalID: 1833612628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_95
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfeb54da6d745b418a338fb4b6dffe3
+      internalID: 1383400747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14233120fc951db49809851410e7af56
+      internalID: -754133002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_97
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c6c92a477ac464b8ebd9984abea0f7
+      internalID: 1838253931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbcad63f167bcb4ea3bcabf49f45b47
+      internalID: -952568987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2176
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c38785059303d4abec78c6a507ab0f
+      internalID: -1653407110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2112
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6771e1f87df8ff47aaefa0fd8bc8e80
+      internalID: -1975216004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8606e039e8ca9642bc298e5bd750d37
+      internalID: -1431286383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_102
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2048
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ac09d047548c649ba1eea54b163e3c
+      internalID: 1586765690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_103
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2048
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7637483d7beda42835617db97f1a67
+      internalID: 798682908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_104
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2048
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ee6047c8735aa488964e907c2dbbab
+      internalID: -222369500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_105
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2048
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21a855295e18b1499cd5b6d1b789d86
+      internalID: -234825111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451e1bc2ce84cce4498f117c8d763b3b
+      internalID: 136372660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_107
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e73fe9711d9a224ca50d1bd3ae3c576
+      internalID: 702250308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_108
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f10e05f26de96499adc745911780fb
+      internalID: 747098127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_109
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68842d97c12f52e49964ee1c256f5704
+      internalID: 47446341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_110
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e69b56bb6ae2c45b618899b7b6faff
+      internalID: 1721297230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb75a1ced67a1643bb83fbde5208047
+      internalID: -1245312048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_112
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3125e059890370a449abac3732a38178
+      internalID: 804997736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_113
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0e623a6d76e7240b9de39289279214
+      internalID: -780651021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_114
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e438b717fc1da4fbbd75a2d6407cf2
+      internalID: -765820549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_115
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1920
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87ae328421aaea45b009460a13bca64
+      internalID: 1638594323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_116
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8369242ca0d4d0c49b44180f72caf1d0
+      internalID: 1954226000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_117
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1007c6c90abb31a4ea4e802438da85a9
+      internalID: 309545784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_118
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f24d790b28f9546b780c31de23a9f2
+      internalID: -1873083046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_119
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600e3dbf62b3418459602f9a666588be
+      internalID: -1325766177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_120
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831b9e037dfad8741bbf21124db38acc
+      internalID: 1584731294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_121
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1856
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc2c2b9dfed61047855b8a24330e864
+      internalID: 1518338538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_122
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d0801070053a44eb017274d4adb53e
+      internalID: -394915757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_123
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e03c1c0e871bf43982b3854567ab3e
+      internalID: 950461010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_124
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e01447df8b7a7b4f8fec9a204c14f27
+      internalID: 1333154172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_125
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889b5fdd044f11c46af72ce90f1c7a96
+      internalID: -157873498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_126
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e01bbc1e865094288715e5f628a8a2
+      internalID: 685597909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_127
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7dca7637085006499f513b3c3e7dd10
+      internalID: -60599707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0913723d5f9dd048bf2d8c72e0d78ef
+      internalID: 9293837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_129
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393b7e3825b571140beb696058a87026
+      internalID: 975269144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_130
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74e902d222b488429a98cf46c7f3baa
+      internalID: -85207383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_131
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90a43526bdf9864c9fbbb028b3adfa6
+      internalID: -491710384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_132
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582a0cb22f959954994b5a50075b9721
+      internalID: 1329780422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_133
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1728
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6442450043f534689439b51c868be1
+      internalID: 1866513478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_134
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1257fcb035812464db6ab09cb02d3a83
+      internalID: 2139126420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_135
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14789db5edcb4e448985af05b8577ba
+      internalID: 1649822215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_136
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436351f6d97619f4cb229c7865bf9b79
+      internalID: 1941399763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_137
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289cd93a359600d419db5f4e41c01852
+      internalID: 1129744064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_138
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d7f62b1981b174983ce934b0a3d6c6
+      internalID: 699026491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_139
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1664
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2434c1ab5bc7b1040a9eb34ceb21b4f6
+      internalID: -1544175591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a88a2510cbf9142989dfd7735badd7
+      internalID: 949074975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_141
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1dbfddfc455ab45bc8baa30ec6a26b
+      internalID: -1495401175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_142
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc37ae7f05bca4a4fb8fd38c4582e450
+      internalID: 1810488424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_143
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae296d036b0105249bf6aaf8a2a0ceaa
+      internalID: -1261484173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_144
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591ff678d3d920b41ae1fe565feb76f7
+      internalID: -319618932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_145
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0248e109188be2f49a5949edd197c85b
+      internalID: 849774761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7940f927fb74f244b38c0c8de8e5b0d
+      internalID: -2045026921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_147
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82f606186106f24796d005159ee0d65
+      internalID: -1224492956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e125815f7d4c1264fb05012b67174a73
+      internalID: 578611404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_149
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ab2a9a3bc52994f833b63f7cfa9ae0
+      internalID: -1368155697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_150
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccbb0aee2deff44289f9593cf4f4ab4
+      internalID: -456549806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_151
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1536
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd21a6dbadd14d449f03b74daa69bde
+      internalID: 380719703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777799a9ce200ac44be0e2c705b05329
+      internalID: 191633939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_153
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a14e8deac46d0e449777339a40b7dd1
+      internalID: -514231008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_154
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8d6393b3ead5749b2992912b24f0ab
+      internalID: -906627645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_155
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c957c87cf6c6994429572b72febb2db7
+      internalID: -835401890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_156
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6e865a4c3e74f4d90652caf6309278
+      internalID: 1119991002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_157
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1472
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf398cf8ebdaaed4e95b17ac601370a0
+      internalID: -1539980559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_158
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96729fd1dcede54e9a5d38570135c54
+      internalID: 913838835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_159
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf85c7e3d7d56b4083248b35564c17a
+      internalID: -571816061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_160
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89aa6a41240e85c41a84bd06ae75b6ab
+      internalID: 212092573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_161
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab96a3e0ba44d0a4bb307d9423193bf6
+      internalID: 404244244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_162
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad051c674aa8217418493c2e3728676e
+      internalID: -687233984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_163
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1408
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f32527fb1134e4c8afcb60493e2b86
+      internalID: -432522331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_164
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bed03fbcba9be419b602a2099a0bc4
+      internalID: 2127266767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_165
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a866c4b82c8478d458bce214918101a0
+      internalID: 1247344920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_166
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec593182c4709844a6424083b77708d
+      internalID: -1427582901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_167
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d34ed970417e9047805ef9b5e3c0331
+      internalID: 235415528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_168
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c8448a5d79e2042988d1741d19a5a4
+      internalID: -566214216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_169
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1344
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f900c30e8f1b64bb41b5da498b7c8f
+      internalID: 145374326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_170
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3484395584b3546a3e791e26f49763
+      internalID: -1983300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_171
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71fb89d523fb2e4fa7ee53130e9bee4
+      internalID: -616667330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_172
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420a92ebd8d3e2840b055494b6644e58
+      internalID: -1616977190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_173
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c4a7c5fc72f424bb0199d768eafb10
+      internalID: -314751046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_174
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3981b9d580ae7414a9ecbc54379a7c63
+      internalID: 811900454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_175
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1280
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b146f3dcbc9397246bc070ad1be54351
+      internalID: -1060750917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ad6aa072c1a84428eacb9dd0c84044
+      internalID: 749472999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_177
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6295ab733d63b4f9ddbb3348c2cc77
+      internalID: -1954753497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_178
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d7eae48ef674549890dcfaaeab65c2
+      internalID: 479444054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_179
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e50500d485ae304596a91d0c913354f
+      internalID: 1510647958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_180
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddd47ee5a1b16a4a8def4aa3a66a14b
+      internalID: 1708690066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_181
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1216
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0299ddf137865e4394a40196b69edc2
+      internalID: 1118800286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff81031b334bc9149bc36d4ea2390dcf
+      internalID: -1651261681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_183
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151c2218d1c910d4d92307e115dec4cd
+      internalID: 2143856552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_184
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c43a7f4af96e304ca7508080fd523aa
+      internalID: -207806922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_185
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d9804b11dda614c9d733566661f19e
+      internalID: 1553992862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_186
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b0c0ac4a7b629448ddd10ce6843ce5
+      internalID: 1442598673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_187
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1152
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1198857b403cf745bc0880f9e6df4ef
+      internalID: 111103962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_188
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620828224a13d6a4f83c67b4df160ec2
+      internalID: 1431842964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_189
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b54e42db52d11c4486d8679a134eec3
+      internalID: 1708207326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_190
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192f83b2c09066e449dda5ad7a8f9eb0
+      internalID: 838912722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_191
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015b0a7c47e5805458032d2b0344947d
+      internalID: 835996973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_192
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de604f48057afec499975b97f48dd8d3
+      internalID: -151580125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_193
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e5478f1e0422345be7f76188f9d41a
+      internalID: -216564308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_194
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d37e88d142c44e468df8998cdc03204
+      internalID: 534436862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_195
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e142b1575d195e46bd785e46a6d009f
+      internalID: 641858645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_196
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd048fc93f8a87a48a4ee1ea3f50b8e1
+      internalID: -1144989364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_197
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a1a69b61c04b441b31aa4a1b351c0a
+      internalID: -173522018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_198
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8910aced5b3ed9458ff9e78dba41b23
+      internalID: -1104735408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_199
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0640f29599f6ec444b8d2527dc9c990e
+      internalID: 1686075792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae47038b1e77964e998c068bc21df6c
+      internalID: -903259840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_201
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b37db87b4316184fbf1bb40f0ffe215
+      internalID: 173689423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_202
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ec9a35c711d6848bb8c888c84d7fcf
+      internalID: -2123920566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_203
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a24336053b1c34292e8c7209f63569
+      internalID: -703687508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_204
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50549f5a7a1fe1d4a98f466be918a444
+      internalID: -759031878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_205
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19435a3d01d1b944e89afbd0e3781cb1
+      internalID: -1055995515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_206
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2349d19995725d0459fc38ff56e0c2d5
+      internalID: -1041599649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_207
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d068b9b390615b1458649d3612ad99a1
+      internalID: -1327584704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_208
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761aae4a30f39f14a8d70956dc1e21a9
+      internalID: 1473370983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_209
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae6dbbff5e79b24eb14da2ac0e33935
+      internalID: -1162337679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_210
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a96ca02c4da4d14da12f755e9057d61
+      internalID: -38599127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_211
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a3e2c018700a448b17153c3487f9f4
+      internalID: -229897499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_212
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7b1251f7b382542b8bc734991ca1d0
+      internalID: 1163975685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_213
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d3b3ac1e30e2b40ad3a2d343c58919
+      internalID: 1540591601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_214
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca0c9c5fc158344abad01280e59a18a
+      internalID: -1611658399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_215
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93b70e3177033140966529b0dbf2c94
+      internalID: -1075360696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_216
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2391b485dfe48cf4097e4937d5233275
+      internalID: 609968770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_217
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d75a57e76fa8b4687ef91dc1b2f192
+      internalID: 746894847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_218
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6e8b0fc575fef4f881271d2004370b
+      internalID: 979151908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_219
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dafe7fb9b147794c96874082c08fd0e
+      internalID: 1195866563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_220
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0010fce3d87f0814cb710061165412a7
+      internalID: -2083341584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_221
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be564d282ad57bf4892599dea76db3e4
+      internalID: -1205857209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_222
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84003b36453e95d49b5621f464e25ef4
+      internalID: 510295607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_223
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d04bab250ed644b9416f6db792b404
+      internalID: 1146764339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579b02a625b2ea345b59c1c78dce86ac
+      internalID: -1359246958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_225
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d32732906a2c9247b263e8b42a9f869
+      internalID: 1880357223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_226
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8182ee1da3db41345beb15a274b6280a
+      internalID: -1780157660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_227
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ebacbc240f9cf4f83f2a5b18d651f7
+      internalID: -1908816380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_228
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215b50cd61a89e647be52fbe461e8596
+      internalID: -554212901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_229
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c40584c394d2cd4a9e8189d8fa4c4b7
+      internalID: -1448172389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_230
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0373dc2261c0aa408aad0afb5add209
+      internalID: -1661992402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_231
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f0080ca31d37645b29ef8e29a0e7d2
+      internalID: 668884277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_232
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78df5049a13b5af42b24eb6a423fd3d7
+      internalID: -889274153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_233
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09d7579ae2b36746913130ac867e21c
+      internalID: 1671700295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_234
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bbcb5803dcfee42b5c6f0f73762465
+      internalID: 658185359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_235
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61151ee66b77c5840ad09debffe6cf89
+      internalID: 1435698679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_236
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a67ca9a91f75d842b7d10b3bd516e51
+      internalID: -2131738631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_237
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8265dfab684a749a3ee1ac6ed9fc58
+      internalID: -1449751473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_238
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d97b7580c42f4047a50f985c31bbca3
+      internalID: 1228666301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_239
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cbf5215326328488a9df1c153ccb09
+      internalID: -1675017861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_240
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482326cc7bb56ba4e94f64092f0f571c
+      internalID: -1767297641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_241
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da0a16008f0da24eb7fd2de0e3e51c2
+      internalID: 49026060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_242
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727f4e18211eb1c419560b784314662a
+      internalID: -90072256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_243
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2f99ab79502e24395d98cc204e85cd
+      internalID: 1939935797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_244
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df980836a7dbce142bb5525124b59bff
+      internalID: -873914445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_245
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463391a3af94c08418324faffbc31496
+      internalID: -1310204524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_246
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85196d82fc762349b22e9caf6d8b54b
+      internalID: 546166028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_247
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9aaa8fbdc04adb4b989c56769582a40
+      internalID: 236834686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_248
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bab11363946e634cbd643a27c861551
+      internalID: -627516881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_249
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047bb690a11b4204680f5e3fb1ff50ef
+      internalID: -819869153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_250
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6a5f9bc68112949a2dd54960838d01
+      internalID: 1122060743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_251
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dfa08041e83c641ad1778c9e090038
+      internalID: -273351119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_252
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203ac304d37c4b54da80867a5d8bbce9
+      internalID: 1226435595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_253
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb7e7bd7a07e5941a530e884446ab6c
+      internalID: 284342723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_254
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55859ec202f35a448c2b79e3d26772e
+      internalID: -341711879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_255
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc5c69832e0bd14c8a4897f43841055
+      internalID: 312217490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_256
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2788d4fc315fb0a4bb2e7dc7caf9f41a
+      internalID: 714326154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_257
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f6471c9a913f74da2961e9d0c3ecb0
+      internalID: 2101903949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_258
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 512
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd87563f2073b44f8a6d6706cc67c6b
+      internalID: 235590393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_259
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b731a011da6a8d84b8214cd0db417d4d
+      internalID: -1458601264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_260
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a823fb2e783de4c4aa11dc2fd0c8420d
+      internalID: 996007010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_261
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f1b43bf8ba9454f93402537ea2f3a1
+      internalID: -1802847467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_262
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ca02326eb6ee7419db0f5a67632248
+      internalID: 1377186784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_263
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26db74d573c25949a47348d6eeb7921
+      internalID: -244331844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_264
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92e01d3c9c53c64c9b0d6684e080f6e
+      internalID: 66076891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_265
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de68ff32db07abd43903928947178718
+      internalID: -1648313537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_266
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6eeea3ac4074544ca6eb92d6ea81baf
+      internalID: 1375561509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_267
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60620729b3ba517499e16fc967cb9f0a
+      internalID: -606869826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_268
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb97056694b5ca479d2be99085ce367
+      internalID: -764768790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_269
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6598671f6212f54eb3965d7c3c604f2
+      internalID: -303740829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_270
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af84c418b1934741aa1161d9311d602
+      internalID: 1086094577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_271
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610b29caad9345841bcae373c4c45dfe
+      internalID: -1556317875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_272
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b5fcd88fbfdbb4c8bd9d27264644a2
+      internalID: -362272928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_273
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf46e6ab39c081499e98c03610097a7
+      internalID: 1735131391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_274
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039d86e673773fd44b924e85b8b3c86e
+      internalID: 1337428456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_275
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b95e63af5d55a94dad5b5455f1dbd46
+      internalID: -117333195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_276
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f9d88b8f19c66429e12fffb3c6e6e0
+      internalID: -2143746856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_277
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477a56bc53b9a304a9dcfaa5b7b04907
+      internalID: 487072288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_278
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b017b38129fdf47aa710f67d7f622c
+      internalID: 2041271864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_279
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952b504dc85e4f240ab4ef5d857c3973
+      internalID: -180348151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_280
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220f4b5a02b9f3548b811cb0259880a4
+      internalID: -2042445776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_281
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fbf529d7280fb42b0427994c70b315
+      internalID: 1761409341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_282
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22968dc154987364babb983dafcadf80
+      internalID: -389639678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_283
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4049db5155ba3a44978b86e9933e1e5
+      internalID: -810460230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_284
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdf66ee7e12908449110f4e4af54c2b
+      internalID: -265321448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_285
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61092aa4655711e45ac9e2ac2b85bb62
+      internalID: 692038299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_286
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3ac45909604d84caadb2262aeed0be
+      internalID: 1909758025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_287
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff176f1e3ed96584fb0e00ac91633544
+      internalID: -2059750214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_288
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b867e705654df4993ebd9827958f68
+      internalID: 236718342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_289
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8550c0037f43d1e4ab081e1792877c62
+      internalID: -937098868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_290
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd314bf1e47cbe4f95c74d3e69805ef
+      internalID: -897180851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_291
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e930da9a337fb334389567686f6ef497
+      internalID: 769436412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_292
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2b34ac4e4a06143b232fabb2cf335f
+      internalID: -1860222555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_293
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e570845e5862c0643bfadab0d56dacc8
+      internalID: -1240103399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_294
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef23617efc1775740b0ea34d8ce985e1
+      internalID: 873996457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_295
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b326c4c19572d84892d8c89d0fec419
+      internalID: -1101286119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_296
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8129d5f9f7962b64a8c99bcf88749f07
+      internalID: -120117419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_297
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75be57938afc2f4b91191958c0ada45
+      internalID: -2123530781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoes_1_Pink_298
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4921875, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e16ce2f639b5c4439e349fffe74b5e2
+      internalID: 991828474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a1a12424bb4310a47aaf6a55985fadc4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":56.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.4921875,"y":0.390625},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Shoes_1_Pink_0: 6950294757428261676
+      Shoes_1_Pink_1: 408942940
+      Shoes_1_Pink_10: -1123478063
+      Shoes_1_Pink_100: -1975216004
+      Shoes_1_Pink_101: -1431286383
+      Shoes_1_Pink_102: 1586765690
+      Shoes_1_Pink_103: 798682908
+      Shoes_1_Pink_104: -222369500
+      Shoes_1_Pink_105: -234825111
+      Shoes_1_Pink_106: 136372660
+      Shoes_1_Pink_107: 702250308
+      Shoes_1_Pink_108: 747098127
+      Shoes_1_Pink_109: 47446341
+      Shoes_1_Pink_11: 1322740430
+      Shoes_1_Pink_110: 1721297230
+      Shoes_1_Pink_111: -1245312048
+      Shoes_1_Pink_112: 804997736
+      Shoes_1_Pink_113: -780651021
+      Shoes_1_Pink_114: -765820549
+      Shoes_1_Pink_115: 1638594323
+      Shoes_1_Pink_116: 1954226000
+      Shoes_1_Pink_117: 309545784
+      Shoes_1_Pink_118: -1873083046
+      Shoes_1_Pink_119: -1325766177
+      Shoes_1_Pink_12: -434036439
+      Shoes_1_Pink_120: 1584731294
+      Shoes_1_Pink_121: 1518338538
+      Shoes_1_Pink_122: -394915757
+      Shoes_1_Pink_123: 950461010
+      Shoes_1_Pink_124: 1333154172
+      Shoes_1_Pink_125: -157873498
+      Shoes_1_Pink_126: 685597909
+      Shoes_1_Pink_127: -60599707
+      Shoes_1_Pink_128: 9293837
+      Shoes_1_Pink_129: 975269144
+      Shoes_1_Pink_13: -1176457835
+      Shoes_1_Pink_130: -85207383
+      Shoes_1_Pink_131: -491710384
+      Shoes_1_Pink_132: 1329780422
+      Shoes_1_Pink_133: 1866513478
+      Shoes_1_Pink_134: 2139126420
+      Shoes_1_Pink_135: 1649822215
+      Shoes_1_Pink_136: 1941399763
+      Shoes_1_Pink_137: 1129744064
+      Shoes_1_Pink_138: 699026491
+      Shoes_1_Pink_139: -1544175591
+      Shoes_1_Pink_14: 1734392877
+      Shoes_1_Pink_140: 949074975
+      Shoes_1_Pink_141: -1495401175
+      Shoes_1_Pink_142: 1810488424
+      Shoes_1_Pink_143: -1261484173
+      Shoes_1_Pink_144: -319618932
+      Shoes_1_Pink_145: 849774761
+      Shoes_1_Pink_146: -2045026921
+      Shoes_1_Pink_147: -1224492956
+      Shoes_1_Pink_148: 578611404
+      Shoes_1_Pink_149: -1368155697
+      Shoes_1_Pink_15: 642241577
+      Shoes_1_Pink_150: -456549806
+      Shoes_1_Pink_151: 380719703
+      Shoes_1_Pink_152: 191633939
+      Shoes_1_Pink_153: -514231008
+      Shoes_1_Pink_154: -906627645
+      Shoes_1_Pink_155: -835401890
+      Shoes_1_Pink_156: 1119991002
+      Shoes_1_Pink_157: -1539980559
+      Shoes_1_Pink_158: 913838835
+      Shoes_1_Pink_159: -571816061
+      Shoes_1_Pink_16: -1446422678
+      Shoes_1_Pink_160: 212092573
+      Shoes_1_Pink_161: 404244244
+      Shoes_1_Pink_162: -687233984
+      Shoes_1_Pink_163: -432522331
+      Shoes_1_Pink_164: 2127266767
+      Shoes_1_Pink_165: 1247344920
+      Shoes_1_Pink_166: -1427582901
+      Shoes_1_Pink_167: 235415528
+      Shoes_1_Pink_168: -566214216
+      Shoes_1_Pink_169: 145374326
+      Shoes_1_Pink_17: 239922890
+      Shoes_1_Pink_170: -1983300150
+      Shoes_1_Pink_171: -616667330
+      Shoes_1_Pink_172: -1616977190
+      Shoes_1_Pink_173: -314751046
+      Shoes_1_Pink_174: 811900454
+      Shoes_1_Pink_175: -1060750917
+      Shoes_1_Pink_176: 749472999
+      Shoes_1_Pink_177: -1954753497
+      Shoes_1_Pink_178: 479444054
+      Shoes_1_Pink_179: 1510647958
+      Shoes_1_Pink_18: -92220948
+      Shoes_1_Pink_180: 1708690066
+      Shoes_1_Pink_181: 1118800286
+      Shoes_1_Pink_182: -1651261681
+      Shoes_1_Pink_183: 2143856552
+      Shoes_1_Pink_184: -207806922
+      Shoes_1_Pink_185: 1553992862
+      Shoes_1_Pink_186: 1442598673
+      Shoes_1_Pink_187: 111103962
+      Shoes_1_Pink_188: 1431842964
+      Shoes_1_Pink_189: 1708207326
+      Shoes_1_Pink_19: -1046640510
+      Shoes_1_Pink_190: 838912722
+      Shoes_1_Pink_191: 835996973
+      Shoes_1_Pink_192: -151580125
+      Shoes_1_Pink_193: -216564308
+      Shoes_1_Pink_194: 534436862
+      Shoes_1_Pink_195: 641858645
+      Shoes_1_Pink_196: -1144989364
+      Shoes_1_Pink_197: -173522018
+      Shoes_1_Pink_198: -1104735408
+      Shoes_1_Pink_199: 1686075792
+      Shoes_1_Pink_2: 2086046873
+      Shoes_1_Pink_20: 1777890698
+      Shoes_1_Pink_200: -903259840
+      Shoes_1_Pink_201: 173689423
+      Shoes_1_Pink_202: -2123920566
+      Shoes_1_Pink_203: -703687508
+      Shoes_1_Pink_204: -759031878
+      Shoes_1_Pink_205: -1055995515
+      Shoes_1_Pink_206: -1041599649
+      Shoes_1_Pink_207: -1327584704
+      Shoes_1_Pink_208: 1473370983
+      Shoes_1_Pink_209: -1162337679
+      Shoes_1_Pink_21: 899627273
+      Shoes_1_Pink_210: -38599127
+      Shoes_1_Pink_211: -229897499
+      Shoes_1_Pink_212: 1163975685
+      Shoes_1_Pink_213: 1540591601
+      Shoes_1_Pink_214: -1611658399
+      Shoes_1_Pink_215: -1075360696
+      Shoes_1_Pink_216: 609968770
+      Shoes_1_Pink_217: 746894847
+      Shoes_1_Pink_218: 979151908
+      Shoes_1_Pink_219: 1195866563
+      Shoes_1_Pink_22: -1276175175
+      Shoes_1_Pink_220: -2083341584
+      Shoes_1_Pink_221: -1205857209
+      Shoes_1_Pink_222: 510295607
+      Shoes_1_Pink_223: 1146764339
+      Shoes_1_Pink_224: -1359246958
+      Shoes_1_Pink_225: 1880357223
+      Shoes_1_Pink_226: -1780157660
+      Shoes_1_Pink_227: -1908816380
+      Shoes_1_Pink_228: -554212901
+      Shoes_1_Pink_229: -1448172389
+      Shoes_1_Pink_23: 1445628969
+      Shoes_1_Pink_230: -1661992402
+      Shoes_1_Pink_231: 668884277
+      Shoes_1_Pink_232: -889274153
+      Shoes_1_Pink_233: 1671700295
+      Shoes_1_Pink_234: 658185359
+      Shoes_1_Pink_235: 1435698679
+      Shoes_1_Pink_236: -2131738631
+      Shoes_1_Pink_237: -1449751473
+      Shoes_1_Pink_238: 1228666301
+      Shoes_1_Pink_239: -1675017861
+      Shoes_1_Pink_24: 1296383212
+      Shoes_1_Pink_240: -1767297641
+      Shoes_1_Pink_241: 49026060
+      Shoes_1_Pink_242: -90072256
+      Shoes_1_Pink_243: 1939935797
+      Shoes_1_Pink_244: -873914445
+      Shoes_1_Pink_245: -1310204524
+      Shoes_1_Pink_246: 546166028
+      Shoes_1_Pink_247: 236834686
+      Shoes_1_Pink_248: -627516881
+      Shoes_1_Pink_249: -819869153
+      Shoes_1_Pink_25: -1692756448
+      Shoes_1_Pink_250: 1122060743
+      Shoes_1_Pink_251: -273351119
+      Shoes_1_Pink_252: 1226435595
+      Shoes_1_Pink_253: 284342723
+      Shoes_1_Pink_254: -341711879
+      Shoes_1_Pink_255: 312217490
+      Shoes_1_Pink_256: 714326154
+      Shoes_1_Pink_257: 2101903949
+      Shoes_1_Pink_258: 235590393
+      Shoes_1_Pink_259: -1458601264
+      Shoes_1_Pink_26: 2044798013
+      Shoes_1_Pink_260: 996007010
+      Shoes_1_Pink_261: -1802847467
+      Shoes_1_Pink_262: 1377186784
+      Shoes_1_Pink_263: -244331844
+      Shoes_1_Pink_264: 66076891
+      Shoes_1_Pink_265: -1648313537
+      Shoes_1_Pink_266: 1375561509
+      Shoes_1_Pink_267: -606869826
+      Shoes_1_Pink_268: -764768790
+      Shoes_1_Pink_269: -303740829
+      Shoes_1_Pink_27: 937894015
+      Shoes_1_Pink_270: 1086094577
+      Shoes_1_Pink_271: -1556317875
+      Shoes_1_Pink_272: -362272928
+      Shoes_1_Pink_273: 1735131391
+      Shoes_1_Pink_274: 1337428456
+      Shoes_1_Pink_275: -117333195
+      Shoes_1_Pink_276: -2143746856
+      Shoes_1_Pink_277: 487072288
+      Shoes_1_Pink_278: 2041271864
+      Shoes_1_Pink_279: -180348151
+      Shoes_1_Pink_28: 865198442
+      Shoes_1_Pink_280: -2042445776
+      Shoes_1_Pink_281: 1761409341
+      Shoes_1_Pink_282: -389639678
+      Shoes_1_Pink_283: -810460230
+      Shoes_1_Pink_284: -265321448
+      Shoes_1_Pink_285: 692038299
+      Shoes_1_Pink_286: 1909758025
+      Shoes_1_Pink_287: -2059750214
+      Shoes_1_Pink_288: 236718342
+      Shoes_1_Pink_289: -937098868
+      Shoes_1_Pink_29: 903844850
+      Shoes_1_Pink_290: -897180851
+      Shoes_1_Pink_291: 769436412
+      Shoes_1_Pink_292: -1860222555
+      Shoes_1_Pink_293: -1240103399
+      Shoes_1_Pink_294: 873996457
+      Shoes_1_Pink_295: -1101286119
+      Shoes_1_Pink_296: -120117419
+      Shoes_1_Pink_297: -2123530781
+      Shoes_1_Pink_298: 991828474
+      Shoes_1_Pink_3: -399752460
+      Shoes_1_Pink_30: 2015428344
+      Shoes_1_Pink_31: -451943279
+      Shoes_1_Pink_32: 1221362029
+      Shoes_1_Pink_33: 1902420552
+      Shoes_1_Pink_34: 831994235
+      Shoes_1_Pink_35: 797918699
+      Shoes_1_Pink_36: -1917749760
+      Shoes_1_Pink_37: -1540860769
+      Shoes_1_Pink_38: 770366078
+      Shoes_1_Pink_39: 1848030648
+      Shoes_1_Pink_4: -1056107499
+      Shoes_1_Pink_40: 504228420
+      Shoes_1_Pink_41: -1322008001
+      Shoes_1_Pink_42: 90196282
+      Shoes_1_Pink_43: 1056436826
+      Shoes_1_Pink_44: -1839628920
+      Shoes_1_Pink_45: -1829998550
+      Shoes_1_Pink_46: 1307595892
+      Shoes_1_Pink_47: 1557106290
+      Shoes_1_Pink_48: 1653585168
+      Shoes_1_Pink_49: -1496667492
+      Shoes_1_Pink_5: -99728364
+      Shoes_1_Pink_50: 1537394785
+      Shoes_1_Pink_51: 1534213311
+      Shoes_1_Pink_52: 2041858258
+      Shoes_1_Pink_53: 42183384
+      Shoes_1_Pink_54: -1054988331
+      Shoes_1_Pink_55: 1569123048
+      Shoes_1_Pink_56: 1685305504
+      Shoes_1_Pink_57: 313241457
+      Shoes_1_Pink_58: 1575313475
+      Shoes_1_Pink_59: -764794255
+      Shoes_1_Pink_6: -1780825913
+      Shoes_1_Pink_60: 1832327201
+      Shoes_1_Pink_61: 895342320
+      Shoes_1_Pink_62: 1425918166
+      Shoes_1_Pink_63: -264179233
+      Shoes_1_Pink_64: 1852034232
+      Shoes_1_Pink_65: -513223818
+      Shoes_1_Pink_66: 607549987
+      Shoes_1_Pink_67: 522156861
+      Shoes_1_Pink_68: -720410755
+      Shoes_1_Pink_69: 1463358110
+      Shoes_1_Pink_7: -900784315
+      Shoes_1_Pink_70: 1212486924
+      Shoes_1_Pink_71: 1097804119
+      Shoes_1_Pink_72: -1810942528
+      Shoes_1_Pink_73: -634611679
+      Shoes_1_Pink_74: 757267897
+      Shoes_1_Pink_75: -130077513
+      Shoes_1_Pink_76: -1540028480
+      Shoes_1_Pink_77: 1569473336
+      Shoes_1_Pink_78: 1481422239
+      Shoes_1_Pink_79: -2079921100
+      Shoes_1_Pink_8: 925072831
+      Shoes_1_Pink_80: -1121980668
+      Shoes_1_Pink_81: 1223686634
+      Shoes_1_Pink_82: 785639126
+      Shoes_1_Pink_83: 1528940232
+      Shoes_1_Pink_84: 619296602
+      Shoes_1_Pink_85: 786057572
+      Shoes_1_Pink_86: 1707709769
+      Shoes_1_Pink_87: 1689266469
+      Shoes_1_Pink_88: 863989144
+      Shoes_1_Pink_89: -1602602819
+      Shoes_1_Pink_9: -651883269
+      Shoes_1_Pink_90: 730555206
+      Shoes_1_Pink_91: 282695920
+      Shoes_1_Pink_92: -1116624043
+      Shoes_1_Pink_93: 614346023
+      Shoes_1_Pink_94: 1833612628
+      Shoes_1_Pink_95: 1383400747
+      Shoes_1_Pink_96: -754133002
+      Shoes_1_Pink_97: 1838253931
+      Shoes_1_Pink_98: -952568987
+      Shoes_1_Pink_99: -1653407110
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
