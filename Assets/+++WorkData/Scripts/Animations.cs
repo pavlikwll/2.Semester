@@ -7,8 +7,12 @@ public class Animations : MonoBehaviour
     private bool isMoving = false;
     
     private int _hashMovementValue = Animator.StringToHash("MovementValue");
+    private int _hashActionId = Animator.StringToHash("ActionId");
+    private int _hashActionTrigger = Animator.StringToHash("ActionTriger");
     private int _hashDirXValue = Animator.StringToHash("xDir");
     private int _hashDirYValue = Animator.StringToHash("yDir");
+
+    public static Action<int> OnAction;
     
     [Header("Animators")]
     [SerializeField] private Animator[] animators;
@@ -25,7 +29,7 @@ public class Animations : MonoBehaviour
     #region Private Variables
 
     private Vector2 _moveInput;
-    private Vector2 _lastMoveDirection = Vector2.down;
+    public Vector2 _lastMoveDirection = Vector2.down;
     private PlayerController _playerController;
 
     #endregion
@@ -35,6 +39,16 @@ public class Animations : MonoBehaviour
     private void Awake()
     {
         _playerController = GetComponent<PlayerController>();
+    }
+    
+    private void OnEnable()
+    {
+        OnAction += SetAnimationAction;
+    }
+
+    private void OnDisable()
+    {
+        OnAction -= SetAnimationAction;
     }
 
     #endregion
@@ -71,6 +85,15 @@ public class Animations : MonoBehaviour
             animator.SetFloat(_hashMovementValue, movementValue);
             animator.SetFloat(_hashDirXValue, xDir);
             animator.SetFloat(_hashDirYValue, yDir);
+        }
+    }
+
+    void SetAnimationAction(int actionId)
+    {
+        foreach (Animator animator in animators)
+        {
+            animator.SetInteger(_hashActionId, actionId);
+            animator.SetTrigger(_hashActionTrigger);
         }
     }
 

@@ -943,6 +943,7 @@ GameObject:
   - component: {fileID: 1698992420}
   - component: {fileID: 1698992419}
   - component: {fileID: 1698992421}
+  - component: {fileID: 1698992422}
   m_Layer: 0
   m_Name: Milly
   m_TagString: Untagged
@@ -1084,6 +1085,19 @@ MonoBehaviour:
   - {fileID: 1855479848}
   vision: {fileID: 640895147}
   animator: {fileID: 1955164178}
+--- !u!114 &1698992422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698992415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3be9f1b8ce8e6e24c97da8b7b7c2e083, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerRoll
+  actionId: 1
 --- !u!1 &1855479845
 GameObject:
   m_ObjectHideFlags: 0
