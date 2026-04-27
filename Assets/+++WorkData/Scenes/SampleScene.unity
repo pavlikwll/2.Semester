@@ -135,7 +135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &245079675
 Transform:
   m_ObjectHideFlags: 0
@@ -668,7 +668,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &798343330
 Transform:
   m_ObjectHideFlags: 0
@@ -1079,6 +1079,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62c0d8aac7b50dd4dba49f7b361e4cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Animations
+  animators:
+  - {fileID: 1955164178}
+  - {fileID: 1855479848}
+  vision: {fileID: 640895147}
   animator: {fileID: 1955164178}
 --- !u!1 &1855479845
 GameObject:
@@ -1090,6 +1094,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1855479846}
   - component: {fileID: 1855479847}
+  - component: {fileID: 1855479848}
   m_Layer: 0
   m_Name: Hair
   m_TagString: Untagged
@@ -1171,6 +1176,28 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!95 &1855479848
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855479845}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 07eb12193d3974a68bee9f27af431c1e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1955164175
 GameObject:
   m_ObjectHideFlags: 0
@@ -1301,7 +1328,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2113732352
 Transform:
   m_ObjectHideFlags: 0

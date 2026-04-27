@@ -10,6 +10,12 @@ public class Animations : MonoBehaviour
     private int _hashDirXValue = Animator.StringToHash("xDir");
     private int _hashDirYValue = Animator.StringToHash("yDir");
     
+    [Header("Animators")]
+    [SerializeField] private Animator[] animators;
+    
+    [SerializeField] private Transform vision;
+    
+    
     #region Inspector
 
     [SerializeField] private Animator animator;
@@ -38,13 +44,34 @@ public class Animations : MonoBehaviour
     private void LateUpdate()
     {
         SetMovementAnimationValues();
+        Flip();
     }
     
     void SetMovementAnimationValues()
     {
+        if (_playerController._moveInput.sqrMagnitude > 0.01f)
+        {
+            _lastMoveDirection = _playerController._moveInput.normalized;
+        }
+        
         animator.SetFloat(_hashMovementValue, Mathf.Abs(_playerController._rb.linearVelocity.magnitude));
-        animator.SetFloat(_hashDirXValue, _playerController._moveInput.x);
-        animator.SetFloat(_hashDirYValue, _playerController._moveInput.y);
+        //animator.SetFloat(_hashDirXValue, _playerController._moveInput.x);
+        //animator.SetFloat(_hashDirYValue, _playerController._moveInput.y);
+        animator.SetFloat(_hashDirXValue, _lastMoveDirection.x);
+        animator.SetFloat(_hashDirYValue, _lastMoveDirection.y);
+        
+        float movementValue = _playerController._rb.linearVelocity.magnitude;
+        //float xDir = _playerController._moveInput.x;
+        //float yDir = _playerController._moveInput.y;
+        float xDir = _lastMoveDirection.x;
+        float yDir = _lastMoveDirection.y;
+        
+        foreach (Animator animator in animators)
+        {
+            animator.SetFloat(_hashMovementValue, movementValue);
+            animator.SetFloat(_hashDirXValue, xDir);
+            animator.SetFloat(_hashDirYValue, yDir);
+        }
     }
 
     private void UpdateAnimations(Vector2 moveInout)
@@ -55,6 +82,23 @@ public class Animations : MonoBehaviour
         {
         }
         
+    }
+    
+    private void Flip()
+    {
+        if (_playerController._moveInput.sqrMagnitude > 0.01f)
+        {
+            _lastMoveDirection = _playerController._moveInput.normalized;
+
+            if (_playerController._moveInput.x > 0)
+            {
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+            }
+            else if (_playerController._moveInput.x < 0)
+            {
+                transform.rotation = Quaternion.Euler(0, 180, 0);
+            }
+        }
     }
 
     #endregion
