@@ -28,12 +28,12 @@ public class PlayerAttack : MonoBehaviour
     {
         Debug.Log("Attack called");
         
-        if (_playerState.GetPlayerAction() != PlayerState.PlayerAction.Default)
+        if (_playerState.GetPlayerAction() != PlayerAction.Default)
         {
             return;
         }
         
-        PlayerState.OnChangeAction?.Invoke(PlayerState.PlayerAction.Attack);
+        PlayerState.OnChangeAction?.Invoke(PlayerAction.Attack);
         Animations.OnAction?.Invoke(ActionId);
     }
 }

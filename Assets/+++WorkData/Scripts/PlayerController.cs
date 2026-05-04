@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
 
     void MoveHandler()
     {
-        if (_playerState.GetPlayerAction() == PlayerState.PlayerAction.Roll)
+        if (_playerState.GetPlayerAction() == PlayerAction.Roll)
         {
             return;
         }

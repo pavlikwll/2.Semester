@@ -10,6 +10,7 @@ public class PlayerInput : MonoBehaviour
     private InputAction _moveAction;
     private InputAction _rollAction;
     private InputAction _attackAction;
+    private InputAction _interactAction;
 
     #endregion
     
@@ -23,33 +24,47 @@ public class PlayerInput : MonoBehaviour
         _moveAction = _inputActions.Player.Move;
         _rollAction = _inputActions.Player.Roll;
         _attackAction = _inputActions.Player.Attack;
+        _interactAction = _inputActions.Player.Interact;
     }
 
     private void OnEnable()
     {
+        EnableInput();
+        
         _inputActions.Enable();
         _moveAction.performed += Move;
         _moveAction.canceled += Move;
         _rollAction.performed += Roll;
-        _rollAction.canceled += Roll;
         _attackAction.performed += Attack;
-        _attackAction.canceled += Attack;
+        _interactAction.performed += Interact;
     }
 
     private void OnDisable()
     {
+        DisableInput();
+        
         _inputActions.Disable();
         _moveAction.performed -= Move;
         _moveAction.canceled -= Move;
         _rollAction.performed -= Roll;
-        _rollAction.canceled -= Roll;
         _attackAction.performed -= Attack;
-        _attackAction.canceled -= Attack;
+        _interactAction.performed -= Interact;
+  
     }
 
     #endregion
 
     #region Input Methods
+
+    public void EnableInput()
+    {
+        _inputActions.Enable();
+    }
+    
+    public void DisableInput()
+    {
+        _inputActions.Disable();
+    }
     // Метод руху
     // ctx містить інформацію про натиснуту кнопку
     private void Move(InputAction.CallbackContext ctx)
@@ -97,6 +112,11 @@ public class PlayerInput : MonoBehaviour
     private void Attack(InputAction.CallbackContext ctx)
     {
         PlayerAttack.OnAttackInput?.Invoke();
+    }
+    
+    private void Interact(InputAction.CallbackContext ctx)
+    {
+        PlayerInteraction.OnInteract?.Invoke();
     }
     
     #endregion

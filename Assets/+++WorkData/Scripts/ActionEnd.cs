@@ -2,11 +2,12 @@ using UnityEngine;
 
 public class ActionEnd : StateMachineBehaviour
 {
+    public PlayerAction playerAction;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
-    //override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    
-    //}
+    override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        PlayerState.OnChangeAction?.Invoke(playerAction);
+    }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     //override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -17,7 +18,7 @@ public class ActionEnd : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        PlayerState.OnChangeAction?.Invoke(PlayerState.PlayerAction.Default);
+        PlayerState.OnChangeAction?.Invoke(PlayerAction.Default);
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

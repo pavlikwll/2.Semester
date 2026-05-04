@@ -28,12 +28,12 @@ using UnityEngine;
         void Roll()
         {
             Debug.Log("Roll called");
-            if (_playerState.GetPlayerAction() != PlayerState.PlayerAction.Default)
+            if (_playerState.GetPlayerAction() != PlayerAction.Default)
             {
                 return;
             }
             
-            PlayerState.OnChangeAction?.Invoke(PlayerState.PlayerAction.Roll);
+            PlayerState.OnChangeAction?.Invoke(PlayerAction.Roll);
             Animations.OnAction?.Invoke(ActionId);
             PlayerController.OnForceApply?.Invoke(rollForce);
         }

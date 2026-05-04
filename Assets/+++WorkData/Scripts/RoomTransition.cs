@@ -16,11 +16,11 @@ public class RoomTransition : MonoBehaviour
 
     // Захист від подвійного запуску переходу.
     // Без цього гравець може зачепити тригер кілька разів поспіль.
-    private bool _isTransitioning;
+    private bool _isTeleporting;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (_isTransitioning)
+        if (_isTeleporting)
         {
             // Якщо перехід уже триває — нічого не робимо.
             return;
@@ -36,7 +36,7 @@ public class RoomTransition : MonoBehaviour
 
     IEnumerator Transition()
     {
-        _isTransitioning = true;
+        _isTeleporting = true;
 
         // Затемнюємо екран до чорного.
         // yield return означає: зачекай, поки Fade(1) повністю завершиться.
@@ -62,7 +62,7 @@ public class RoomTransition : MonoBehaviour
         // Повертаємо видимість гри: чорний екран поступово зникає.
         yield return Fade(0);
 
-        _isTransitioning = false;
+        _isTeleporting = false;
     }
 
     IEnumerator Fade(float target)

@@ -1,10 +1,11 @@
 using System;
 using UnityEngine;
 
+public enum PlayerAction{Default, Roll, Attack, Fishing}
+
 public class PlayerState : MonoBehaviour
 {
     public enum PlayerDirection{Up, Down, Left, Right}
-    public enum PlayerAction{Default, Roll, Attack, Fishing}
     public enum PlayerMovement{Default, Moving}
 
     public static Action<Vector2> OnChangeDirection;
