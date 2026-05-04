@@ -214,7 +214,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -228,7 +228,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -249,7 +249,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -273,6 +273,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -281,11 +294,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 383
+        y: 384
         width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -302,12 +315,12 @@ TextureImporter:
       name: Yellow_Shroomling_1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 383
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 384
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -325,11 +338,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 351
+        y: 352
         width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -346,12 +359,12 @@ TextureImporter:
       name: Yellow_Shroomling_3
       rect:
         serializedVersion: 2
-        x: 15
-        y: 351
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 352
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -369,11 +382,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 319
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -391,11 +404,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 319
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 320
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -413,11 +426,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 287
+        y: 288
         width: 16
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -434,12 +447,12 @@ TextureImporter:
       name: Yellow_Shroomling_7
       rect:
         serializedVersion: 2
-        x: 15
-        y: 287
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 288
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -456,12 +469,12 @@ TextureImporter:
       name: Yellow_Shroomling_8
       rect:
         serializedVersion: 2
-        x: 31
-        y: 287
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 288
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -478,12 +491,12 @@ TextureImporter:
       name: Yellow_Shroomling_9
       rect:
         serializedVersion: 2
-        x: 47
-        y: 287
-        width: 17
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 288
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -500,12 +513,12 @@ TextureImporter:
       name: Yellow_Shroomling_10
       rect:
         serializedVersion: 2
-        x: 63
-        y: 287
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 288
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -522,12 +535,12 @@ TextureImporter:
       name: Yellow_Shroomling_11
       rect:
         serializedVersion: 2
-        x: 79
-        y: 287
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 80
+        y: 288
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -545,11 +558,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 255
+        y: 256
         width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -566,12 +579,12 @@ TextureImporter:
       name: Yellow_Shroomling_13
       rect:
         serializedVersion: 2
-        x: 15
-        y: 255
-        width: 17
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 256
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -588,12 +601,12 @@ TextureImporter:
       name: Yellow_Shroomling_14
       rect:
         serializedVersion: 2
-        x: 31
-        y: 255
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 256
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -610,12 +623,12 @@ TextureImporter:
       name: Yellow_Shroomling_15
       rect:
         serializedVersion: 2
-        x: 47
-        y: 255
-        width: 17
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 256
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -632,12 +645,12 @@ TextureImporter:
       name: Yellow_Shroomling_16
       rect:
         serializedVersion: 2
-        x: 63
-        y: 255
-        width: 17
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 256
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -654,12 +667,12 @@ TextureImporter:
       name: Yellow_Shroomling_17
       rect:
         serializedVersion: 2
-        x: 79
-        y: 255
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 80
+        y: 256
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -677,11 +690,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 223
-        width: 17
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 224
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -699,11 +712,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 223
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 224
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -721,11 +734,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 223
-        width: 17
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 224
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -743,11 +756,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 223
-        width: 17
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 224
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -765,11 +778,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 223
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 224
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -787,11 +800,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 223
+        y: 224
         width: 16
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -809,11 +822,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 191
+        y: 192
         width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -830,12 +843,12 @@ TextureImporter:
       name: Yellow_Shroomling_25
       rect:
         serializedVersion: 2
-        x: 15
-        y: 191
-        width: 17
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 192
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -852,12 +865,12 @@ TextureImporter:
       name: Yellow_Shroomling_26
       rect:
         serializedVersion: 2
-        x: 31
-        y: 191
-        width: 17
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 192
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -874,12 +887,12 @@ TextureImporter:
       name: Yellow_Shroomling_27
       rect:
         serializedVersion: 2
-        x: 47
-        y: 191
-        width: 17
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 192
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -896,12 +909,12 @@ TextureImporter:
       name: Yellow_Shroomling_28
       rect:
         serializedVersion: 2
-        x: 63
-        y: 191
-        width: 17
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 192
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -918,12 +931,12 @@ TextureImporter:
       name: Yellow_Shroomling_29
       rect:
         serializedVersion: 2
-        x: 79
-        y: 191
-        width: 17
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 80
+        y: 192
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -941,11 +954,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 159
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 160
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -963,11 +976,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 159
-        width: 17
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 160
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -985,11 +998,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 159
-        width: 17
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 160
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1007,11 +1020,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 159
-        width: 17
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 160
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1029,11 +1042,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 159
-        width: 17
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 160
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1051,11 +1064,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 159
+        y: 160
         width: 16
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1073,11 +1086,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 127
+        y: 128
         width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1094,12 +1107,12 @@ TextureImporter:
       name: Yellow_Shroomling_37
       rect:
         serializedVersion: 2
-        x: 15
-        y: 127
-        width: 17
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 128
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1116,12 +1129,12 @@ TextureImporter:
       name: Yellow_Shroomling_38
       rect:
         serializedVersion: 2
-        x: 31
-        y: 127
-        width: 17
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 128
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1138,12 +1151,12 @@ TextureImporter:
       name: Yellow_Shroomling_39
       rect:
         serializedVersion: 2
-        x: 47
-        y: 127
-        width: 17
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 128
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1160,12 +1173,12 @@ TextureImporter:
       name: Yellow_Shroomling_40
       rect:
         serializedVersion: 2
-        x: 63
-        y: 127
-        width: 17
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 64
+        y: 128
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1182,12 +1195,12 @@ TextureImporter:
       name: Yellow_Shroomling_41
       rect:
         serializedVersion: 2
-        x: 79
-        y: 127
-        width: 17
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 80
+        y: 128
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1205,11 +1218,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 95
+        y: 96
         width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1226,12 +1239,12 @@ TextureImporter:
       name: Yellow_Shroomling_43
       rect:
         serializedVersion: 2
-        x: 15
-        y: 95
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 96
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1248,12 +1261,12 @@ TextureImporter:
       name: Yellow_Shroomling_44
       rect:
         serializedVersion: 2
-        x: 31
-        y: 95
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 96
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1270,12 +1283,12 @@ TextureImporter:
       name: Yellow_Shroomling_45
       rect:
         serializedVersion: 2
-        x: 47
-        y: 95
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 96
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1293,11 +1306,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 63
+        y: 64
         width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1314,12 +1327,12 @@ TextureImporter:
       name: Yellow_Shroomling_47
       rect:
         serializedVersion: 2
-        x: 15
-        y: 63
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 64
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1336,12 +1349,12 @@ TextureImporter:
       name: Yellow_Shroomling_48
       rect:
         serializedVersion: 2
-        x: 31
-        y: 63
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 64
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1358,12 +1371,12 @@ TextureImporter:
       name: Yellow_Shroomling_49
       rect:
         serializedVersion: 2
-        x: 47
-        y: 63
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 64
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1381,11 +1394,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 31
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 32
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1403,11 +1416,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 31
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 32
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1425,11 +1438,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 31
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 32
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1447,11 +1460,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 31
-        width: 17
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 32
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1469,11 +1482,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 13
+        y: 0
         width: 16
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1490,12 +1503,12 @@ TextureImporter:
       name: Yellow_Shroomling_55
       rect:
         serializedVersion: 2
-        x: 15
-        y: 9
-        width: 17
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 16
+        y: 0
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1512,12 +1525,12 @@ TextureImporter:
       name: Yellow_Shroomling_56
       rect:
         serializedVersion: 2
-        x: 31
+        x: 32
         y: 0
-        width: 17
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1534,12 +1547,12 @@ TextureImporter:
       name: Yellow_Shroomling_57
       rect:
         serializedVersion: 2
-        x: 47
+        x: 48
         y: 0
-        width: 17
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1552,55 +1565,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Yellow_Shroomling_58
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bd1e0bc46b7cc94d0800000000000000
-      internalID: -3126404455517330981
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Yellow_Shroomling_59
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6b1088d3f05a1afe0800000000000000
-      internalID: -1179480142518943306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b819f344c9ea544c99d149567e13d656
     internalID: 0
     vertices: []
     indices: 
@@ -1608,7 +1577,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":13.0},"gridSpriteSize":{"x":16.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.03125},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Yellow_Shroomling_0: 3829469580001081661
       Yellow_Shroomling_1: 6275682708891464414
@@ -1664,8 +1635,6 @@ TextureImporter:
       Yellow_Shroomling_55: 6875133727921792889
       Yellow_Shroomling_56: -9128278536857580980
       Yellow_Shroomling_57: 6253894031764162873
-      Yellow_Shroomling_58: -3126404455517330981
-      Yellow_Shroomling_59: -1179480142518943306
       Yellow_Shroomling_6: 1135374115986264903
       Yellow_Shroomling_7: -9102018059880754604
       Yellow_Shroomling_8: 3323967582970697082

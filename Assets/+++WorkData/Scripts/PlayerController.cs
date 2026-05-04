@@ -13,17 +13,19 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float walkingSpeed = 5f;
     [SerializeField] private float accelerationTime = 10f;
     
-
     #endregion
 
     #region Private Variables
 
     private PlayerState _playerState;
-    public Rigidbody2D _rb;
+    private Rigidbody2D _rb;
+
     public Rigidbody2D Rb => _rb;
-    public Vector2 _moveInput;
     public Vector2 MoveInput => _moveInput;
-    private float _currentSpeed;
+    public Vector2 LastMoveDirection => _lastMoveDirection;
+
+    private Vector2 _moveInput;
+    private Vector2 _lastMoveDirection = Vector2.down;
 
     #endregion
 
@@ -34,7 +36,7 @@ public class PlayerController : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _playerState = GetComponent<PlayerState>();
             
-        _currentSpeed = walkingSpeed;
+        //_currentSpeed = walkingSpeed;
     }
 
     private void OnEnable()
@@ -60,19 +62,33 @@ public class PlayerController : MonoBehaviour
 
     void MoveHandler()
     {
-        if (_playerState.GetPlayerAction() == PlayerState.PlayerAction.Roll) return;
+        if (_playerState.GetPlayerAction() == PlayerState.PlayerAction.Roll)
+        {
+            return;
+        }
+        
+        /*
+         if (_playerState.GetPlayerAction() == PlayerState.PlayerAction.Roll || _playerState.GetPlayerAction() == PlayerState.PlayerAction.Attack)
+         {
+            return;
+         }
+         */
             
-        Vector2 targetVelocity = _moveInput * _currentSpeed;
+        Vector2 targetVelocity = _moveInput * walkingSpeed;
         Vector2 currentVelocity = _rb.linearVelocity;
 
-        _rb.linearVelocity = Vector2.Lerp(
-            currentVelocity, targetVelocity, Time.fixedTime * acceleration);
+        _rb.linearVelocity = Vector2.Lerp(currentVelocity, targetVelocity, Time.fixedDeltaTime * accelerationTime);
     }
 
 
     public void SetMoveInput(Vector2 moveInput)
     {
         _moveInput = moveInput;
+        if (_moveInput.sqrMagnitude > 0.01f)
+        {
+            _lastMoveDirection = _moveInput.normalized;
+            PlayerState.OnChangeDirection?.Invoke(_lastMoveDirection);
+        }
     }
    
     #endregion
@@ -81,7 +97,17 @@ public class PlayerController : MonoBehaviour
 
     void ApplyForce(float force)
     {
-        _rb.AddForce(_moveInput * force, ForceMode2D.Impulse);
+        Vector2 rollDirection;
+        if (_moveInput.sqrMagnitude > 0.01f)
+        {
+            rollDirection = _moveInput.normalized;
+        }
+        else
+        {
+            rollDirection = _lastMoveDirection;
+        }
+        _rb.linearVelocity = Vector2.zero;
+        _rb.AddForce(rollDirection * force, ForceMode2D.Impulse);
     }
 
     #endregion

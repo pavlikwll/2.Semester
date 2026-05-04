@@ -6,8 +6,8 @@ using UnityEngine;
     {
         
         public static Action OnRollInput;
-        public int actionId = 1;
-        public float rollForce = 5f;
+        public int ActionId = 1;
+        public float rollForce = 12f;
         private PlayerState _playerState;
 
         private void Awake()
@@ -27,10 +27,14 @@ using UnityEngine;
 
         void Roll()
         {
-            if (_playerState.GetPlayerAction() != PlayerState.PlayerAction.Default) return;
+            Debug.Log("Roll called");
+            if (_playerState.GetPlayerAction() != PlayerState.PlayerAction.Default)
+            {
+                return;
+            }
             
             PlayerState.OnChangeAction?.Invoke(PlayerState.PlayerAction.Roll);
-            Animations.OnAction?.Invoke(actionId);
+            Animations.OnAction?.Invoke(ActionId);
             PlayerController.OnForceApply?.Invoke(rollForce);
         }
     }

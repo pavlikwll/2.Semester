@@ -33,7 +33,7 @@ public class PlayerState : MonoBehaviour
         OnChangeAction -= SetAction;
         OnChangeMovement -= SetMovement;
         OnHorizontalChangeDirection -= SetHorizontalDirection;
-        OnHorizontalChangeDirection -= SetVerticalDirection;
+        OnVerticalChangeDirection -= SetVerticalDirection;
     }
     
     void SetDirection(Vector2 _moveInput)

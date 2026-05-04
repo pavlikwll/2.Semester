@@ -8,7 +8,7 @@ public class Animations : MonoBehaviour
     
     private int _hashMovementValue = Animator.StringToHash("MovementValue");
     private int _hashActionId = Animator.StringToHash("ActionId");
-    private int _hashActionTrigger = Animator.StringToHash("ActionTriger");
+    private int _hashActionTrigger = Animator.StringToHash("ActionTrigger");
     private int _hashDirXValue = Animator.StringToHash("xDir");
     private int _hashDirYValue = Animator.StringToHash("yDir");
 
@@ -63,20 +63,20 @@ public class Animations : MonoBehaviour
     
     void SetMovementAnimationValues()
     {
-        if (_playerController._moveInput.sqrMagnitude > 0.01f)
+        if (_playerController.MoveInput.sqrMagnitude > 0.01f)
         {
-            _lastMoveDirection = _playerController._moveInput.normalized;
+            _lastMoveDirection = _playerController.MoveInput.normalized;
         }
         
-        animator.SetFloat(_hashMovementValue, Mathf.Abs(_playerController._rb.linearVelocity.magnitude));
-        //animator.SetFloat(_hashDirXValue, _playerController._moveInput.x);
-        //animator.SetFloat(_hashDirYValue, _playerController._moveInput.y);
+        animator.SetFloat(_hashMovementValue, Mathf.Abs(_playerController.Rb.linearVelocity.magnitude));
+        //animator.SetFloat(_hashDirXValue, _playerController.MoveInput.x);
+        //animator.SetFloat(_hashDirYValue, _playerController.MoveInput.y);
         animator.SetFloat(_hashDirXValue, _lastMoveDirection.x);
         animator.SetFloat(_hashDirYValue, _lastMoveDirection.y);
         
-        float movementValue = _playerController._rb.linearVelocity.magnitude;
-        //float xDir = _playerController._moveInput.x;
-        //float yDir = _playerController._moveInput.y;
+        float movementValue = _playerController.Rb.linearVelocity.magnitude;
+        //float xDir = _playerController.MoveInput.x;
+        //float yDir = _playerController.MoveInput.y;
         float xDir = _lastMoveDirection.x;
         float yDir = _lastMoveDirection.y;
         
@@ -88,11 +88,11 @@ public class Animations : MonoBehaviour
         }
     }
 
-    void SetAnimationAction(int actionId)
+    void SetAnimationAction(int ActionId)
     {
         foreach (Animator animator in animators)
         {
-            animator.SetInteger(_hashActionId, actionId);
+            animator.SetInteger(_hashActionId, ActionId);
             animator.SetTrigger(_hashActionTrigger);
         }
     }
@@ -109,15 +109,15 @@ public class Animations : MonoBehaviour
     
     private void Flip()
     {
-        if (_playerController._moveInput.sqrMagnitude > 0.01f)
+        if (_playerController.MoveInput.sqrMagnitude > 0.01f)
         {
-            _lastMoveDirection = _playerController._moveInput.normalized;
+            _lastMoveDirection = _playerController.MoveInput.normalized;
 
-            if (_playerController._moveInput.x > 0)
+            if (_playerController.MoveInput.x > 0)
             {
                 transform.rotation = Quaternion.Euler(0, 0, 0);
             }
-            else if (_playerController._moveInput.x < 0)
+            else if (_playerController.MoveInput.x < 0)
             {
                 transform.rotation = Quaternion.Euler(0, 180, 0);
             }
