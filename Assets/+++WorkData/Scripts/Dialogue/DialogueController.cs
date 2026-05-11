@@ -14,10 +14,11 @@ public class DialogueController : MonoBehaviour
 {
     public static Action<string, int> OnAddState;
     public static Action<string> OnGetState;
+    public static Action<DialogueInteractable> OnDialogueStarted;
     
     private const string SpeakerSeparator = ":";
     private const string EscapedColon = "::";
-    private const string EscapedColonPlaceholder = "§";
+    private const string EscapedColonPlaceholder = "ยง";
     
     public static event Action DialogueClosed;
 
@@ -46,6 +47,8 @@ public class DialogueController : MonoBehaviour
     #endregion
 
     private Story inkStory;
+
+    private DialogueInteractable _currentDialogueInteractable;
     //private GameState gameState;
     
     
@@ -60,6 +63,7 @@ public class DialogueController : MonoBehaviour
     {
         DialogueBox.DialogueContinued += OnDialogueContinued;
         DialogueBox.ChoiceSelected += OnChoiceSelected;
+        OnDialogueStarted += SetCurrentDialogue;
     }
 
     private void Start()
@@ -71,6 +75,7 @@ public class DialogueController : MonoBehaviour
     {
         DialogueBox.DialogueContinued -= OnDialogueContinued;
         DialogueBox.ChoiceSelected -= OnChoiceSelected;
+        OnDialogueStarted -= SetCurrentDialogue;
     }
 
     private void OnDestroy()
@@ -106,6 +111,9 @@ public class DialogueController : MonoBehaviour
         StartCoroutine(DelayDialogueEndEvent());
         
         DialogueClosed?.Invoke();
+        
+        if (!_currentDialogueInteractable) return;
+        _currentDialogueInteractable.TrySelected();
     }
 
     private IEnumerator DelayDialogueEndEvent()
@@ -156,6 +164,11 @@ public class DialogueController : MonoBehaviour
         ContinueDialogue();
     }
 
+    private void SetCurrentDialogue(DialogueInteractable newDialogueInteractable)
+    {
+        _currentDialogueInteractable = newDialogueInteractable;
+    }
+
     #endregion
 
     #region Ink
@@ -177,9 +190,9 @@ public class DialogueController : MonoBehaviour
     private DialogueLine ParseText(string inkLine, List<string> tags)
     {
         DialogueLine line = new DialogueLine();
-
+                                // ::          ->    ยง
         inkLine = inkLine.Replace(EscapedColon, EscapedColonPlaceholder);
-        
+                                        //   : 
         List<string> parts = inkLine.Split(SpeakerSeparator).ToList();
 
         string speaker;

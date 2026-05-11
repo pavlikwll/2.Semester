@@ -5,8 +5,7 @@ using UnityEngine;
 public class PlayerInteraction : MonoBehaviour
 {
     public static Action OnInteract;
-    private BaseInteractable _currentInteractable;
-    private List<BaseInteractable> interactables = new();
+    public List<BaseInteractable> interactables = new();
 
     private void OnEnable()
     {
@@ -31,7 +30,7 @@ public class PlayerInteraction : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         BaseInteractable interactable = other.GetComponent<BaseInteractable>();
-        if (interactable == null)
+        if (interactable != null)
         {
             interactables.Add(interactable);
             interactable.Selected();
@@ -41,7 +40,7 @@ public class PlayerInteraction : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other)
     {
         BaseInteractable interactable = other.GetComponent<BaseInteractable>();
-        if (interactable == null)
+        if (interactable != null)
         {
             interactable.Unselected();
             interactables.Remove(interactable);
