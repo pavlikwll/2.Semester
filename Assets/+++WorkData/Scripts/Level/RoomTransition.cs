@@ -4,32 +4,33 @@ using System.Collections;
 
 public class RoomTransition : MonoBehaviour
 {
-    // Місце, куди буде телепортовано гравця.
-    // У Inspector сюди перетягується порожній об’єкт, наприклад Spawn_InsideHouse.
+    // Der Ort, an den der Spieler teleportiert wird.
+    // Im Inspector wird hier ein leeres Objekt hineingezogen, z. B. Spawn_InsideHouse.
     [SerializeField] private Transform teleportPlace;
     [SerializeField] private Transform player;
     [SerializeField] private CinemachineCamera cinemachine;
-    // CanvasGroup чорного UI-екрана.
-    // Через alpha робимо fade: 0 = прозоро, 1 = чорний екран.
+    
+    // CanvasGroup des schwarzen UI-Bildschirms.
+    // Über alpha erzeugen wir einen Fade-Effekt: 0 = transparent, 1 = schwarzer Bildschirm.
     [SerializeField] private CanvasGroup fade;
     [SerializeField] private float fadeDuration = 0.3f;
 
-    // Захист від подвійного запуску переходу.
-    // Без цього гравець може зачепити тригер кілька разів поспіль.
+    // Schutz vor einem doppelten Start des Übergangs.
+    // Ohne das könnte der Spieler den Trigger mehrmals hintereinander auslösen.
     private bool _isTeleporting;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (_isTeleporting)
         {
-            // Якщо перехід уже триває — нічого не робимо.
+            // Wenn der Übergang bereits läuft, machen wir nichts.
             return;
         }
 
         if (other.CompareTag("Player"))
         {
-            // Запускаємо Coroutine переходу.
-            // Coroutine потрібна, бо fade має тривати не миттєво, а поступово.
+            // Wir starten die Übergangs-Coroutine.
+            // Eine Coroutine ist notwendig, weil der Fade-Effekt nicht sofort, sondern schrittweise ablaufen soll.
             StartCoroutine(Transition());
         }
     }
@@ -38,28 +39,31 @@ public class RoomTransition : MonoBehaviour
     {
         _isTeleporting = true;
 
-        // Затемнюємо екран до чорного.
-        // yield return означає: зачекай, поки Fade(1) повністю завершиться.
+        // Bildschirm bis auf Schwarz abdunkeln.
+        // yield return bedeutet: Warte, bis Fade(1) vollständig abgeschlossen ist.
         yield return Fade(1);
 
-        // Запам’ятовуємо стару позицію гравця перед телепортом.
-        // Це потрібно для Cinemachine, щоб зрозуміти, наскільки далеко стрибнув Player.
+        // Alte Position des Spielers vor der Teleportation speichern.
+        // Das benötigt Cinemachine, um zu erkennen, wie weit der Spieler tatsächlich "gesprungen" ist.
         Vector3 oldPos = player.position;
-        // Телепортуємо гравця в нову точку.
+
+        // Spieler an die neue Position teleportieren.
         player.position = teleportPlace.position;
         
-        // Рахуємо різницю між новою і старою позицією.
-        // Наприклад: був у x=0, став у x=20, отже delta = 20.
+        // Differenz zwischen neuer und alter Position berechnen.
+        // Beispiel: vorher x = 0, danach x = 20, also delta = 20.
         Vector3 delta = player.position - oldPos;
 
-        // Повідомляємо Cinemachine, що Player не пробіг цю відстань, а був телепортований.
-        // Без цього камера може плавно “доганяти” гравця через усю карту.
+        // Cinemachine mitteilen, dass der Spieler diese Strecke nicht gelaufen, sondern sofort teleportiert wurde.
+        // Ohne diesen Aufruf würde die Kamera dem Spieler möglicherweise langsam über die gesamte Karte folgen.
         cinemachine.OnTargetObjectWarped(player, delta);
-        // Скидаємо попередній стан камери.
-        // Це прибирає ривки, дивні зміщення й зайве згладжування після телепорту.
+
+        // Vorherigen Kamerazustand zurücksetzen.
+        // Dadurch werden Ruckler, seltsame Verschiebungen und unerwünschte Glättung nach dem Teleport verhindert.
         cinemachine.PreviousStateIsValid = false;
 
-        // Повертаємо видимість гри: чорний екран поступово зникає.
+        // Spiel wieder sichtbar machen:
+        // Der schwarze Bildschirm verschwindet schrittweise.
         yield return Fade(0);
 
         _isTeleporting = false;
@@ -67,24 +71,28 @@ public class RoomTransition : MonoBehaviour
 
     IEnumerator Fade(float target)
     {
-        // Поточна прозорість fade-екрана на момент старту.
+        // Aktuelle Transparenz des Fade-Bildschirms beim Start.
         float start = fade.alpha;
-        // Лічильник часу для плавного переходу.
+
+        // Zeit-Zähler für den sanften Übergang.
         float time = 0;
         
-        // Поки не минув увесь час fadeDuration, поступово змінюємо alpha.
+        // Solange fadeDuration noch nicht erreicht ist, wird alpha schrittweise verändert.
         while (time < fadeDuration)
         {
-            // Додаємо час, який минув від попереднього кадру.
+            // Zeit hinzufügen, die seit dem letzten Frame vergangen ist.
             time += Time.deltaTime;
-            // Mathf.Lerp плавно змінює значення від start до target.
-            // time / fadeDuration дає прогрес від 0 до 1.
+
+            // Mathf.Lerp verändert den Wert sanft von start zu target.
+            // time / fadeDuration liefert einen Fortschritt von 0 bis 1.
             fade.alpha = Mathf.Lerp(start, target, time / fadeDuration);
-            // Чекаємо один кадр і продовжуємо цикл.
+
+            // Einen Frame warten und dann die Schleife fortsetzen.
             yield return null;
         }
-        // Наприкінці примусово ставимо точне значення.
-        // Це прибирає можливу похибку типу 0.99997 замість 1.
+
+        // Am Ende den exakten Zielwert setzen.
+        // Das verhindert kleine Ungenauigkeiten wie 0.659 statt 1.
         fade.alpha = target;
     }
 }

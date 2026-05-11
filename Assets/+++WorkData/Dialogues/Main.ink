@@ -1,5 +1,5 @@
 INCLUDE Duckmen.ink
-INCLUDE Duck.ink
+INCLUDE Kopatych.ink
 INCLUDE Demo.ink
 INCLUDE Utility/ExternalFunctions.ink
 

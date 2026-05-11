@@ -5,7 +5,7 @@ public class DialogueInteractable : BaseInteractable
     [SerializeField] bool singleInteraction;
     
     private bool _isStillSelected;
-    private bool _DialogueActive;
+    private bool _dialogueActive;
     
     public override void Interact()
     {
@@ -13,7 +13,7 @@ public class DialogueInteractable : BaseInteractable
         if (singleInteraction) canInteract = false;
         
         DialogueController.OnDialogueStarted?.Invoke(this);
-        _DialogueActive = true;
+        _dialogueActive = true;
         base.Interact();
         base.Unselected();
     }
@@ -22,7 +22,7 @@ public class DialogueInteractable : BaseInteractable
     {
         _isStillSelected = true;
         
-        if (_DialogueActive) return;
+        if (_dialogueActive) return;
         if (!canInteract) return;
         
         base.Selected();
@@ -32,7 +32,7 @@ public class DialogueInteractable : BaseInteractable
     {
         _isStillSelected = false;
         
-        if (_DialogueActive) return;
+        if (_dialogueActive) return;
         if (!canInteract) return;
         
         base.Unselected();
@@ -40,8 +40,11 @@ public class DialogueInteractable : BaseInteractable
 
     public void TrySelected()
     {
+        _dialogueActive = false;
+
         if (!_isStillSelected) return;
-        _DialogueActive = false;
+        if (!canInteract) return;
+
         base.Selected();
     }
 }
