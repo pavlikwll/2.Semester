@@ -549,10 +549,8 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks:
-  - Master
-  Banks:
-  - ShroomLands_Ambience
+  MasterBanks: []
+  Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
@@ -568,17 +566,17 @@ MonoBehaviour:
   HideSetupWizard: 1
   LastEventReferenceScanVersion: 131859
   Platforms:
-  - {fileID: -6475041344434115739}
-  - {fileID: 5059246539602997277}
   - {fileID: -7644091915957601436}
-  - {fileID: -4787625946933038989}
-  - {fileID: 1286826384493606684}
-  - {fileID: -1080181269118888590}
-  - {fileID: -5038926482391378891}
-  - {fileID: 5208993103988323955}
-  - {fileID: 3563395231046147314}
+  - {fileID: -6475041344434115739}
   - {fileID: -5557758407113206346}
+  - {fileID: -5038926482391378891}
+  - {fileID: -4787625946933038989}
   - {fileID: -4514445091655804321}
+  - {fileID: -1080181269118888590}
+  - {fileID: 1286826384493606684}
+  - {fileID: 3563395231046147314}
+  - {fileID: 5059246539602997277}
+  - {fileID: 5208993103988323955}
   - {fileID: 8747032469457979536}
   MigratedPlatforms: 0a00000000000000150000000b00000009000000050000001200000008000000060000000c0000000200000001000000
 --- !u!114 &1286826384493606684
@@ -798,14 +796,14 @@ MonoBehaviour:
   displaySortOrder: 0
   childIdentifiers:
   - 2fea114e74ecf3c4f920e1d5cc1c4c40
-  - c88d16e5272a4e241b0ef0ac2e53b73d
-  - 2c5177b11d81d824dbb064f9ac8527da
-  - e7a046c753c3c3d4aacc91f6597f310d
-  - fd7c55dab0fce234b8c25f6ffca523c1
-  - 52eb9df5db46521439908db3a29a1bbb
-  - 0f8eb3f400726694eb47beb1a9f94ce8
   - 46fbfdf3fc43db0458918377fd40293e
+  - fd7c55dab0fce234b8c25f6ffca523c1
+  - c88d16e5272a4e241b0ef0ac2e53b73d
   - de700ef3f37a49b58a57ae3addf01ad9
+  - e7a046c753c3c3d4aacc91f6597f310d
+  - 2c5177b11d81d824dbb064f9ac8527da
+  - 0f8eb3f400726694eb47beb1a9f94ce8
+  - 52eb9df5db46521439908db3a29a1bbb
   - b7716510a1f36934c87976f3a81dbf3d
   codecChannels:
     Value: []
