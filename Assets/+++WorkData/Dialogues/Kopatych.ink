@@ -2,32 +2,36 @@
 
 = start
 Kopatych: Hey there, sexy traveler.
-Player: ...Did a mushroom just flirt with me?
+Bartek: ...Did a mushroom just flirt with me?
 Kopatych: Honey, after three rainy nights and a suspicious amount of spores, anything can happen.
-Player: That sounds mildly illegal.
+Bartek: That sounds mildly illegal.
 Kopatych: Around here we call it "organic chemistry."
 
-* [Are you always this weird?] -> weird
-* [I like weird.] -> like_weird
-* [I should go.] -> leave
+Kopatych: Listen, sugarcap. I need four radioactive mushrooms.
+Bartek: Why?
+Kopatych: Science. Crime. Dinner. Depends who asks.
+Bartek: And what do I get?
+Kopatych: An old key. Slightly cursed, mostly legal.
+Bartek: Mostly?
+Kopatych: Bring the mushrooms, Bartek.
 
-= weird
-Kopatych: Weird? Darling, my cousin thought he was immortal.
-Kopatych: Then someone turned him into mushroom soup.
-Player: That's dark.
-Kopatych: And delicious.
 -> END
 
-= like_weird
-Kopatych: Careful. That's exactly what my last victim said.
-Player: Victim?
-Kopatych: Relax. We only drained his emotional energy.
-Player: And his wallet?
-Kopatych: Mostly his dignity.
+
+= deliver_mushrooms
+Bartek: I brought your four radioactive mushrooms.
+Kopatych: Oh, gorgeous. They are glowing with emotional instability.
+Bartek: Same.
+Kopatych: As promised, here is the old key.
+~ Event("give_old_key")
+Kopatych: Do not ask what it opens.
+Bartek: What does it open?
+Kopatych: I said do not ask.
 -> END
 
-= leave
-Kopatych: Fine. But if you start seeing colors and hearing the trees whisper your name...
-Kopatych: ...that means the spores liked you.
-Player: Great. Just what I needed.
+
+= after_key
+Kopatych: If the key starts whispering at night, whisper back.
+Bartek: That is terrible advice.
+Kopatych: So is touching glowing mushrooms, yet here we are.
 -> END
