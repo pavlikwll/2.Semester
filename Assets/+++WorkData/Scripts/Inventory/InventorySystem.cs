@@ -6,21 +6,38 @@ public class InventorySystem : MonoBehaviour
 {
     public static Action<ItemDefinition, int> OnAddItemDefinition;
     public static Action<string, int> OnAddItemId;
+    public static Action OnChangeInventory;
     
     [SerializeField] private List<Item> items;
+    [SerializeField] private InventoryManager inventoryManager;
+    [SerializeField] public GameObject inventoryContainer;
 
     private void OnEnable()
     {
         OnAddItemDefinition += Add;
         OnAddItemId += Add;
+        OnChangeInventory += UpdateInventoryUI;
     }
 
     private void OnDisable()
     {
         OnAddItemDefinition -= Add;
         OnAddItemId -= Add;
+        OnChangeInventory -= UpdateInventoryUI;
     }
 
+    private void UpdateInventoryUI()
+    {
+        inventoryContainer.SetActive(!inventoryContainer.activeSelf);
+        inventoryManager.SetInventoryItems(items);
+    }
+
+    public void ChangeInventoryState()
+    {
+        inventoryContainer.SetActive(!inventoryContainer.activeSelf);
+        InventoryManager.Instance.SetInventoryItems(items);
+    }
+    
     public Item GetItem(string id)
     {
         foreach (var item in items)
@@ -54,6 +71,8 @@ public class InventorySystem : MonoBehaviour
             item.amount += amount;
             //TODO Check for error
         }
+
+        OnChangeInventory?.Invoke();
     }
 
     private bool ValidateItem(string itemId)
@@ -93,5 +112,7 @@ public class InventorySystem : MonoBehaviour
         {
             items.Remove(item);
         }
+        
+        OnChangeInventory?.Invoke();
     }
 }
