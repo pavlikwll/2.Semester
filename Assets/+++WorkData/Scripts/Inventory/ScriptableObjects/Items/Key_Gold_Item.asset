@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a37f2eaa151e4385b32ba9359d12cd4, type: 3}
   m_Name: Key_Gold_Item
   m_EditorClassIdentifier: Assembly-CSharp::ItemDefinition
+  itemType: 1
   id: key_gold_old
   stackingCap: 1
   sprite: {fileID: 5409520708988324579, guid: 467c97500a6f6264ab9f97d75d26e775, type: 3}

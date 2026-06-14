@@ -3,6 +3,14 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Item", menuName = "MotionBrain/Inventory/Item")]
 public class ItemDefinition : ScriptableObject
 {
+    public enum ItemType
+    {
+        Normal,
+        Special
+    }
+    
+    public ItemType itemType;
+    
     public string id;
 
     [Min(1)]

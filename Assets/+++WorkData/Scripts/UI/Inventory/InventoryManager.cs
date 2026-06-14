@@ -1,3 +1,5 @@
+using TMPro;
+using UnityEngine.UI;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,6 +9,9 @@ public class InventoryManager : MonoBehaviour
     public static InventoryManager Instance;
     [SerializeField] private List<InventorySlot> inventorySlots;
     [SerializeField] private List<ItemDefinition> allItemsInGame;
+    [SerializeField] private Image itemIcon;
+    [SerializeField] private TextMeshProUGUI itemName;
+    [SerializeField] private TextMeshProUGUI itemDescription;
 
     private void Awake()
     {
@@ -36,5 +41,12 @@ public class InventoryManager : MonoBehaviour
 
         }
         
+    }
+    
+    public void ShowItemInfo(ItemDefinition item)
+    {
+        itemIcon.sprite = item.sprite;
+        itemName.SetText(item.displayName);
+        itemDescription.SetText(item.description);
     }
 }

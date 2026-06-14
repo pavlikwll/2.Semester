@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a37f2eaa151e4385b32ba9359d12cd4, type: 3}
   m_Name: Radioactive_Mushroom_Item
   m_EditorClassIdentifier: Assembly-CSharp::ItemDefinition
+  itemType: 1
   id: radioactive_mushroom
   stackingCap: 4
   sprite: {fileID: -6638711929205738228, guid: ab8eb3458401b814784fd6891c2ddf10, type: 3}

@@ -299,7 +299,7 @@ TilemapRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1934311059
   m_SortingLayer: -2
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 1, y: 2, z: 0}
@@ -2519,9 +2519,9 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1093488545
-  m_SortingLayer: -3
-  m_SortingOrder: 0
+  m_SortingLayerID: 1934311059
+  m_SortingLayer: -2
+  m_SortingOrder: -3
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -6634,7 +6634,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -28.808403, z: -243.86655, w: 0}
+  m_margin: {x: 0, y: -28.808403, z: -1195.0995, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6884,6 +6884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlot
   itemDisplay: {fileID: 955194615}
   itemAmountText: {fileID: 825570711}
+  inventorySlotButton: {fileID: 0}
 --- !u!114 &606779122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6927,7 +6928,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 606779123}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 606779121}
+        m_TargetAssemblyTypeName: InventorySlot, Assembly-CSharp
+        m_MethodName: OnClickSlot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &606779123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8469,8 +8482,8 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 1093488545
-  m_SortingLayer: -3
+  m_SortingLayerID: 1934311059
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -11130,6 +11143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlot
   itemDisplay: {fileID: 2072812101}
   itemAmountText: {fileID: 1670222396}
+  inventorySlotButton: {fileID: 994326902}
 --- !u!114 &994326902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11173,7 +11187,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 994326903}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 994326901}
+        m_TargetAssemblyTypeName: InventorySlot, Assembly-CSharp
+        m_MethodName: OnClickSlot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &994326903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11642,9 +11668,9 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: -1114074375
-  m_SortingLayer: -1
-  m_SortingOrder: 0
+  m_SortingLayerID: 1934311059
+  m_SortingLayer: -2
+  m_SortingOrder: -1
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -13015,8 +13041,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -787739461
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -5918896076835069202, guid: f96c7c94c9db34e23956a367b4914d66, type: 3}
@@ -13833,6 +13859,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlot
   itemDisplay: {fileID: 816024520}
   itemAmountText: {fileID: 1073106336}
+  inventorySlotButton: {fileID: 1321437784}
 --- !u!114 &1321437784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13876,7 +13903,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1321437785}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1321437783}
+        m_TargetAssemblyTypeName: InventorySlot, Assembly-CSharp
+        m_MethodName: OnClickSlot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1321437785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14477,7 +14516,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1413220422
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14929,6 +14968,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlot
   itemDisplay: {fileID: 1169898009}
   itemAmountText: {fileID: 1252551996}
+  inventorySlotButton: {fileID: 1321437784}
 --- !u!114 &1518005860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14972,7 +15012,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1518005861}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1518005859}
+        m_TargetAssemblyTypeName: InventorySlot, Assembly-CSharp
+        m_MethodName: OnClickSlot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1518005861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15666,7 +15718,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1938161990}
-  - component: {fileID: 1938161991}
   m_Layer: 5
   m_Name: Inventory
   m_TagString: Untagged
@@ -15695,28 +15746,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.000061035156, y: -0.000061035156}
   m_SizeDelta: {x: 2000, y: 900}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1938161991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1938161989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86565b7af9f888f4485db28d27ced9b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InventoryManager
-  inventorySlots:
-  - {fileID: 1321437783}
-  - {fileID: 1518005859}
-  - {fileID: 994326901}
-  - {fileID: 606779121}
-  allItemsInGame:
-  - {fileID: 11400000, guid: 7b2fa13750ef744538ab019deae81ae8, type: 2}
-  - {fileID: 11400000, guid: fd1becf82e72a453d87181891249d811, type: 2}
-  - {fileID: 11400000, guid: 49c5aebf6c8dc4aa8b6cd0b9e3d7fe5c, type: 2}
-  - {fileID: 11400000, guid: f9b927b0058824ce784adb9dcec14665, type: 2}
 --- !u!1 &1963211280
 GameObject:
   m_ObjectHideFlags: 0
@@ -16420,6 +16449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2104952251}
   - component: {fileID: 2104952250}
+  - component: {fileID: 2104952254}
   - component: {fileID: 2104952252}
   - component: {fileID: 2104952253}
   m_Layer: 0
@@ -16442,7 +16472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventorySystem
   items: []
-  inventoryManager: {fileID: 1938161991}
+  inventoryManager: {fileID: 2104952254}
   inventoryContainer: {fileID: 1966847918}
 --- !u!4 &2104952251
 Transform:
@@ -16500,6 +16530,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b88473d1f41d8428831cebcf4f053b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UiInput
+--- !u!114 &2104952254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104952249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86565b7af9f888f4485db28d27ced9b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InventoryManager
+  inventorySlots:
+  - {fileID: 1321437783}
+  - {fileID: 1518005859}
+  - {fileID: 994326901}
+  - {fileID: 606779121}
+  allItemsInGame:
+  - {fileID: 11400000, guid: 7b2fa13750ef744538ab019deae81ae8, type: 2}
+  - {fileID: 11400000, guid: fd1becf82e72a453d87181891249d811, type: 2}
+  - {fileID: 11400000, guid: 49c5aebf6c8dc4aa8b6cd0b9e3d7fe5c, type: 2}
+  - {fileID: 11400000, guid: f9b927b0058824ce784adb9dcec14665, type: 2}
+  itemIcon: {fileID: 1413220423}
+  itemName: {fileID: 517826213}
+  itemDescription: {fileID: 714550678}
 --- !u!1 &2107743393
 GameObject:
   m_ObjectHideFlags: 0

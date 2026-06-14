@@ -7,26 +7,45 @@ public class InventorySlot : MonoBehaviour
 {
     [SerializeField] private Image itemDisplay;
     [SerializeField] private TextMeshProUGUI itemAmountText;
-
-    private Button _inventorySlotButton;
-    private ItemDefinition _itemDefenition;
+    [SerializeField] private Button inventorySlotButton;
+    
+    private ItemDefinition _itemDefinition;
 
     private void Awake()
     {
-        _inventorySlotButton = GetComponent<Button>();
+        if (inventorySlotButton == null)
+        {
+            inventorySlotButton = GetComponent<Button>();
+        }
     }
 
     public void ResetInventorySlot()
     {
         itemDisplay.sprite = null;
         itemAmountText.SetText("");
-        _inventorySlotButton.interactable = false;
+        if (inventorySlotButton != null)
+        {
+            inventorySlotButton.interactable = false;
+        }
     }
 
-    public void FillInventorySlot(ItemDefinition itemDefenition, int amount)
+    public void FillInventorySlot(ItemDefinition itemDefinition, int amount)
     {
-        itemDisplay.sprite = itemDefenition.sprite;
+        _itemDefinition = itemDefinition;
+        itemDisplay.sprite = itemDefinition.sprite;
         itemAmountText.SetText(amount.ToString());
-        _inventorySlotButton.interactable = true;
+        if (inventorySlotButton != null)
+        {
+            inventorySlotButton.interactable = true;
+        }
+    }
+    
+    public void OnClickSlot()
+    {
+        if (_itemDefinition == null)
+        {
+            return;
+        }
+        InventoryManager.Instance.ShowItemInfo(_itemDefinition);
     }
 }

@@ -48,6 +48,77 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 554344
+--- !u!114 &-3546710660563120810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: ../../Sound Design/GC_24_Volodymyr_Pavlik_Aufgabe/GC_24_Volodymyr_Pavlik_Ambiences/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639169719738069375
+  FileSizes:
+  - Name: Desktop
+    Value: 1074
+  Exists: 1
+--- !u!114 &-2259319941259467061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience_MushroomMeadow
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Ambience_MushroomMeadow
+  Guid:
+    Data1: -257534129
+    Data2: 1292526341
+    Data3: -626488412
+    Data4: 122168349
+  Banks:
+  - {fileID: 4859096394936278273}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 35000
+--- !u!114 &-2174599021528330336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambience_World/Area
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Area
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3136179182
+    data2: 1630432286
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-1335736750037171950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,21 +176,21 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EventCache
   EditorBanks:
-  - {fileID: -1335736750037171950}
-  - {fileID: 2932868504262908981}
-  - {fileID: 4913216349203647428}
+  - {fileID: 8512661823508679944}
+  - {fileID: 4859096394936278273}
+  - {fileID: -3546710660563120810}
   EditorEvents:
-  - {fileID: 7217068670529869015}
-  - {fileID: 5050718778630668376}
-  - {fileID: 6785074759500081183}
-  - {fileID: -7192027100657465636}
+  - {fileID: 2238819871401506903}
+  - {fileID: -2259319941259467061}
+  - {fileID: 3502093631474757420}
+  - {fileID: 1885317567155361607}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 2932868504262908981}
+  - {fileID: -3546710660563120810}
   StringsBanks:
-  - {fileID: -1335736750037171950}
+  - {fileID: 8512661823508679944}
   cacheVersion: 131859
-  cacheTime: 639167808779989507
+  cacheTime: 639169719738071395
   SerializableEventsDict:
   - key: event:/Ambience_WaterfallCave
     index: 0
@@ -156,6 +227,85 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &1885317567155361607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music_Master
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Music_Master
+  Guid:
+    Data1: 1808776922
+    Data2: 1331022547
+    Data3: 1996206264
+    Data4: -1040389950
+  Banks:
+  - {fileID: 4859096394936278273}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2907962693490028208}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 554344
+--- !u!114 &2238819871401506903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience_WaterfallCave
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Ambience_WaterfallCave
+  Guid:
+    Data1: -939679455
+    Data2: 1170360726
+    Data3: -1187396433
+    Data4: -1238207029
+  Banks:
+  - {fileID: 4859096394936278273}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46000
+--- !u!114 &2907962693490028208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music_Master/Region
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Region
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 2591843093
+    data2: 2079642795
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &2932868504262908981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,6 +325,54 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 1074
+  Exists: 1
+--- !u!114 &3502093631474757420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience_World
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Ambience_World
+  Guid:
+    Data1: -179228993
+    Data2: 1129217867
+    Data3: -1824567377
+    Data4: 1585067765
+  Banks:
+  - {fileID: 4859096394936278273}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2174599021528330336}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4859096394936278273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MashroomWorld.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: ../../Sound Design/GC_24_Volodymyr_Pavlik_Aufgabe/GC_24_Volodymyr_Pavlik_Ambiences/Build/Desktop/MashroomWorld.bank
+  Name: MashroomWorld
+  StudioPath: bank:/MashroomWorld
+  lastModified: 639169719738063907
+  FileSizes:
+  - Name: Desktop
+    Value: 17437088
   Exists: 1
 --- !u!114 &4913216349203647428
 MonoBehaviour:
@@ -321,6 +519,26 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Labels: []
+  Exists: 1
+--- !u!114 &8512661823508679944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: ../../Sound Design/GC_24_Volodymyr_Pavlik_Aufgabe/GC_24_Volodymyr_Pavlik_Ambiences/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639169719738071395
+  FileSizes:
+  - Name: Desktop
+    Value: 1090
   Exists: 1
 --- !u!114 &8547549198002277106
 MonoBehaviour:

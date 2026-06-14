@@ -7,11 +7,17 @@ public class InventorySystem : MonoBehaviour
     public static Action<ItemDefinition, int> OnAddItemDefinition;
     public static Action<string, int> OnAddItemId;
     public static Action OnChangeInventory;
+    public static InventorySystem Instance;
     
     [SerializeField] private List<Item> items;
     [SerializeField] private InventoryManager inventoryManager;
     [SerializeField] public GameObject inventoryContainer;
 
+    private void Awake()
+    {
+        Instance = this;
+    }
+    
     private void OnEnable()
     {
         OnAddItemDefinition += Add;
@@ -28,14 +34,13 @@ public class InventorySystem : MonoBehaviour
 
     private void UpdateInventoryUI()
     {
-        inventoryContainer.SetActive(!inventoryContainer.activeSelf);
         inventoryManager.SetInventoryItems(items);
     }
 
     public void ChangeInventoryState()
     {
         inventoryContainer.SetActive(!inventoryContainer.activeSelf);
-        InventoryManager.Instance.SetInventoryItems(items);
+        inventoryManager.SetInventoryItems(items);
     }
     
     public Item GetItem(string id)
