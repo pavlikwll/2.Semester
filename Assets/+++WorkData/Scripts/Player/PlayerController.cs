@@ -89,6 +89,16 @@ public class PlayerController : MonoBehaviour
             _lastMoveDirection = _moveInput.normalized;
             PlayerState.OnChangeDirection?.Invoke(_lastMoveDirection);
         }
+        /*
+        if (_moveInput == Vector2.zero)
+        {
+            PlayerState.Instance.SetMovementState(MovementState.Idle);
+        }
+        else
+        {
+            PlayerState.Instance.SetMovementState(MovementState.Walking);
+        }
+        */
     }
    
     #endregion

@@ -9,6 +9,7 @@ public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance;
     [SerializeField] private List<InventorySlot> inventorySlots;
+    [SerializeField] private List<InventorySlot> hotbarSlots;
     [SerializeField] private List<ItemDefinition> allItemsInGame;
     [SerializeField] private Image itemIcon;
     [SerializeField] private TextMeshProUGUI itemName;
@@ -46,6 +47,30 @@ public class InventoryManager : MonoBehaviour
         {
             inventorySlots[0].OnClickSlot();
             EventSystem.current.SetSelectedGameObject(inventorySlots[0].gameObject);
+        }
+        
+        SetHotbarItems(items);
+    }
+    
+    private void SetHotbarItems(List<Item> items)
+    {
+        foreach (var slot in hotbarSlots)
+        {
+            slot.ResetInventorySlot();
+        }
+
+        int hotbarIndex = 0;
+        foreach (var currentItemInInventory in items)
+        {
+            foreach (var currentItemInGame in allItemsInGame)
+            {
+                if (currentItemInGame.id == currentItemInInventory.id && currentItemInGame.itemType == ItemType.Special)
+                {
+                    hotbarSlots[hotbarIndex].FillInventorySlot(currentItemInGame, currentItemInInventory.amount);
+                    hotbarIndex++;
+                    break;
+                }
+            }
         }
     }
     

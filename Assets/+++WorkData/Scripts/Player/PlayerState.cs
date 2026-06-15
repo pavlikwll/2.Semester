@@ -7,7 +7,7 @@ public class PlayerState : MonoBehaviour
 {
     public enum PlayerDirection{Up, Down, Left, Right}
     public enum PlayerMovement{Default, Moving}
-
+    public static PlayerState Instance;
     public static Action<Vector2> OnChangeDirection;
     public static Action<float> OnHorizontalChangeDirection;
     public static Action<float> OnVerticalChangeDirection;
@@ -18,6 +18,11 @@ public class PlayerState : MonoBehaviour
     [SerializeField] private PlayerAction playerAction;
     [SerializeField] private PlayerMovement playerMovement;
 
+    private void Awake()
+    {
+        Instance = this;
+    }
+    
     private void OnEnable()
     {
         OnChangeDirection += SetDirection;

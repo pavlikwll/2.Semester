@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a37f2eaa151e4385b32ba9359d12cd4, type: 3}
   m_Name: Fish_Dead_Green_Item
   m_EditorClassIdentifier: Assembly-CSharp::ItemDefinition
+  itemType: 1
   id: fish_green
   stackingCap: 10
   sprite: {fileID: -575027357971916658, guid: a32e8592181c28541acf29cfa0723b6d, type: 3}

@@ -12,6 +12,7 @@ public class InventorySystem : MonoBehaviour
     [SerializeField] private List<Item> items;
     [SerializeField] private InventoryManager inventoryManager;
     [SerializeField] public GameObject inventoryContainer;
+    [SerializeField] public GameObject hotbar;
 
     private void Awake()
     {
@@ -39,7 +40,9 @@ public class InventorySystem : MonoBehaviour
 
     public void ChangeInventoryState()
     {
+        bool inventoryIsOpen = !inventoryContainer.activeSelf;
         inventoryContainer.SetActive(!inventoryContainer.activeSelf);
+        hotbar.SetActive(!inventoryIsOpen);
         inventoryManager.SetInventoryItems(items);
     }
     
