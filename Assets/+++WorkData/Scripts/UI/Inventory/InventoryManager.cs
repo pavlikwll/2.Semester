@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine.UI;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 
 public class InventoryManager : MonoBehaviour
@@ -41,6 +42,11 @@ public class InventoryManager : MonoBehaviour
 
         }
         
+        if (items.Count > 0)
+        {
+            inventorySlots[0].OnClickSlot();
+            EventSystem.current.SetSelectedGameObject(inventorySlots[0].gameObject);
+        }
     }
     
     public void ShowItemInfo(ItemDefinition item)
