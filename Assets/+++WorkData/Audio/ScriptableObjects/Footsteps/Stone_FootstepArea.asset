@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Stone_FootstepArea
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSoundArea
   area: 3
-  fmodFootstepEvent: stone
+  fmodFootstepEvent: Stone

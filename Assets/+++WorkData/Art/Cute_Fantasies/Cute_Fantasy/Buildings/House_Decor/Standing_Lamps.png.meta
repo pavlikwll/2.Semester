@@ -383,12 +383,12 @@ TextureImporter:
       name: Standing_Lamps_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 256
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -405,12 +405,12 @@ TextureImporter:
       name: Standing_Lamps_1
       rect:
         serializedVersion: 2
-        x: 18
+        x: 16
         y: 256
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -427,12 +427,12 @@ TextureImporter:
       name: Standing_Lamps_2
       rect:
         serializedVersion: 2
-        x: 34
+        x: 32
         y: 256
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -449,12 +449,12 @@ TextureImporter:
       name: Standing_Lamps_3
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 256
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -471,12 +471,12 @@ TextureImporter:
       name: Standing_Lamps_4
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 256
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -493,12 +493,12 @@ TextureImporter:
       name: Standing_Lamps_5
       rect:
         serializedVersion: 2
-        x: 82
+        x: 80
         y: 256
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -515,12 +515,12 @@ TextureImporter:
       name: Standing_Lamps_6
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 256
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -537,12 +537,12 @@ TextureImporter:
       name: Standing_Lamps_7
       rect:
         serializedVersion: 2
-        x: 114
+        x: 112
         y: 256
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -559,12 +559,12 @@ TextureImporter:
       name: Standing_Lamps_8
       rect:
         serializedVersion: 2
-        x: 130
+        x: 128
         y: 256
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -581,12 +581,12 @@ TextureImporter:
       name: Standing_Lamps_9
       rect:
         serializedVersion: 2
-        x: 146
+        x: 144
         y: 256
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -603,12 +603,12 @@ TextureImporter:
       name: Standing_Lamps_10
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 224
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -625,12 +625,12 @@ TextureImporter:
       name: Standing_Lamps_11
       rect:
         serializedVersion: 2
-        x: 18
+        x: 16
         y: 224
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -647,12 +647,12 @@ TextureImporter:
       name: Standing_Lamps_12
       rect:
         serializedVersion: 2
-        x: 34
+        x: 32
         y: 224
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -669,12 +669,12 @@ TextureImporter:
       name: Standing_Lamps_13
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 224
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -691,12 +691,12 @@ TextureImporter:
       name: Standing_Lamps_14
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 224
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -713,12 +713,12 @@ TextureImporter:
       name: Standing_Lamps_15
       rect:
         serializedVersion: 2
-        x: 82
+        x: 80
         y: 224
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -735,12 +735,12 @@ TextureImporter:
       name: Standing_Lamps_16
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 224
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -757,12 +757,12 @@ TextureImporter:
       name: Standing_Lamps_17
       rect:
         serializedVersion: 2
-        x: 114
+        x: 112
         y: 224
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -779,12 +779,12 @@ TextureImporter:
       name: Standing_Lamps_18
       rect:
         serializedVersion: 2
-        x: 130
+        x: 128
         y: 224
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -801,12 +801,12 @@ TextureImporter:
       name: Standing_Lamps_19
       rect:
         serializedVersion: 2
-        x: 146
+        x: 144
         y: 224
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -823,12 +823,12 @@ TextureImporter:
       name: Standing_Lamps_20
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 192
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -845,12 +845,12 @@ TextureImporter:
       name: Standing_Lamps_21
       rect:
         serializedVersion: 2
-        x: 18
+        x: 16
         y: 192
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -867,12 +867,12 @@ TextureImporter:
       name: Standing_Lamps_22
       rect:
         serializedVersion: 2
-        x: 34
+        x: 32
         y: 192
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -889,12 +889,12 @@ TextureImporter:
       name: Standing_Lamps_23
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 192
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -911,12 +911,12 @@ TextureImporter:
       name: Standing_Lamps_24
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 192
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -933,12 +933,12 @@ TextureImporter:
       name: Standing_Lamps_25
       rect:
         serializedVersion: 2
-        x: 82
+        x: 80
         y: 192
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -955,12 +955,12 @@ TextureImporter:
       name: Standing_Lamps_26
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 192
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -977,12 +977,12 @@ TextureImporter:
       name: Standing_Lamps_27
       rect:
         serializedVersion: 2
-        x: 114
+        x: 112
         y: 192
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -999,12 +999,12 @@ TextureImporter:
       name: Standing_Lamps_28
       rect:
         serializedVersion: 2
-        x: 130
+        x: 128
         y: 192
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1021,12 +1021,12 @@ TextureImporter:
       name: Standing_Lamps_29
       rect:
         serializedVersion: 2
-        x: 146
+        x: 144
         y: 192
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1043,12 +1043,12 @@ TextureImporter:
       name: Standing_Lamps_30
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 160
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1065,12 +1065,12 @@ TextureImporter:
       name: Standing_Lamps_31
       rect:
         serializedVersion: 2
-        x: 18
+        x: 16
         y: 160
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1087,12 +1087,12 @@ TextureImporter:
       name: Standing_Lamps_32
       rect:
         serializedVersion: 2
-        x: 34
+        x: 32
         y: 160
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1109,12 +1109,12 @@ TextureImporter:
       name: Standing_Lamps_33
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 160
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1131,12 +1131,12 @@ TextureImporter:
       name: Standing_Lamps_34
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 160
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1153,12 +1153,12 @@ TextureImporter:
       name: Standing_Lamps_35
       rect:
         serializedVersion: 2
-        x: 82
+        x: 80
         y: 160
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1175,12 +1175,12 @@ TextureImporter:
       name: Standing_Lamps_36
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 160
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1197,12 +1197,12 @@ TextureImporter:
       name: Standing_Lamps_37
       rect:
         serializedVersion: 2
-        x: 114
+        x: 112
         y: 160
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1219,12 +1219,12 @@ TextureImporter:
       name: Standing_Lamps_38
       rect:
         serializedVersion: 2
-        x: 130
+        x: 128
         y: 160
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1241,12 +1241,12 @@ TextureImporter:
       name: Standing_Lamps_39
       rect:
         serializedVersion: 2
-        x: 146
+        x: 144
         y: 160
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1263,12 +1263,12 @@ TextureImporter:
       name: Standing_Lamps_40
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 128
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1285,12 +1285,12 @@ TextureImporter:
       name: Standing_Lamps_41
       rect:
         serializedVersion: 2
-        x: 18
+        x: 16
         y: 128
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1307,12 +1307,12 @@ TextureImporter:
       name: Standing_Lamps_42
       rect:
         serializedVersion: 2
-        x: 34
+        x: 32
         y: 128
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1329,12 +1329,12 @@ TextureImporter:
       name: Standing_Lamps_43
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 128
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1351,12 +1351,12 @@ TextureImporter:
       name: Standing_Lamps_44
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 128
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1373,12 +1373,12 @@ TextureImporter:
       name: Standing_Lamps_45
       rect:
         serializedVersion: 2
-        x: 82
+        x: 80
         y: 128
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1395,12 +1395,12 @@ TextureImporter:
       name: Standing_Lamps_46
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 128
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1417,12 +1417,12 @@ TextureImporter:
       name: Standing_Lamps_47
       rect:
         serializedVersion: 2
-        x: 114
+        x: 112
         y: 128
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1439,12 +1439,12 @@ TextureImporter:
       name: Standing_Lamps_48
       rect:
         serializedVersion: 2
-        x: 130
+        x: 128
         y: 128
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1461,12 +1461,12 @@ TextureImporter:
       name: Standing_Lamps_49
       rect:
         serializedVersion: 2
-        x: 146
+        x: 144
         y: 128
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1483,12 +1483,12 @@ TextureImporter:
       name: Standing_Lamps_50
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 96
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1505,12 +1505,12 @@ TextureImporter:
       name: Standing_Lamps_51
       rect:
         serializedVersion: 2
-        x: 18
+        x: 16
         y: 96
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1527,12 +1527,12 @@ TextureImporter:
       name: Standing_Lamps_52
       rect:
         serializedVersion: 2
-        x: 34
+        x: 32
         y: 96
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1549,12 +1549,12 @@ TextureImporter:
       name: Standing_Lamps_53
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 96
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1571,12 +1571,12 @@ TextureImporter:
       name: Standing_Lamps_54
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 96
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1593,12 +1593,12 @@ TextureImporter:
       name: Standing_Lamps_55
       rect:
         serializedVersion: 2
-        x: 82
+        x: 80
         y: 96
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1615,12 +1615,12 @@ TextureImporter:
       name: Standing_Lamps_56
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 96
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1637,12 +1637,12 @@ TextureImporter:
       name: Standing_Lamps_57
       rect:
         serializedVersion: 2
-        x: 114
+        x: 112
         y: 96
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1659,12 +1659,12 @@ TextureImporter:
       name: Standing_Lamps_58
       rect:
         serializedVersion: 2
-        x: 130
+        x: 128
         y: 96
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1681,12 +1681,12 @@ TextureImporter:
       name: Standing_Lamps_59
       rect:
         serializedVersion: 2
-        x: 146
+        x: 144
         y: 96
-        width: 13
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1703,12 +1703,12 @@ TextureImporter:
       name: Standing_Lamps_60
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 64
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1725,12 +1725,12 @@ TextureImporter:
       name: Standing_Lamps_61
       rect:
         serializedVersion: 2
-        x: 18
+        x: 16
         y: 64
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1747,12 +1747,12 @@ TextureImporter:
       name: Standing_Lamps_62
       rect:
         serializedVersion: 2
-        x: 34
+        x: 32
         y: 64
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1769,12 +1769,12 @@ TextureImporter:
       name: Standing_Lamps_63
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 64
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1791,12 +1791,12 @@ TextureImporter:
       name: Standing_Lamps_64
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 64
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1813,12 +1813,12 @@ TextureImporter:
       name: Standing_Lamps_65
       rect:
         serializedVersion: 2
-        x: 82
+        x: 80
         y: 64
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1835,12 +1835,12 @@ TextureImporter:
       name: Standing_Lamps_66
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 64
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1857,12 +1857,12 @@ TextureImporter:
       name: Standing_Lamps_67
       rect:
         serializedVersion: 2
-        x: 114
+        x: 112
         y: 64
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1879,12 +1879,12 @@ TextureImporter:
       name: Standing_Lamps_68
       rect:
         serializedVersion: 2
-        x: 130
+        x: 128
         y: 64
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1901,12 +1901,12 @@ TextureImporter:
       name: Standing_Lamps_69
       rect:
         serializedVersion: 2
-        x: 146
+        x: 144
         y: 64
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1923,12 +1923,12 @@ TextureImporter:
       name: Standing_Lamps_70
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 32
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1945,12 +1945,12 @@ TextureImporter:
       name: Standing_Lamps_71
       rect:
         serializedVersion: 2
-        x: 18
+        x: 16
         y: 32
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1967,12 +1967,12 @@ TextureImporter:
       name: Standing_Lamps_72
       rect:
         serializedVersion: 2
-        x: 34
+        x: 32
         y: 32
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1989,12 +1989,12 @@ TextureImporter:
       name: Standing_Lamps_73
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 32
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2011,12 +2011,12 @@ TextureImporter:
       name: Standing_Lamps_74
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 32
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2033,12 +2033,12 @@ TextureImporter:
       name: Standing_Lamps_75
       rect:
         serializedVersion: 2
-        x: 82
+        x: 80
         y: 32
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2055,12 +2055,12 @@ TextureImporter:
       name: Standing_Lamps_76
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 32
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2077,12 +2077,12 @@ TextureImporter:
       name: Standing_Lamps_77
       rect:
         serializedVersion: 2
-        x: 114
+        x: 112
         y: 32
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2099,12 +2099,12 @@ TextureImporter:
       name: Standing_Lamps_78
       rect:
         serializedVersion: 2
-        x: 130
+        x: 128
         y: 32
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2121,12 +2121,12 @@ TextureImporter:
       name: Standing_Lamps_79
       rect:
         serializedVersion: 2
-        x: 146
+        x: 144
         y: 32
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2143,12 +2143,12 @@ TextureImporter:
       name: Standing_Lamps_80
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 0
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2165,12 +2165,12 @@ TextureImporter:
       name: Standing_Lamps_81
       rect:
         serializedVersion: 2
-        x: 18
+        x: 16
         y: 0
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2187,12 +2187,12 @@ TextureImporter:
       name: Standing_Lamps_82
       rect:
         serializedVersion: 2
-        x: 34
+        x: 32
         y: 0
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2209,12 +2209,12 @@ TextureImporter:
       name: Standing_Lamps_83
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 0
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2231,12 +2231,12 @@ TextureImporter:
       name: Standing_Lamps_84
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 0
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2253,12 +2253,12 @@ TextureImporter:
       name: Standing_Lamps_85
       rect:
         serializedVersion: 2
-        x: 82
+        x: 80
         y: 0
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2275,12 +2275,12 @@ TextureImporter:
       name: Standing_Lamps_86
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 0
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2297,12 +2297,12 @@ TextureImporter:
       name: Standing_Lamps_87
       rect:
         serializedVersion: 2
-        x: 114
+        x: 112
         y: 0
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2319,12 +2319,12 @@ TextureImporter:
       name: Standing_Lamps_88
       rect:
         serializedVersion: 2
-        x: 130
+        x: 128
         y: 0
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2341,12 +2341,12 @@ TextureImporter:
       name: Standing_Lamps_89
       rect:
         serializedVersion: 2
-        x: 146
+        x: 144
         y: 0
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2363,7 +2363,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: eff828d638ad42644bea572b0fb7c2fc
     internalID: 0
     vertices: []
     indices: 
@@ -2371,7 +2371,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":9.0},"gridSpriteSize":{"x":16.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.53125,"y":0.0625},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Standing_Lamps_0: -6132724425509734960
       Standing_Lamps_1: 5457156263480550074

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Wood_FootstepArea
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSoundArea
   area: 5
-  fmodFootstepEvent: wood
+  fmodFootstepEvent: Wood
