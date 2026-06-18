@@ -8292,8 +8292,9 @@ GameObject:
   m_Component:
   - component: {fileID: 734797930}
   - component: {fileID: 734797931}
+  - component: {fileID: 734797932}
   m_Layer: 0
-  m_Name: Grass
+  m_Name: GrassAreaTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8366,6 +8367,20 @@ PolygonCollider2D:
       - {x: 0.58778536, y: -0.80901694}
       - {x: 0.9510565, y: 0.30901712}
   m_UseDelaunayMesh: 1
+--- !u!114 &734797932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734797929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c819928a62a3eeb499aff657d76ae302, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnvironmentAreaTrigger
+  footstepSoundArea: {fileID: 11400000, guid: a01cb33c95b974d84a48f35dfae46732, type: 2}
+  priority: 0
 --- !u!1001 &764939426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8564,7 +8579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3266664771031621066, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -109.4303
+      value: -109.430176
       objectReference: {fileID: 0}
     - target: {fileID: 3266664771031621066, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -8804,7 +8819,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8206001136889017470, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -109.4303
+      value: -109.430176
       objectReference: {fileID: 0}
     - target: {fileID: 8350566840894539209, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
       propertyPath: m_AnchorMax.y
@@ -14147,6 +14162,7 @@ GameObject:
   - component: {fileID: 1186024329}
   - component: {fileID: 1186024331}
   - component: {fileID: 1186024332}
+  - component: {fileID: 1186024333}
   m_Layer: 0
   m_Name: Bartyk
   m_TagString: Player
@@ -14482,6 +14498,25 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.6925702, y: 1.1391454}
   m_EdgeRadius: 0
+--- !u!114 &1186024333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186024318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d599694ccdaa1594c9a51ef00b9f0504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerFootstepSound
+  foostepTime: 0.35
+  footstepSoundAreas:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1204543695
 GameObject:
   m_ObjectHideFlags: 0

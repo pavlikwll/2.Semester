@@ -63,7 +63,7 @@ MonoBehaviour:
   Path: ../../Sound Design/GC_24_Volodymyr_Pavlik_Aufgabe/GC_24_Volodymyr_Pavlik_Ambiences/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639169719738069375
+  lastModified: 639173462602689152
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -190,7 +190,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 8512661823508679944}
   cacheVersion: 131859
-  cacheTime: 639169719738071395
+  cacheTime: 639173462602693346
   SerializableEventsDict:
   - key: event:/Ambience_WaterfallCave
     index: 0
@@ -369,10 +369,10 @@ MonoBehaviour:
   Path: ../../Sound Design/GC_24_Volodymyr_Pavlik_Aufgabe/GC_24_Volodymyr_Pavlik_Ambiences/Build/Desktop/MashroomWorld.bank
   Name: MashroomWorld
   StudioPath: bank:/MashroomWorld
-  lastModified: 639169719738063907
+  lastModified: 639173462602656005
   FileSizes:
   - Name: Desktop
-    Value: 17437088
+    Value: 17436704
   Exists: 1
 --- !u!114 &4913216349203647428
 MonoBehaviour:
@@ -535,7 +535,7 @@ MonoBehaviour:
   Path: ../../Sound Design/GC_24_Volodymyr_Pavlik_Aufgabe/GC_24_Volodymyr_Pavlik_Ambiences/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639169719738071395
+  lastModified: 639173462602693346
   FileSizes:
   - Name: Desktop
     Value: 1090

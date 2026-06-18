@@ -18,7 +18,7 @@ public class DialogueController : MonoBehaviour
     
     private const string SpeakerSeparator = ":";
     private const string EscapedColon = "::";
-    private const string EscapedColonPlaceholder = "ยง";
+    private const string EscapedColonPlaceholder = "§";
     
     public static event Action DialogueClosed;
 
@@ -42,7 +42,7 @@ public class DialogueController : MonoBehaviour
     [SerializeField] private UnityEvent onDialogueEnd;
     
     [Header("Avatar")] 
-    [SerializeField] private Avatars[] avatars;
+    [SerializeField] private DialogueAvatar[] avatars;
     
     #endregion
 
@@ -69,6 +69,7 @@ public class DialogueController : MonoBehaviour
     private void Start()
     {
         dialogueBox.gameObject.SetActive(false);
+        LoadAvatars();
     }
 
     private void OnDisable()
@@ -85,6 +86,15 @@ public class DialogueController : MonoBehaviour
 
     #endregion
 
+    #region Resources
+
+    private void LoadAvatars()
+    {
+        avatars = Resources.LoadAll<DialogueAvatar>("Dialogue");
+    }
+    
+    #endregion
+    
     #region Dialogue Lifecycle
 
     public void StartDialogue(string dialoguePath)
@@ -190,7 +200,7 @@ public class DialogueController : MonoBehaviour
     private DialogueLine ParseText(string inkLine, List<string> tags)
     {
         DialogueLine line = new DialogueLine();
-                                // ::          ->    ยง
+                                // ::          ->    §
         inkLine = inkLine.Replace(EscapedColon, EscapedColonPlaceholder);
                                         //   : 
         List<string> parts = inkLine.Split(SpeakerSeparator).ToList();
@@ -226,7 +236,7 @@ public class DialogueController : MonoBehaviour
         {
             for (int i = 0; i < tags.Count; i++)
             {
-                if (tags[i].Contains("portrait"))
+                if (tags[i].Contains("avatar"))
                 {
                     List<string> avatar = tags[i].Split(SpeakerSeparator).ToList();
                     line.speakerImage = GetAvatar(avatar[1]);
@@ -237,11 +247,11 @@ public class DialogueController : MonoBehaviour
         return line;
     }
 
-    Sprite GetAvatar(string tag)
+    Sprite GetAvatar(string avatarId)
     {
         for (int i = 0; i < avatars.Length; i++)
         {
-            if (avatars[i].avatarId == tag)
+            if (avatars[i].avatarId == avatarId)
             {
                 return avatars[i].avatarSprite;
             }
@@ -308,11 +318,4 @@ public struct DialogueLine
 
     // Here we can also add other information like speaker images or sounds.
     public Sprite speakerImage;
-}
-
-[Serializable]
-public class Avatars
-{
-    public string avatarId;
-    public Sprite avatarSprite;
 }

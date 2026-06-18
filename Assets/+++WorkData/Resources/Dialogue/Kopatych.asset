@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070942946719b4170b2fd9b128cc34ec, type: 3}
+  m_Name: Kopatych
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueAvatar
+  avatarId: kopatych
+  avatarSprite: {fileID: 9090040660739000372, guid: 856858d6c2e385d47ae1b915fcd4af5b, type: 3}
