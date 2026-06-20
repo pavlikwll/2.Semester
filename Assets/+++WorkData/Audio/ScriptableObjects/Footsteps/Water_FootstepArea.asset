@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Water_FootstepArea
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSoundArea
   area: 4
-  fmodFootstepEvent: water
+  fmodFootstepEvent: Water

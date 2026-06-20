@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using FMODUnity;
 
 public class PlayerFootstepSound : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class PlayerFootstepSound : MonoBehaviour
 
     public FootstepSoundArea[] footstepSoundAreas;
     private int _currentPriority;
+    
+    [SerializeField] private StudioEventEmitter footstepEmitter;
     private void OnEnable()
     {
         OnAreaChange += AreaChange;
@@ -38,10 +41,13 @@ public class PlayerFootstepSound : MonoBehaviour
         if (_footstepTimer > foostepTime)
         {
             _footstepTimer = 0;
-            //TODO: PLAY SOUND
-            //TODO: enum ? _footstepSoundArea.area..... with switch or other?
-            //FMOD.RESULT result = emitter.EventInstance.setParameterByNameWithLabel("surface", label); //Label = Parameter Type in FMOD
-            print($"Play Sound with event: {footstepSoundAreas[_currentPriority].fmodFootstepEvent}");
+
+            footstepEmitter.Play();
+
+            footstepEmitter.EventInstance.setParameterByNameWithLabel(
+                "surface",
+                footstepSoundAreas[_currentPriority].area.ToString()
+            );
         }
     }
 

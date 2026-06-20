@@ -84,6 +84,9 @@ public class PlayerController : MonoBehaviour
     public void SetMoveInput(Vector2 moveInput)
     {
         _moveInput = moveInput;
+        
+        PlayerState.OnChangeMovement?.Invoke(_moveInput == Vector2.zero ? PlayerMovement.Idle : PlayerMovement.Moving);
+        
         if (_moveInput.sqrMagnitude > 0.01f)
         {
             _lastMoveDirection = _moveInput.normalized;
