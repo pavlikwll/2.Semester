@@ -10,9 +10,9 @@ public class PlayerState : MonoBehaviour
     public static Action<PlayerAction> OnChangeAction;
     public static Action<PlayerMovement> OnChangeMovement;
     
-    [SerializeField] private PlayerDirection playerDirection;
-    [SerializeField] private PlayerAction playerAction;
-    [SerializeField] private PlayerMovement playerMovement;
+    [SerializeField] public PlayerDirection playerDirection;
+    [SerializeField] public PlayerAction playerAction;
+    [SerializeField] public PlayerMovement playerMovement;
 
     private void Awake()
     {
