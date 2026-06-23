@@ -115,7 +115,10 @@ public class DialogueController : MonoBehaviour
 
     private void CloseDialogue()
     {
-        EventSystem.current.SetSelectedGameObject(null);
+        if (EventSystem.current != null)
+        {
+            EventSystem.current.SetSelectedGameObject(null);
+        }
         dialogueBox.gameObject.SetActive(false);
 
         StartCoroutine(DelayDialogueEndEvent());
@@ -134,32 +137,34 @@ public class DialogueController : MonoBehaviour
 
     private void ContinueDialogue()
     {
-        if (IsAtEnd())
+        while (CanContinue())
         {
-            CloseDialogue();
+            string inkLine = inkStory.Continue();
+
+            if (string.IsNullOrWhiteSpace(inkLine))
+            {
+                continue;
+            }
+
+            DialogueLine line = ParseText(inkLine, inkStory.currentTags);
+            line.choices = inkStory.currentChoices;
+
+            dialogueBox.DisplayText(line);
             return;
         }
 
-        DialogueLine line;
-        if (CanContinue())
+        if (HasChoices())
         {
-            // Player: I can not do that.
-            string inkLine = inkStory.Continue();
-            if (string.IsNullOrWhiteSpace(inkLine))
+            DialogueLine line = new DialogueLine
             {
-                ContinueDialogue();
-                return;
-            }
-            line = ParseText(inkLine, inkStory.currentTags);
-        }
-        else
-        {
-            line = new DialogueLine();
+                choices = inkStory.currentChoices
+            };
+
+            dialogueBox.DisplayText(line);
+            return;
         }
 
-        line.choices = inkStory.currentChoices;
-
-        dialogueBox.DisplayText(line);
+        CloseDialogue();
     }
 
     private void OnDialogueContinued(DialogueBox _)
@@ -183,15 +188,29 @@ public class DialogueController : MonoBehaviour
 
     #region Ink
 
-    public void SetLanguage(int languageIndex)
+    public void SetLanguage(int newLanguageIndex)
     {
-        this.languageIndex = languageIndex;
-        
-        // Initialize Ink.
+        if (inkAssets == null || inkAssets.Length == 0)
+        {
+            Debug.LogError("No Ink assets assigned.");
+            return;
+        }
+
+        if (newLanguageIndex < 0 || newLanguageIndex >= inkAssets.Length)
+        {
+            Debug.LogError($"Invalid language index: {newLanguageIndex}");
+            return;
+        }
+
+        if (inkStory != null)
+        {
+            inkStory.onError -= OnInkError;
+        }
+
+        languageIndex = newLanguageIndex;
         inkStory = new Story(inkAssets[languageIndex].text);
-        // Add error handling.
+
         inkStory.onError += OnInkError;
-        // Connect an ink function to a C# function.
         inkStory.BindExternalFunction<string>("Event", Event);
         inkStory.BindExternalFunction<string>("Get_State", Get_State, true);
         inkStory.BindExternalFunction<string, int>("Add_State", Add_State);

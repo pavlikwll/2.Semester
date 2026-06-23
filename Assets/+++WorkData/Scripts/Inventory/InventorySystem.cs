@@ -6,8 +6,9 @@ public class InventorySystem : MonoBehaviour
 {
     public static Action<ItemDefinition, int> OnAddItemDefinition;
     public static Action<string, int> OnAddItemId;
-    public static Action OnChangeInventory;
     public static InventorySystem Instance;
+    public static Action OnInventoryChanged;
+    public static Action OnInventoryToggleRequested;
     
     [SerializeField] private List<Item> items;
     [SerializeField] private InventoryManager inventoryManager;
@@ -16,6 +17,12 @@ public class InventorySystem : MonoBehaviour
 
     private void Awake()
     {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         Instance = this;
     }
     
@@ -23,19 +30,27 @@ public class InventorySystem : MonoBehaviour
     {
         OnAddItemDefinition += Add;
         OnAddItemId += Add;
-        OnChangeInventory += UpdateInventoryUI;
+        OnInventoryChanged += UpdateInventoryUI;
     }
 
     private void OnDisable()
     {
         OnAddItemDefinition -= Add;
         OnAddItemId -= Add;
-        OnChangeInventory -= UpdateInventoryUI;
+        OnInventoryChanged -= UpdateInventoryUI;
     }
 
     private void UpdateInventoryUI()
     {
         inventoryManager.SetInventoryItems(items);
+    }
+    
+    private void OnDestroy()
+    {
+        if (Instance == this)
+        {
+            Instance = null;
+        }
     }
 
     public void ChangeInventoryState()
@@ -44,6 +59,22 @@ public class InventorySystem : MonoBehaviour
         inventoryContainer.SetActive(!inventoryContainer.activeSelf);
         hotbar.SetActive(!inventoryIsOpen);
         inventoryManager.SetInventoryItems(items);
+    }
+    
+    private void RefreshInventoryUI()
+    {
+        inventoryManager.SetInventoryItems(items);
+    }
+    
+    public void ToggleInventory()
+    {
+        bool shouldOpen = !inventoryContainer.activeSelf;
+        inventoryContainer.SetActive(shouldOpen);
+
+        if (shouldOpen)
+        {
+            inventoryManager.SetInventoryItems(items);
+        }
     }
     
     public Item GetItem(string id)
@@ -80,7 +111,7 @@ public class InventorySystem : MonoBehaviour
             //TODO Check for error
         }
 
-        OnChangeInventory?.Invoke();
+        OnInventoryChanged?.Invoke();
     }
 
     private bool ValidateItem(string itemId)
@@ -121,6 +152,6 @@ public class InventorySystem : MonoBehaviour
             items.Remove(item);
         }
         
-        OnChangeInventory?.Invoke();
+        OnInventoryChanged?.Invoke();
     }
 }

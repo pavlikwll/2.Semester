@@ -43,7 +43,7 @@ public class UiInput : MonoBehaviour
     
     private void Inventory(InputAction.CallbackContext ctx)
     {
-        InventorySystem.Instance.ChangeInventoryState();
+        InventorySystem.Instance.ToggleInventory();
     }
     
     #endregion

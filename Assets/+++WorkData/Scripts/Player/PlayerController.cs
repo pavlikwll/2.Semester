@@ -85,23 +85,17 @@ public class PlayerController : MonoBehaviour
     {
         _moveInput = moveInput;
         
-        PlayerState.OnChangeMovement?.Invoke(_moveInput == Vector2.zero ? PlayerMovement.Idle : PlayerMovement.Moving);
-        
         if (_moveInput.sqrMagnitude > 0.01f)
         {
             _lastMoveDirection = _moveInput.normalized;
+
             PlayerState.OnChangeDirection?.Invoke(_lastMoveDirection);
-        }
-        /*
-        if (_moveInput == Vector2.zero)
-        {
-            PlayerState.Instance.SetMovementState(MovementState.Idle);
+            PlayerState.OnChangeMovement?.Invoke(PlayerMovement.Moving);
         }
         else
         {
-            PlayerState.Instance.SetMovementState(MovementState.Walking);
+            PlayerState.OnChangeMovement?.Invoke(PlayerMovement.Idle);
         }
-        */
     }
    
     #endregion

@@ -19,6 +19,7 @@ public class InventoryManager : MonoBehaviour
     {
         Instance = this;
     }
+
     public void SetInventoryItems(List<Item> items)
     {
         foreach (var currentSlot in inventorySlots)
@@ -32,26 +33,32 @@ public class InventoryManager : MonoBehaviour
             //check slot, found Item ->stop
             foreach (var currentItemInGame in allItemsInGame)
             {
-                if (currentItemInGame.id == currentItemInInventory.id)
-                {
-                    inventorySlots[currentItemIndex].FillInventorySlot(currentItemInGame, currentItemInInventory.amount);
+                if (currentItemIndex >= inventorySlots.Count)
                     break;
+
+                ItemDefinition definition = allItemsInGame.Find(item => item.id == currentItemInInventory.id);
+
+                if (definition == null)
+                {
+                    Debug.LogWarning($"No ItemDefinition found for ID: {currentItemInInventory.id}");
+                    continue;
                 }
+
+                inventorySlots[currentItemIndex].FillInventorySlot(definition, currentItemInInventory.amount);
+
+                currentItemIndex++;
             }
 
-            currentItemIndex++;
+            if (items.Count > 0)
+            {
+                inventorySlots[0].OnClickSlot();
+                EventSystem.current.SetSelectedGameObject(inventorySlots[0].gameObject);
+            }
 
+            SetHotbarItems(items);
         }
-        
-        if (items.Count > 0)
-        {
-            inventorySlots[0].OnClickSlot();
-            EventSystem.current.SetSelectedGameObject(inventorySlots[0].gameObject);
-        }
-        
-        SetHotbarItems(items);
     }
-    
+
     private void SetHotbarItems(List<Item> items)
     {
         foreach (var slot in hotbarSlots)
@@ -64,7 +71,8 @@ public class InventoryManager : MonoBehaviour
         {
             foreach (var currentItemInGame in allItemsInGame)
             {
-                if (currentItemInGame.id == currentItemInInventory.id && currentItemInGame.itemType == ItemType.Special)
+                if (currentItemInGame.id == currentItemInInventory.id &&
+                    currentItemInGame.itemType == ItemType.Special)
                 {
                     hotbarSlots[hotbarIndex].FillInventorySlot(currentItemInGame, currentItemInInventory.amount);
                     hotbarIndex++;
@@ -72,8 +80,9 @@ public class InventoryManager : MonoBehaviour
                 }
             }
         }
+
     }
-    
+
     public void ShowItemInfo(ItemDefinition item)
     {
         itemIcon.sprite = item.sprite;

@@ -16,6 +16,12 @@ public class PlayerState : MonoBehaviour
 
     private void Awake()
     {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         Instance = this;
     }
     
@@ -37,6 +43,14 @@ public class PlayerState : MonoBehaviour
         OnHorizontalChangeDirection -= SetHorizontalDirection;
         OnVerticalChangeDirection -= SetVerticalDirection;
         OnChangeMovement -= SetMovement;
+    }
+    
+    private void OnDestroy()
+    {
+        if (Instance == this)
+        {
+            Instance = null;
+        }
     }
     
     void SetDirection(Vector2 _moveInput)
