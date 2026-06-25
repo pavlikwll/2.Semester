@@ -143,12 +143,12 @@ TextureImporter:
       name: Mushrooms_Red_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
+        x: 2
+        y: 45
+        width: 28
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -165,12 +165,12 @@ TextureImporter:
       name: Mushrooms_Red_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
+        x: 37
+        y: 46
+        width: 22
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -187,19 +187,19 @@ TextureImporter:
       name: Mushrooms_Red_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
+        x: 66
+        y: 45
+        width: 28
+        height: 40
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 48587b2b45063a250800000000000000
+      spriteID: 334a9c20e3ee63540b6a7aa5770f0e7e
       internalID: 5954709049205818756
       vertices: []
       indices: 
@@ -209,19 +209,19 @@ TextureImporter:
       name: Mushrooms_Red_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64
-        width: 32
-        height: 32
+        x: 101
+        y: 46
+        width: 22
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e967319487a2246f0800000000000000
+      spriteID: e77e0d948a59c8a4da1611e3e1f7f65b
       internalID: -701951895805921634
       vertices: []
       indices: 
@@ -231,19 +231,19 @@ TextureImporter:
       name: Mushrooms_Red_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
+        x: 4
+        y: 18
+        width: 8
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e8227efcada5733b0800000000000000
+      spriteID: 2bfc20884fd2b3646a17909276d3baa6
       internalID: -5532853721363963250
       vertices: []
       indices: 
@@ -253,19 +253,19 @@ TextureImporter:
       name: Mushrooms_Red_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
+        x: 19
+        y: 18
+        width: 9
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 86ae1b211047a82a0800000000000000
+      spriteID: 0da8d9286823d60418377a5ae47b3a92
       internalID: -6734442744821716376
       vertices: []
       indices: 
@@ -275,19 +275,19 @@ TextureImporter:
       name: Mushrooms_Red_6
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
+        x: 37
+        y: 5
+        width: 13
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8012b1bc1e4730940800000000000000
+      spriteID: ba65bea2bf8a18b4aa83a5f27a3aaf13
       internalID: 5261177302822887688
       vertices: []
       indices: 
@@ -297,19 +297,19 @@ TextureImporter:
       name: Mushrooms_Red_7
       rect:
         serializedVersion: 2
-        x: 96
-        y: 32
-        width: 32
-        height: 32
+        x: 48
+        y: 8
+        width: 11
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 42feca40d0649a4c0800000000000000
+      spriteID: e54528d448fb29b4dbdc8eee3019b37d
       internalID: -4275809349484613852
       vertices: []
       indices: 
@@ -319,19 +319,19 @@ TextureImporter:
       name: Mushrooms_Red_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
+        x: 4
+        y: 2
+        width: 7
+        height: 11
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 45e6377b443ee0980800000000000000
+      spriteID: d3b8ad91bf9339d47b3e3c24de067f6a
       internalID: -8570663156564398508
       vertices: []
       indices: 
@@ -341,19 +341,19 @@ TextureImporter:
       name: Mushrooms_Red_9
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
+        x: 20
+        y: 2
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 93746c8d13c033dc0800000000000000
+      spriteID: 70beb5ce6435bc540a94451cb50c9196
       internalID: -3660568663892277447
       vertices: []
       indices: 
@@ -373,7 +373,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":1,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Mushrooms_Red_0: 5638362721587567625
       Mushrooms_Red_1: -1554730513212452033
