@@ -9,6 +9,9 @@ public class NavMeshPatrol : MonoBehaviour
 
     [Header("NPC Reference")] 
     [SerializeField] private Animator animator;
+    private int HashMovementValue = Animator.StringToHash("MovementValue");
+    private int HashDirX = Animator.StringToHash("dirX");
+    private int HashDirY = Animator.StringToHash("dirY");
     [SerializeField] private bool startDirectionIsRight = false;
 
     [Header("Waypoints")] 
@@ -60,6 +63,8 @@ public class NavMeshPatrol : MonoBehaviour
         }
 
         Vector2 direction = _agent.velocity;
+
+        UpdateAnimator(direction);
         RotateObj(direction);
     }
     #endregion
@@ -164,6 +169,17 @@ public class NavMeshPatrol : MonoBehaviour
     
     #endregion
 
+    private void UpdateAnimator(Vector2 direction)
+    {
+        float movementValue = direction.sqrMagnitude > 0.01f ? 1f : 0f;
 
+        animator.SetFloat(HashMovementValue, movementValue);
+
+        if (movementValue > 0)
+        {
+            animator.SetFloat(HashDirX, direction.normalized.x);
+            animator.SetFloat(HashDirY, direction.normalized.y);
+        }
+    }
 
 }

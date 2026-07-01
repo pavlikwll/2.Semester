@@ -85,11 +85,13 @@ public class NavMeshEnemy : MonoBehaviour
 
     private void Update()
     {
+        /*
         if (_target != null && enemyState != EnemyState.Idle)
         {
             SetAnimationDirection(_agent.velocity);
             RotateObj(_agent.velocity);
         }
+        */
         
         if (_canAttack && !_isAttacking)
         {
@@ -134,7 +136,18 @@ public class NavMeshEnemy : MonoBehaviour
 
     private void UpdateAnimator()
     {
-        animator.SetFloat(HashMovementValue, _agent.velocity.magnitude);
+        Vector2 velocity = _agent.desiredVelocity;
+
+        float movementValue = velocity.sqrMagnitude > 0.01f ? 1f : 0f;
+
+        animator.SetFloat(HashMovementValue, movementValue);
+
+        if (movementValue > 0)
+        {
+            animator.SetFloat(HashDirX, velocity.normalized.x);
+            animator.SetFloat(HashDirY, velocity.normalized.y);
+            RotateObj(velocity.normalized);
+        }
     }
 
     private void SetAnimationDirection(Vector2 direction)
