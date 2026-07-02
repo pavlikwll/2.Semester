@@ -15,7 +15,7 @@ MonoBehaviour:
   itemType: 1
   id: radioactive_mushroom
   stackingCap: 4
-  sprite: {fileID: -6638711929205738228, guid: ab8eb3458401b814784fd6891c2ddf10, type: 3}
+  sprite: {fileID: 447686550, guid: ab8eb3458401b814784fd6891c2ddf10, type: 3}
   displayName: Radioactive Mushroom
   description: 'A softly glowing mushroom.
 

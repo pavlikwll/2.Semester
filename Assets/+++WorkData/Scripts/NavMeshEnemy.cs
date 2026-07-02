@@ -309,6 +309,9 @@ public class NavMeshEnemy : MonoBehaviour
 
     public void ExitAggro()
     {
+        if (!isActiveAndEnabled)
+            return;
+
         _isAggroed = false;
         enemyState = EnemyState.Chasing;
 
