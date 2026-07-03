@@ -526,8 +526,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../../Desktop/SoundDesign/FMOD/GC_24_Volodymyr_Pavlik_Ambiences/GC_24_Volodymyr_Pavlik_Ambiences.fspro
-  sourceBankPath: ../../../Desktop/SoundDesign/FMOD/GC_24_Volodymyr_Pavlik_Ambiences/Build
+  sourceProjectPath: ../../Sound Design/GC_24_Volodymyr_Pavlik_Ambiences/GC_24_Volodymyr_Pavlik_Ambiences.fspro
+  sourceBankPath: ../../Sound Design/GC_24_Volodymyr_Pavlik_Ambiences/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
