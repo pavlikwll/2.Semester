@@ -15,11 +15,7 @@ MonoBehaviour:
   tilesToFootstepSounds:
   - tileName: Grass
     fmodFootstepLabel: Grass
-  - tileName: Wood
-    fmodFootstepLabel: Wood
-  - tileName: Dirt
-    fmodFootstepLabel: Dirt
-  - tileName: Stone
-    fmodFootstepLabel: Stone
-  - tileName: Water
-    fmodFootstepLabel: Water
+  - tileName: 
+    fmodFootstepLabel: 
+  - tileName: 
+    fmodFootstepLabel: 
