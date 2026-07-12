@@ -1,5 +1,10 @@
 # Unity Final Project
 
+![Unity](https://img.shields.io/badge/Unity-6-black?logo=unity)
+![C#](https://img.shields.io/badge/C%23-.NET-purple)
+![FMOD](https://img.shields.io/badge/Audio-FMOD-blue)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
 A small 2D top-down adventure game created in Unity as the final assignment for the Unity course at Kunstschule Wandsbek.
 
 ## Features
