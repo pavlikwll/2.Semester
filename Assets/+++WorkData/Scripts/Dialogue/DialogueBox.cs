@@ -1,3 +1,4 @@
+//Volodymyr Pavlik
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -5,6 +6,7 @@ using Ink.Runtime;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using FMODUnity;
 
 
 public class DialogueBox : MonoBehaviour
@@ -22,6 +24,8 @@ public class DialogueBox : MonoBehaviour
 
     [SerializeField] private GameObject avatarContainer;
     [SerializeField] private Image avatarImage;
+    
+    [SerializeField] private EventReference dialogueBlipEvent;
     
     [Header("Choices")]
     [SerializeField] private Transform choicesContainer;
@@ -58,6 +62,11 @@ public class DialogueBox : MonoBehaviour
 
     public void DisplayText(DialogueLine line)
     {
+        if (!dialogueBlipEvent.IsNull)
+        {
+            RuntimeManager.PlayOneShot(dialogueBlipEvent);
+        }
+        
         if (line.speaker != null)
         {
             dialogueSpeaker.SetText(line.speaker);

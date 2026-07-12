@@ -49,6 +49,115 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1074
   Exists: 1
+--- !u!114 &-8331990830589137536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambiences/Locations/Ambience_MushroomMeadow
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Ambiences/Locations/Ambience_MushroomMeadow
+  Guid:
+    Data1: -257534129
+    Data2: 1292526341
+    Data3: -626488412
+    Data4: 122168349
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 35000
+--- !u!114 &-8312780446893476111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Interactions/Dialogue/Dialogue_Start
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Interactions/Dialogue/Dialogue_Start
+  Guid:
+    Data1: -557527751
+    Data2: 1088677262
+    Data3: -8310109
+    Data4: 898438750
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 340
+--- !u!114 &-7629977858402126046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Interactions/Dialogue/Dialogue_Blip
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Interactions/Dialogue/Dialogue_Blip
+  Guid:
+    Data1: -428892357
+    Data2: 1308652956
+    Data3: -1072278635
+    Data4: -931040806
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &-7443648843074348742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music_Master
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Music/Music_Master
+  Guid:
+    Data1: 1808776922
+    Data2: 1331022547
+    Data3: 1996206264
+    Data4: -1040389950
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2559764106208348979}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 554344
 --- !u!114 &-7192027100657465636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77,6 +186,168 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 554344
+--- !u!114 &-6858569770410260339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Environment/Wood_Gate_Open+Close
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Environment/Wood_Gate_Open+Close
+  Guid:
+    Data1: 1562874297
+    Data2: 1314394483
+    Data3: 1628374686
+    Data4: -1563841480
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 610
+--- !u!114 &-6521206925531344655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Interactions/Fishing/Fishing_Start
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Interactions/Fishing/Fishing_Start
+  Guid:
+    Data1: -545553592
+    Data2: 1173758381
+    Data3: -406835296
+    Data4: 972761344
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 150
+--- !u!114 &-6399466966753797046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Slime_Death
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Enemies/Slime_Death
+  Guid:
+    Data1: 2004563743
+    Data2: 1214278343
+    Data3: -550654278
+    Data4: 1554947691
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 565
+--- !u!114 &-5909023264856095948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Interactions/Fishing/Fishing_Splash
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Interactions/Fishing/Fishing_Splash
+  Guid:
+    Data1: 1227432420
+    Data2: 1306050791
+    Data3: 1894433416
+    Data4: 885581173
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &-4965039057672269984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Interactions/Items/Key_Pickup
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Interactions/Items/Key_Pickup
+  Guid:
+    Data1: 1835720956
+    Data2: 1199057200
+    Data3: -376286309
+    Data4: 1856338318
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 426
+--- !u!114 &-4799014990783333504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Interactions/UI/Button_Hover
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Interactions/UI/Button_Hover
+  Guid:
+    Data1: 584532668
+    Data2: 1182401003
+    Data3: -31541060
+    Data4: 1490781734
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 100
 --- !u!114 &-4638954273783647631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,6 +477,57 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1074
   Exists: 1
+--- !u!114 &-3422645418557450639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Interactions/UI/Button_Click
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Interactions/UI/Button_Click
+  Guid:
+    Data1: 156103977
+    Data2: 1341772228
+    Data3: -805107295
+    Data4: 536308600
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 42
+--- !u!114 &-2559764106208348979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music_Master/Region
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Region
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 2591843093
+    data2: 2079642795
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-2543723731285738179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,6 +552,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-2532328194508308481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambiences/Locations/Ambience_WaterfallCave
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Ambiences/Locations/Ambience_WaterfallCave
+  Guid:
+    Data1: -939679455
+    Data2: 1170360726
+    Data3: -1187396433
+    Data4: -1238207029
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 46000
 --- !u!114 &-2259319941259467061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -363,6 +712,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 400
+--- !u!114 &-1453449367158408369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Enemies/Slime_Jump
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Enemies/Slime_Jump
+  Guid:
+    Data1: -877518794
+    Data2: 1148817562
+    Data3: -2137357173
+    Data4: -922861309
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 108
 --- !u!114 &-1433880298610368277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -410,6 +786,34 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1090
   Exists: 1
+--- !u!114 &-1167966833685377357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambiences/Locations/Ambience_World
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Ambiences/Locations/Ambience_World
+  Guid:
+    Data1: -179228993
+    Data2: 1129217867
+    Data3: -1824567377
+    Data4: 1585067765
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 938671065142313575}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-959659633334650953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,6 +841,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 225
+--- !u!114 &-726046938035386530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Interactions/Fishing/Fishing_Catch
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Interactions/Fishing/Fishing_Catch
+  Guid:
+    Data1: 5517659
+    Data2: 1267804740
+    Data3: -1872771145
+    Data4: -1055665104
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 220
 --- !u!114 &-280188366761667085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -474,95 +905,149 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EventCache
   EditorBanks:
-  - {fileID: 9157843602307326038}
-  - {fileID: 538410846777917454}
+  - {fileID: 7491031507607714494}
+  - {fileID: 142026575413680783}
   EditorEvents:
-  - {fileID: -4313380859568284837}
-  - {fileID: -2251391871258692036}
-  - {fileID: -959659633334650953}
-  - {fileID: 5352841265686197868}
-  - {fileID: -4072881171952117512}
-  - {fileID: -3946998277487454171}
-  - {fileID: 9219076479730381630}
-  - {fileID: 950457254687169735}
-  - {fileID: -1433880298610368277}
-  - {fileID: 6614188907757252408}
-  - {fileID: 4232356175514442266}
-  - {fileID: -2233068910008307927}
-  - {fileID: 3005600474106104198}
-  - {fileID: 6261371091729881413}
-  - {fileID: 8187770006948887928}
-  - {fileID: 2757770190542566301}
-  - {fileID: 2551296373164165972}
-  - {fileID: 6683229094855621557}
-  - {fileID: 3309316881372762844}
-  - {fileID: 6870325538905359004}
-  - {fileID: -4638954273783647631}
-  - {fileID: 2706908706796121562}
-  - {fileID: 1609711900211527094}
-  - {fileID: 307093449761811255}
-  - {fileID: -1520411051290271574}
-  - {fileID: 4783784459310080762}
+  - {fileID: -2532328194508308481}
+  - {fileID: 6993358773205520509}
+  - {fileID: -3422645418557450639}
+  - {fileID: 7612887264659416026}
+  - {fileID: 6554756967173877814}
+  - {fileID: -8312780446893476111}
+  - {fileID: -7629977858402126046}
+  - {fileID: -6521206925531344655}
+  - {fileID: -8331990830589137536}
+  - {fileID: -6399466966753797046}
+  - {fileID: -726046938035386530}
+  - {fileID: 6018412289926951268}
+  - {fileID: 7678491789246884153}
+  - {fileID: 7199299573594559717}
+  - {fileID: -1453449367158408369}
+  - {fileID: 9044333012131757444}
+  - {fileID: 2926929726830508953}
+  - {fileID: -6858569770410260339}
+  - {fileID: -4799014990783333504}
+  - {fileID: -1167966833685377357}
+  - {fileID: -7443648843074348742}
+  - {fileID: 5364051080451020597}
+  - {fileID: 16617575725039957}
+  - {fileID: -5909023264856095948}
+  - {fileID: 7553476602286197}
+  - {fileID: -4965039057672269984}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 538410846777917454}
+  - {fileID: 142026575413680783}
   StringsBanks:
-  - {fileID: 9157843602307326038}
+  - {fileID: 7491031507607714494}
   cacheVersion: 131859
-  cacheTime: 639185952532654292
+  cacheTime: 639194842738279565
   SerializableEventsDict:
-  - key: event:/Ambiences/Ambience_WaterfallCave
+  - key: event:/Ambiences/Locations/Ambience_WaterfallCave
     index: 0
-  - key: event:/Ambiences/Ambience_MushroomMeadow
-    index: 1
-  - key: event:/Ambiences/Ambience_World
-    index: 2
-  - key: event:/Music/Music_Master
-    index: 3
-  - key: event:/SFX/Character/Footsteps
-    index: 4
-  - key: event:/SFX/Character/Sword_Whoosh
-    index: 5
-  - key: event:/SFX/Environment/Wood_Gate_Open+Close
-    index: 6
   - key: event:/SFX/Interactions/UI/Inventory_Open
-    index: 7
+    index: 1
   - key: event:/SFX/Interactions/UI/Button_Click
-    index: 8
-  - key: event:/SFX/Character/Sword_Hit_Slime
-    index: 9
+    index: 2
+  - key: event:/SFX/Character/Sword_Hits_Slime
+    index: 3
   - key: event:/Music/Dialogue
-    index: 10
-  - key: event:/SFX/Interactions/Dialogues/Dialogue_Start
-    index: 11
-  - key: event:/SFX/Interactions/Dialogues/Dialogue_Blip
-    index: 12
+    index: 4
+  - key: event:/SFX/Interactions/Dialogue/Dialogue_Start
+    index: 5
+  - key: event:/SFX/Interactions/Dialogue/Dialogue_Blip
+    index: 6
   - key: event:/SFX/Interactions/Fishing/Fishing_Start
-    index: 13
-  - key: event:/SFX/Environment/Slime_Death
-    index: 14
+    index: 7
+  - key: event:/Ambiences/Locations/Ambience_MushroomMeadow
+    index: 8
+  - key: event:/SFX/Enemies/Slime_Death
+    index: 9
   - key: event:/SFX/Interactions/Fishing/Fishing_Catch
-    index: 15
+    index: 10
   - key: snapshot:/CaveEnter
-    index: 16
+    index: 11
+  - key: event:/SFX/Character/Footsteps
+    index: 12
   - key: snapshot:/Meadow
-    index: 17
-  - key: event:/SFX/Environment/Slime_Jump
-    index: 18
+    index: 13
+  - key: event:/SFX/Enemies/Slime_Jump
+    index: 14
   - key: snapshot:/CaveLake
-    index: 19
+    index: 15
+  - key: event:/SFX/Character/Sword_Whoosh
+    index: 16
+  - key: event:/SFX/Environment/Wood_Gate_Open+Close
+    index: 17
   - key: event:/SFX/Interactions/UI/Button_Hover
+    index: 18
+  - key: event:/Ambiences/Locations/Ambience_World
+    index: 19
+  - key: event:/Music/Music_Master
     index: 20
-  - key: event:/SFX/Interactions/Mushroom_Pickup
+  - key: event:/SFX/Interactions/Items/Mushroom_Pickup
     index: 21
-  - key: event:/SFX/Interactions/Dialogues/Dialogue_End
+  - key: event:/SFX/Interactions/Dialogue/Dialogue_End
     index: 22
   - key: event:/SFX/Interactions/Fishing/Fishing_Splash
     index: 23
   - key: event:/SFX/Interactions/UI/Inventory_Close
     index: 24
-  - key: event:/SFX/Interactions/Key_Pickup
+  - key: event:/SFX/Interactions/Items/Key_Pickup
     index: 25
+--- !u!114 &7553476602286197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Interactions/UI/Inventory_Close
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Interactions/UI/Inventory_Close
+  Guid:
+    Data1: 1801172199
+    Data2: 1143834176
+    Data3: 825256852
+    Data4: 874451747
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 180
+--- !u!114 &16617575725039957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Interactions/Dialogue/Dialogue_End
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Interactions/Dialogue/Dialogue_End
+  Guid:
+    Data1: -1430512668
+    Data2: 1162316349
+    Data3: 1355542184
+    Data4: 1552460077
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 400
 --- !u!114 &56814480147164683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -619,6 +1104,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &142026575413680783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: ../../Sound Design/GC_24_Volodymyr_Pavlik_Ambiences/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639194842738257968
+  FileSizes:
+  - Name: Desktop
+    Value: 19475168
+  Exists: 1
 --- !u!114 &307093449761811255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -666,6 +1171,30 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 19474816
+  Exists: 1
+--- !u!114 &938671065142313575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambience_World/Area
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Area
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3136179182
+    data2: 1630432286
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &950457254687169735
 MonoBehaviour:
@@ -882,6 +1411,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &2926929726830508953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Character/Sword_Whoosh
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Character/Sword_Whoosh
+  Guid:
+    Data1: -697521247
+    Data2: 1126456291
+    Data3: 1214477703
+    Data4: -90797567
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 225
 --- !u!114 &2932868504262908981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1156,6 +1712,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 610
+--- !u!114 &5364051080451020597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Interactions/Items/Mushroom_Pickup
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Interactions/Items/Mushroom_Pickup
+  Guid:
+    Data1: 924714212
+    Data2: 1151037689
+    Data3: 562508949
+    Data4: -905545850
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7922087586923620477}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &5601439547169391106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1176,6 +1760,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1022
   Exists: 1
+--- !u!114 &6018412289926951268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/CaveEnter
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: snapshot:/CaveEnter
+  Guid:
+    Data1: -2141762452
+    Data2: 1186353178
+    Data3: 1095054233
+    Data4: 1980851502
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &6261371091729881413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1203,6 +1814,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 500
+--- !u!114 &6554756967173877814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Dialogue
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Music/Dialogue
+  Guid:
+    Data1: -1193151694
+    Data2: 1120981733
+    Data3: -1994116466
+    Data4: 1127640242
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 94464
 --- !u!114 &6614188907757252408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1312,6 +1950,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 35000
+--- !u!114 &6993358773205520509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Interactions/UI/Inventory_Open
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Interactions/UI/Inventory_Open
+  Guid:
+    Data1: 972973095
+    Data2: 1124405024
+    Data3: 1538785178
+    Data4: -658345957
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 130
+--- !u!114 &7199299573594559717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Meadow
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: snapshot:/Meadow
+  Guid:
+    Data1: -499918973
+    Data2: 1226178420
+    Data3: -1363485813
+    Data4: 981396232
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &7217068670529869015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1362,6 +2054,110 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Labels: []
+  Exists: 1
+--- !u!114 &7491031507607714494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: ../../Sound Design/GC_24_Volodymyr_Pavlik_Ambiences/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639194842738279565
+  FileSizes:
+  - Name: Desktop
+    Value: 2444
+  Exists: 1
+--- !u!114 &7612887264659416026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Character/Sword_Hits_Slime
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Character/Sword_Hits_Slime
+  Guid:
+    Data1: 727129643
+    Data2: 1243486679
+    Data3: -828045665
+    Data4: 1940607614
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 195
+--- !u!114 &7678491789246884153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Character/Footsteps
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Character/Footsteps
+  Guid:
+    Data1: 830513021
+    Data2: 1167432590
+    Data3: 774919559
+    Data4: 1429574857
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 9158584479442288564}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7922087586923620477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Mushroom_Pickup/mushroompPickups
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: mushroompPickups
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 3287502279
+    data2: 2815848085
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Mushrooms_Blue
+  - Mushrooms_Brown
+  - Mushrooms_Green
+  - Mushrooms_Purple
+  - Mushrooms_Red
   Exists: 1
 --- !u!114 &8187770006948887928
 MonoBehaviour:
@@ -1430,6 +2226,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1214
   Exists: 1
+--- !u!114 &9044333012131757444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/CaveLake
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: snapshot:/CaveLake
+  Guid:
+    Data1: 1858525587
+    Data2: 1280248072
+    Data3: -842548345
+    Data4: -1682799094
+  Banks:
+  - {fileID: 142026575413680783}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &9157843602307326038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1449,6 +2272,35 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 2444
+  Exists: 1
+--- !u!114 &9158584479442288564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/surface
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: surface
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 2564922171
+    data2: 284817253
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Grass
+  - Wood
+  - Dirt
+  - Stone
+  - Water
   Exists: 1
 --- !u!114 &9219076479730381630
 MonoBehaviour:

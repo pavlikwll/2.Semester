@@ -1,3 +1,4 @@
+//Volodymyr Pavlik
 using UnityEngine;
 
 public class DialogueInteractable : BaseInteractable

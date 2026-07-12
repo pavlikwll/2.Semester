@@ -1,11 +1,4 @@
-INCLUDE Duckmen.ink
 INCLUDE Kopatych.ink
 INCLUDE Fisherman.ink
-INCLUDE Demo.ink
+INCLUDE Guard.ink
 INCLUDE Utility/ExternalFunctions.ink
-
-
-
-
-
-

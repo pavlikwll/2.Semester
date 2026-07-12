@@ -1,3 +1,4 @@
+//Volodymyr Pavlik
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Avatarimage", menuName = "MotionBrain/Dialogue/Avatar")]

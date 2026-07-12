@@ -131,6 +131,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1970105947187398337}
   - component: {fileID: 7020390249500257011}
+  - component: {fileID: 6717646140241531906}
+  - component: {fileID: 707112376595435573}
   m_Layer: 5
   m_Name: DialogueUI
   m_TagString: Untagged
@@ -175,21 +177,102 @@ MonoBehaviour:
   dialogueBox: {fileID: 1627961446181732375}
   onDialogueStarted:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6717646140241531906}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onDialogueEnd:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 707112376595435573}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   avatars:
-  - avatarId: player
-    avatarSprite: {fileID: -2311659948842064771, guid: cdb3f775bc1dec34bba25a421ebe10af, type: 3}
-  - avatarId: cow
-    avatarSprite: {fileID: -1377216682714417124, guid: 3171da4690bb61942a4b6113e3dfa6a8, type: 3}
-  - avatarId: sister
-    avatarSprite: {fileID: -1377216682714417124, guid: 3171da4690bb61942a4b6113e3dfa6a8, type: 3}
-  - avatarId: orc_1
-    avatarSprite: {fileID: -1377216682714417124, guid: 3171da4690bb61942a4b6113e3dfa6a8, type: 3}
-  - avatarId: orc_2
-    avatarSprite: {fileID: -1377216682714417124, guid: 3171da4690bb61942a4b6113e3dfa6a8, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &6717646140241531906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581485803076861481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -557527751
+      Data2: 1088677262
+      Data3: -8310109
+      Data4: 898438750
+    Path: event:/SFX/Interactions/Dialogue/Dialogue_Start
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &707112376595435573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581485803076861481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1430512668
+      Data2: 1162316349
+      Data3: 1355542184
+      Data4: 1552460077
+    Path: event:/SFX/Interactions/Dialogue/Dialogue_End
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1480401880643714462
 GameObject:
   m_ObjectHideFlags: 0
@@ -1095,6 +1178,13 @@ MonoBehaviour:
   continueButton: {fileID: 7891727869785155778}
   avatarContainer: {fileID: 1770006074643102108}
   avatarImage: {fileID: 822292285844576981}
+  dialogueBlipEvent:
+    Guid:
+      Data1: -428892357
+      Data2: 1308652956
+      Data3: -1072278635
+      Data4: -931040806
+    Path: event:/SFX/Interactions/Dialogue/Dialogue_Blip
   choicesContainer: {fileID: 7485599463725279289}
   choiceButtonPrefab: {fileID: 752370701486354290, guid: f306891e6cc87fc48a7abcf99a04d87a, type: 3}
 --- !u!1001 &736005640742402857

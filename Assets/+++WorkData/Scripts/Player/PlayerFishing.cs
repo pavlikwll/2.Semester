@@ -1,3 +1,4 @@
+//Volodymyr Pavlik
 using System;
 using UnityEngine;
 
@@ -8,7 +9,15 @@ public class PlayerFishing : MonoBehaviour
     [SerializeField] private int actionId = 3;
     private PlayerState _playerState;
     [SerializeField] private Animator[] animators;
+    [SerializeField] private InventoryEventActions greenFishReward;
 
+    public void FinishFishing()
+    {
+        greenFishReward.AddItem();
+
+        PlayerState.OnChangeAction?.Invoke(PlayerAction.Default);
+    }
+    
     private void Awake()
     {
         _playerState = GetComponent<PlayerState>();
